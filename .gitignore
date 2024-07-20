@@ -10,6 +10,7 @@ __pycache__/
 *.html
 
 # database
+/data
 *.db
 
 # Distribution / packaging
