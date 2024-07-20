@@ -9,6 +9,10 @@ __pycache__/
 # html
 *.html
 
+# credentials
+credentials.json 
+*credentials* 
+
 # database
 /data
 *.db
