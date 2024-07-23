@@ -8,8 +8,7 @@ Last Updated: 7/6/2024
 #####################################################################################################################
 ## LIBRARIES
 #####################################################################################################################
-import requests
-import sqlite3
+
 import pandas as pd
 import numpy as np
 import re
@@ -39,7 +38,6 @@ class TransformData():
         try:
             # Check for valid coordinates using regex and create mask
             valid_mask = self.df['coordinates'].apply(lambda x: self.is_valid_coord(x))
-            print(valid_mask)
 
             # Where coordinates are valid, remove parentheses and separate coordinates col into lat and long
             self.df[['latitude', 'longitude']] = (

@@ -43,7 +43,7 @@ class ETLPipeline():
         try:
             # Set up database
             logging.info("Creating database if not exists.")
-            self.db.create() 
+            #self.db.create() 
 
             # Fetch data from the source
             logging.info("Fetching data.")

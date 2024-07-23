@@ -24,19 +24,21 @@ print(f"Current working directory: {current_dir}")
 ## Modules
 #####################################################################################################################
 
-from manage_methane_db import MethaneDB
+from db_manager import LeakDB
 from fetch_data_from_api import FetchData
-from transform_data import TransformData
-from load_data import LoadData
-from etl_pipeline import ETLPipeline
+from transformer import TransformData
+from loader import LoadData
+from etl_pipe import ETLPipeline
 from logger import setup_logger
 
 #####################################################################################################################
 ## Parameters
 #####################################################################################################################
 
-DATABASE = "methane_project_DB"
+DATABASE = "methane_project_DB.db"
 DB_FOLDER_PATH = current_dir / "data"
+SQL_PREFIX = "sqlite:///"
+PATH_TO_DB = SQL_PREFIX + str(DB_FOLDER_PATH / DATABASE)
 CREDENTIALS_PATH = 'credentials.json'
 GOOGLE_SHEET_ID = '1oJ2wAGYLkEd8VeKinrbiAmOwjlZpYqONL09P4LZ01po'
 RANGE_NAME = 'Form Responses 1!A1:G'
@@ -53,14 +55,11 @@ def main():
         DB_FOLDER_PATH.mkdir(parents=True, exist_ok=True)
     print(f"Directory {DB_FOLDER_PATH} exists: {DB_FOLDER_PATH.exists()}")
 
-    # Set path to db file
-    PATH_TO_DB = DB_FOLDER_PATH / DATABASE
-
     # Setup logging
     setup_logger()
     
     # Init databaseand etl objects
-    database = MethaneDB(PATH_TO_DB)
+    database = LeakDB(PATH_TO_DB)
     fetcher = FetchData(CREDENTIALS_PATH, GOOGLE_SHEET_ID, RANGE_NAME)
     transformer = TransformData(PATH_TO_DB)
     loader = LoadData(PATH_TO_DB)
@@ -77,7 +76,7 @@ def main():
     #database.print_all_tables_and_values()
 
     # Query DB
-    query='''SELECT * FROM photos'''
+    query="SELECT * FROM photos"
     df = database.query_db(query)
     print(df)
 

@@ -1,0 +1,832 @@
+2024-07-23 16:52:11,267 - LeakDB - INFO - Database tables created successfully.
+2024-07-23 16:52:11,303 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-07-23 16:52:11,305 - root - INFO - Creating database if not exists.
+2024-07-23 16:52:11,305 - root - INFO - Fetching data.
+2024-07-23 16:52:12,121 - root - INFO - Transforming data.
+2024-07-23 16:52:12,121 - TransformData - INFO - Data validation successful.
+2024-07-23 16:52:12,126 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR
+2024-07-23 16:52:12,126 - ImageWrangler - INFO - image_id: 12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR
+2024-07-23 16:52:15,468 - ImageWrangler - INFO - Image 12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR downloaded successfully.
+2024-07-23 16:52:15,728 - ImageWrangler - INFO - Image 12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR inserted successfully.
+2024-07-23 16:52:15,729 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8
+2024-07-23 16:52:15,729 - ImageWrangler - INFO - image_id: 1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8
+2024-07-23 16:52:18,552 - ImageWrangler - INFO - Image 1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8 downloaded successfully.
+2024-07-23 16:52:18,774 - ImageWrangler - INFO - Image 1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8 inserted successfully.
+2024-07-23 16:52:18,774 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF
+2024-07-23 16:52:18,774 - ImageWrangler - INFO - image_id: 10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF
+2024-07-23 16:52:21,830 - ImageWrangler - INFO - Image 10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF downloaded successfully.
+2024-07-23 16:52:22,083 - ImageWrangler - INFO - Image 10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF inserted successfully.
+2024-07-23 16:52:22,084 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD
+2024-07-23 16:52:22,084 - ImageWrangler - INFO - image_id: 1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD
+2024-07-23 16:52:24,900 - ImageWrangler - INFO - Image 1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD downloaded successfully.
+2024-07-23 16:52:25,176 - ImageWrangler - INFO - Image 1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD inserted successfully.
+2024-07-23 16:52:25,177 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z
+2024-07-23 16:52:25,177 - ImageWrangler - INFO - image_id: 13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z
+2024-07-23 16:52:28,419 - ImageWrangler - INFO - Image 13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z downloaded successfully.
+2024-07-23 16:52:28,708 - ImageWrangler - INFO - Image 13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z inserted successfully.
+2024-07-23 16:52:28,709 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_
+2024-07-23 16:52:28,709 - ImageWrangler - INFO - image_id: 1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_
+2024-07-23 16:52:31,558 - ImageWrangler - INFO - Image 1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_ downloaded successfully.
+2024-07-23 16:52:31,833 - ImageWrangler - INFO - Image 1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_ inserted successfully.
+2024-07-23 16:52:31,833 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_
+2024-07-23 16:52:31,833 - ImageWrangler - INFO - image_id: 1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_
+2024-07-23 16:52:35,758 - ImageWrangler - INFO - Image 1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_ downloaded successfully.
+2024-07-23 16:52:36,320 - ImageWrangler - INFO - Image 1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_ inserted successfully.
+2024-07-23 16:52:36,321 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll
+2024-07-23 16:52:36,321 - ImageWrangler - INFO - image_id: 1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll
+2024-07-23 16:52:39,238 - ImageWrangler - INFO - Image 1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll downloaded successfully.
+2024-07-23 16:52:39,531 - ImageWrangler - INFO - Image 1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll inserted successfully.
+2024-07-23 16:52:39,532 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1KDNyEAlPwdbgreeDYHSwom1GFb05usrB
+2024-07-23 16:52:39,532 - ImageWrangler - INFO - image_id: 1KDNyEAlPwdbgreeDYHSwom1GFb05usrB
+2024-07-23 16:52:43,641 - ImageWrangler - INFO - Image 1KDNyEAlPwdbgreeDYHSwom1GFb05usrB downloaded successfully.
+2024-07-23 16:52:43,898 - ImageWrangler - INFO - Image 1KDNyEAlPwdbgreeDYHSwom1GFb05usrB inserted successfully.
+2024-07-23 16:52:43,898 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938
+2024-07-23 16:52:43,898 - ImageWrangler - INFO - image_id: 1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938
+2024-07-23 16:52:46,915 - ImageWrangler - INFO - Image 1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938 downloaded successfully.
+2024-07-23 16:52:47,160 - ImageWrangler - INFO - Image 1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938 inserted successfully.
+2024-07-23 16:52:47,161 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW
+2024-07-23 16:52:47,162 - ImageWrangler - INFO - image_id: 1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW
+2024-07-23 16:52:50,072 - ImageWrangler - INFO - Image 1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW downloaded successfully.
+2024-07-23 16:52:50,310 - ImageWrangler - INFO - Image 1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW inserted successfully.
+2024-07-23 16:52:50,311 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR
+2024-07-23 16:52:50,311 - ImageWrangler - INFO - image_id: 11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR
+2024-07-23 16:52:53,462 - ImageWrangler - INFO - Image 11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR downloaded successfully.
+2024-07-23 16:52:53,690 - ImageWrangler - INFO - Image 11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR inserted successfully.
+2024-07-23 16:52:53,691 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB
+2024-07-23 16:52:53,691 - ImageWrangler - INFO - image_id: 1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB
+2024-07-23 16:52:57,158 - ImageWrangler - INFO - Image 1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB downloaded successfully.
+2024-07-23 16:52:57,460 - ImageWrangler - INFO - Image 1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB inserted successfully.
+2024-07-23 16:52:57,461 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt
+2024-07-23 16:52:57,461 - ImageWrangler - INFO - image_id: 1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt
+2024-07-23 16:53:00,630 - ImageWrangler - INFO - Image 1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt downloaded successfully.
+2024-07-23 16:53:00,909 - ImageWrangler - INFO - Image 1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt inserted successfully.
+2024-07-23 16:53:00,910 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5
+2024-07-23 16:53:00,910 - ImageWrangler - INFO - image_id: 1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5
+2024-07-23 16:53:04,019 - ImageWrangler - INFO - Image 1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5 downloaded successfully.
+2024-07-23 16:53:04,342 - ImageWrangler - INFO - Image 1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5 inserted successfully.
+2024-07-23 16:53:04,342 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk
+2024-07-23 16:53:04,342 - ImageWrangler - INFO - image_id: 1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk
+2024-07-23 16:53:08,117 - ImageWrangler - INFO - Image 1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk downloaded successfully.
+2024-07-23 16:53:08,402 - ImageWrangler - INFO - Image 1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk inserted successfully.
+2024-07-23 16:53:08,403 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt
+2024-07-23 16:53:08,403 - ImageWrangler - INFO - image_id: 15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt
+2024-07-23 16:53:12,003 - ImageWrangler - INFO - Image 15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt downloaded successfully.
+2024-07-23 16:53:12,309 - ImageWrangler - INFO - Image 15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt inserted successfully.
+2024-07-23 16:53:12,309 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG
+2024-07-23 16:53:12,309 - ImageWrangler - INFO - image_id: 1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG
+2024-07-23 16:53:15,525 - ImageWrangler - INFO - Image 1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG downloaded successfully.
+2024-07-23 16:53:15,806 - ImageWrangler - INFO - Image 1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG inserted successfully.
+2024-07-23 16:53:15,807 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH
+2024-07-23 16:53:15,807 - ImageWrangler - INFO - image_id: 1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH
+2024-07-23 16:53:19,294 - ImageWrangler - INFO - Image 1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH downloaded successfully.
+2024-07-23 16:53:19,569 - ImageWrangler - INFO - Image 1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH inserted successfully.
+2024-07-23 16:53:19,569 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1w2WX5lM_cPUQKPaNQ6CXwwXHgGdYhUbw
+2024-07-23 16:53:19,569 - ImageWrangler - INFO - image_id: 1w2WX5lM_cPUQKPaNQ6CXwwXHgGdYhUbw
+2024-07-23 16:53:22,949 - ImageWrangler - INFO - Image 1w2WX5lM_cPUQKPaNQ6CXwwXHgGdYhUbw downloaded successfully.
+2024-07-23 16:53:23,199 - ImageWrangler - INFO - Image 1w2WX5lM_cPUQKPaNQ6CXwwXHgGdYhUbw inserted successfully.
+2024-07-23 16:53:23,199 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7
+2024-07-23 16:53:23,199 - ImageWrangler - INFO - image_id: 1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7
+2024-07-23 16:53:26,549 - ImageWrangler - INFO - Image 1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7 downloaded successfully.
+2024-07-23 16:53:26,826 - ImageWrangler - INFO - Image 1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7 inserted successfully.
+2024-07-23 16:53:26,827 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV
+2024-07-23 16:53:26,827 - ImageWrangler - INFO - image_id: 1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV
+2024-07-23 16:53:29,931 - ImageWrangler - INFO - Image 1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV downloaded successfully.
+2024-07-23 16:53:30,201 - ImageWrangler - INFO - Image 1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV inserted successfully.
+2024-07-23 16:53:30,201 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l
+2024-07-23 16:53:30,202 - ImageWrangler - INFO - image_id: 1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l
+2024-07-23 16:53:33,409 - ImageWrangler - INFO - Image 1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l downloaded successfully.
+2024-07-23 16:53:33,674 - ImageWrangler - INFO - Image 1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l inserted successfully.
+2024-07-23 16:53:33,674 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI
+2024-07-23 16:53:33,674 - ImageWrangler - INFO - image_id: 1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI
+2024-07-23 16:53:36,483 - ImageWrangler - INFO - Image 1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI downloaded successfully.
+2024-07-23 16:53:36,722 - ImageWrangler - INFO - Image 1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI inserted successfully.
+2024-07-23 16:53:36,723 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477
+2024-07-23 16:53:36,723 - ImageWrangler - INFO - image_id: 1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477
+2024-07-23 16:53:39,378 - ImageWrangler - INFO - Image 1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477 downloaded successfully.
+2024-07-23 16:53:39,647 - ImageWrangler - INFO - Image 1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477 inserted successfully.
+2024-07-23 16:53:39,648 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK
+2024-07-23 16:53:39,648 - ImageWrangler - INFO - image_id: 1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK
+2024-07-23 16:53:43,281 - ImageWrangler - INFO - Image 1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK downloaded successfully.
+2024-07-23 16:53:43,649 - ImageWrangler - INFO - Image 1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK inserted successfully.
+2024-07-23 16:53:43,650 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3
+2024-07-23 16:53:43,650 - ImageWrangler - INFO - image_id: 1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3
+2024-07-23 16:53:46,599 - ImageWrangler - INFO - Image 1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3 downloaded successfully.
+2024-07-23 16:53:46,848 - ImageWrangler - INFO - Image 1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3 inserted successfully.
+2024-07-23 16:53:46,848 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA
+2024-07-23 16:53:46,848 - ImageWrangler - INFO - image_id: 1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA
+2024-07-23 16:53:50,367 - ImageWrangler - INFO - Image 1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA downloaded successfully.
+2024-07-23 16:53:50,667 - ImageWrangler - INFO - Image 1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA inserted successfully.
+2024-07-23 16:53:50,667 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK
+2024-07-23 16:53:50,667 - ImageWrangler - INFO - image_id: 1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK
+2024-07-23 16:53:53,678 - ImageWrangler - INFO - Image 1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK downloaded successfully.
+2024-07-23 16:53:53,918 - ImageWrangler - INFO - Image 1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK inserted successfully.
+2024-07-23 16:53:53,919 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr
+2024-07-23 16:53:53,919 - ImageWrangler - INFO - image_id: 1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr
+2024-07-23 16:53:57,321 - ImageWrangler - INFO - Image 1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr downloaded successfully.
+2024-07-23 16:53:57,595 - ImageWrangler - INFO - Image 1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr inserted successfully.
+2024-07-23 16:53:57,595 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5
+2024-07-23 16:53:57,595 - ImageWrangler - INFO - image_id: 1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5
+2024-07-23 16:54:00,787 - ImageWrangler - INFO - Image 1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5 downloaded successfully.
+2024-07-23 16:54:01,035 - ImageWrangler - INFO - Image 1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5 inserted successfully.
+2024-07-23 16:54:01,036 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo
+2024-07-23 16:54:01,036 - ImageWrangler - INFO - image_id: 1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo
+2024-07-23 16:54:04,853 - ImageWrangler - INFO - Image 1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo downloaded successfully.
+2024-07-23 16:54:05,136 - ImageWrangler - INFO - Image 1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo inserted successfully.
+2024-07-23 16:54:05,137 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Qljilc-poLem9BouVy54Vn0pP7zhZe-9
+2024-07-23 16:54:05,137 - ImageWrangler - INFO - image_id: 1Qljilc-poLem9BouVy54Vn0pP7zhZe-9
+2024-07-23 16:54:08,696 - ImageWrangler - INFO - Image 1Qljilc-poLem9BouVy54Vn0pP7zhZe-9 downloaded successfully.
+2024-07-23 16:54:08,999 - ImageWrangler - INFO - Image 1Qljilc-poLem9BouVy54Vn0pP7zhZe-9 inserted successfully.
+2024-07-23 16:54:08,999 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z
+2024-07-23 16:54:08,999 - ImageWrangler - INFO - image_id: 1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z
+2024-07-23 16:54:11,824 - ImageWrangler - INFO - Image 1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z downloaded successfully.
+2024-07-23 16:54:12,086 - ImageWrangler - INFO - Image 1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z inserted successfully.
+2024-07-23 16:54:12,086 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=11b936fzqsXB4lyjIPebCeTLkjGqOcppk
+2024-07-23 16:54:12,087 - ImageWrangler - INFO - image_id: 11b936fzqsXB4lyjIPebCeTLkjGqOcppk
+2024-07-23 16:54:15,600 - ImageWrangler - INFO - Image 11b936fzqsXB4lyjIPebCeTLkjGqOcppk downloaded successfully.
+2024-07-23 16:54:15,914 - ImageWrangler - INFO - Image 11b936fzqsXB4lyjIPebCeTLkjGqOcppk inserted successfully.
+2024-07-23 16:54:15,914 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF
+2024-07-23 16:54:15,915 - ImageWrangler - INFO - image_id: 1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF
+2024-07-23 16:54:19,999 - ImageWrangler - INFO - Image 1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF downloaded successfully.
+2024-07-23 16:54:20,319 - ImageWrangler - INFO - Image 1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF inserted successfully.
+2024-07-23 16:54:20,319 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB
+2024-07-23 16:54:20,319 - ImageWrangler - INFO - image_id: 1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB
+2024-07-23 16:54:23,585 - ImageWrangler - INFO - Image 1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB downloaded successfully.
+2024-07-23 16:54:23,864 - ImageWrangler - INFO - Image 1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB inserted successfully.
+2024-07-23 16:54:23,865 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk
+2024-07-23 16:54:23,865 - ImageWrangler - INFO - image_id: 1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk
+2024-07-23 16:54:27,166 - ImageWrangler - INFO - Image 1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk downloaded successfully.
+2024-07-23 16:54:27,462 - ImageWrangler - INFO - Image 1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk inserted successfully.
+2024-07-23 16:54:27,462 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=14rWubRMJukC97mOtY0GPxZpqMFwuQaGf
+2024-07-23 16:54:27,462 - ImageWrangler - INFO - image_id: 14rWubRMJukC97mOtY0GPxZpqMFwuQaGf
+2024-07-23 16:54:30,916 - ImageWrangler - INFO - Image 14rWubRMJukC97mOtY0GPxZpqMFwuQaGf downloaded successfully.
+2024-07-23 16:54:31,257 - ImageWrangler - INFO - Image 14rWubRMJukC97mOtY0GPxZpqMFwuQaGf inserted successfully.
+2024-07-23 16:54:31,257 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR
+2024-07-23 16:54:31,257 - ImageWrangler - INFO - image_id: 1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR
+2024-07-23 16:54:34,592 - ImageWrangler - INFO - Image 1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR downloaded successfully.
+2024-07-23 16:54:34,907 - ImageWrangler - INFO - Image 1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR inserted successfully.
+2024-07-23 16:54:34,908 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1_4915zDUhmVFfXnqGZY4m44lQPX6dox1
+2024-07-23 16:54:34,908 - ImageWrangler - INFO - image_id: 1_4915zDUhmVFfXnqGZY4m44lQPX6dox1
+2024-07-23 16:54:38,415 - ImageWrangler - INFO - Image 1_4915zDUhmVFfXnqGZY4m44lQPX6dox1 downloaded successfully.
+2024-07-23 16:54:38,689 - ImageWrangler - INFO - Image 1_4915zDUhmVFfXnqGZY4m44lQPX6dox1 inserted successfully.
+2024-07-23 16:54:38,689 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi
+2024-07-23 16:54:38,689 - ImageWrangler - INFO - image_id: 1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi
+2024-07-23 16:54:42,116 - ImageWrangler - INFO - Image 1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi downloaded successfully.
+2024-07-23 16:54:42,367 - ImageWrangler - INFO - Image 1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi inserted successfully.
+2024-07-23 16:54:42,367 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq
+2024-07-23 16:54:42,367 - ImageWrangler - INFO - image_id: 1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq
+2024-07-23 16:54:45,705 - ImageWrangler - INFO - Image 1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq downloaded successfully.
+2024-07-23 16:54:45,954 - ImageWrangler - INFO - Image 1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq inserted successfully.
+2024-07-23 16:54:45,954 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw
+2024-07-23 16:54:45,954 - ImageWrangler - INFO - image_id: 1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw
+2024-07-23 16:54:49,261 - ImageWrangler - INFO - Image 1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw downloaded successfully.
+2024-07-23 16:54:49,540 - ImageWrangler - INFO - Image 1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw inserted successfully.
+2024-07-23 16:54:49,541 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs
+2024-07-23 16:54:49,541 - ImageWrangler - INFO - image_id: 13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs
+2024-07-23 16:54:52,788 - ImageWrangler - INFO - Image 13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs downloaded successfully.
+2024-07-23 16:54:53,034 - ImageWrangler - INFO - Image 13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs inserted successfully.
+2024-07-23 16:54:53,035 - root - INFO - Loading data into table measurements.
+2024-07-23 16:54:53,035 - LoadData - INFO - Database connection established.
+2024-07-23 16:54:53,035 - LoadData - INFO - Inserting data into table measurements.
+2024-07-23 16:54:53,038 - LoadData - INFO - Inserted 45 new records into the database.
+2024-07-23 16:54:53,039 - LoadData - INFO - Database connection closed.
+2024-07-23 16:54:53,039 - root - INFO - Checking data in table measurements.
+2024-07-23 16:54:53,039 - LoadData - INFO - Database connection established.
+2024-07-23 16:54:53,039 - LoadData - INFO - Querying table measurements.
+2024-07-23 16:54:53,040 - LoadData - INFO - Table measurements columns: ['measurement_id', 'city', 'methane_level', 'leak', 'type_of_infrastructure', 'photo_id', 'latitude', 'longitude', 'volunteer', 'timestamp']
+2024-07-23 16:54:53,040 - LoadData - INFO - Table measurements contents:
+Empty DataFrame
+Columns: [measurement_id, city, methane_level, leak, type_of_infrastructure, photo_id, latitude, longitude, volunteer, timestamp]
+Index: []
+2024-07-23 16:54:53,041 - LoadData - INFO - Database connection closed.
+2024-07-23 16:54:53,041 - LeakDB - ERROR - An error occurred while executing the query: Textual SQL expression 'SELECT * FROM photos' should be explicitly declared as text('SELECT * FROM photos')
+2024-07-23 17:02:44,906 - LeakDB - INFO - Database tables created successfully.
+2024-07-23 17:02:44,961 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-07-23 17:02:44,963 - root - INFO - Creating database if not exists.
+2024-07-23 17:02:44,963 - root - INFO - Fetching data.
+2024-07-23 17:02:45,783 - root - INFO - Transforming data.
+2024-07-23 17:02:45,783 - TransformData - INFO - Data validation successful.
+2024-07-23 17:02:45,789 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR
+2024-07-23 17:02:45,789 - ImageWrangler - INFO - image_id: 12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR
+2024-07-23 17:02:48,423 - ImageWrangler - INFO - Image 12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR downloaded successfully.
+2024-07-23 17:02:48,685 - ImageWrangler - INFO - Image 12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR already exists in the database.
+2024-07-23 17:02:48,686 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8
+2024-07-23 17:02:48,686 - ImageWrangler - INFO - image_id: 1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8
+2024-07-23 17:02:51,493 - ImageWrangler - INFO - Image 1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8 downloaded successfully.
+2024-07-23 17:02:51,714 - ImageWrangler - INFO - Image 1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8 already exists in the database.
+2024-07-23 17:02:51,715 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF
+2024-07-23 17:02:51,715 - ImageWrangler - INFO - image_id: 10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF
+2024-07-23 17:02:54,772 - ImageWrangler - INFO - Image 10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF downloaded successfully.
+2024-07-23 17:02:55,033 - ImageWrangler - INFO - Image 10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF already exists in the database.
+2024-07-23 17:02:55,034 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD
+2024-07-23 17:02:55,034 - ImageWrangler - INFO - image_id: 1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD
+2024-07-23 17:02:58,152 - ImageWrangler - INFO - Image 1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD downloaded successfully.
+2024-07-23 17:02:58,404 - ImageWrangler - INFO - Image 1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD already exists in the database.
+2024-07-23 17:02:58,404 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z
+2024-07-23 17:02:58,405 - ImageWrangler - INFO - image_id: 13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z
+2024-07-23 17:03:00,646 - ImageWrangler - INFO - Image 13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z downloaded successfully.
+2024-07-23 17:03:00,970 - ImageWrangler - INFO - Image 13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z already exists in the database.
+2024-07-23 17:03:00,971 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_
+2024-07-23 17:03:00,971 - ImageWrangler - INFO - image_id: 1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_
+2024-07-23 17:03:03,169 - ImageWrangler - INFO - Image 1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_ downloaded successfully.
+2024-07-23 17:03:03,415 - ImageWrangler - INFO - Image 1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_ already exists in the database.
+2024-07-23 17:03:03,417 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_
+2024-07-23 17:03:03,417 - ImageWrangler - INFO - image_id: 1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_
+2024-07-23 17:03:05,831 - ImageWrangler - INFO - Image 1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_ downloaded successfully.
+2024-07-23 17:03:06,094 - ImageWrangler - INFO - Image 1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_ already exists in the database.
+2024-07-23 17:03:06,095 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll
+2024-07-23 17:03:06,095 - ImageWrangler - INFO - image_id: 1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll
+2024-07-23 17:03:09,211 - ImageWrangler - INFO - Image 1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll downloaded successfully.
+2024-07-23 17:03:09,484 - ImageWrangler - INFO - Image 1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll already exists in the database.
+2024-07-23 17:03:09,485 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1KDNyEAlPwdbgreeDYHSwom1GFb05usrB
+2024-07-23 17:03:09,485 - ImageWrangler - INFO - image_id: 1KDNyEAlPwdbgreeDYHSwom1GFb05usrB
+2024-07-23 17:03:29,465 - ImageWrangler - INFO - Image 1KDNyEAlPwdbgreeDYHSwom1GFb05usrB downloaded successfully.
+2024-07-23 17:03:29,758 - ImageWrangler - INFO - Image 1KDNyEAlPwdbgreeDYHSwom1GFb05usrB already exists in the database.
+2024-07-23 17:03:29,759 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938
+2024-07-23 17:03:29,759 - ImageWrangler - INFO - image_id: 1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938
+2024-07-23 17:03:32,965 - ImageWrangler - INFO - Image 1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938 downloaded successfully.
+2024-07-23 17:03:33,189 - ImageWrangler - INFO - Image 1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938 already exists in the database.
+2024-07-23 17:03:33,190 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW
+2024-07-23 17:03:33,190 - ImageWrangler - INFO - image_id: 1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW
+2024-07-23 17:03:36,242 - ImageWrangler - INFO - Image 1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW downloaded successfully.
+2024-07-23 17:03:36,471 - ImageWrangler - INFO - Image 1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW already exists in the database.
+2024-07-23 17:03:36,472 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR
+2024-07-23 17:03:36,472 - ImageWrangler - INFO - image_id: 11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR
+2024-07-23 17:03:40,034 - ImageWrangler - INFO - Image 11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR downloaded successfully.
+2024-07-23 17:03:40,282 - ImageWrangler - INFO - Image 11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR already exists in the database.
+2024-07-23 17:03:40,283 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB
+2024-07-23 17:03:40,283 - ImageWrangler - INFO - image_id: 1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB
+2024-07-23 17:03:42,804 - ImageWrangler - INFO - Image 1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB downloaded successfully.
+2024-07-23 17:03:43,114 - ImageWrangler - INFO - Image 1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB already exists in the database.
+2024-07-23 17:03:43,115 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt
+2024-07-23 17:03:43,115 - ImageWrangler - INFO - image_id: 1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt
+2024-07-23 17:03:46,278 - ImageWrangler - INFO - Image 1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt downloaded successfully.
+2024-07-23 17:03:46,549 - ImageWrangler - INFO - Image 1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt already exists in the database.
+2024-07-23 17:03:46,551 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5
+2024-07-23 17:03:46,551 - ImageWrangler - INFO - image_id: 1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5
+2024-07-23 17:03:59,078 - ImageWrangler - INFO - Image 1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5 downloaded successfully.
+2024-07-23 17:03:59,370 - ImageWrangler - INFO - Image 1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5 already exists in the database.
+2024-07-23 17:03:59,371 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk
+2024-07-23 17:03:59,371 - ImageWrangler - INFO - image_id: 1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk
+2024-07-23 17:04:02,662 - ImageWrangler - INFO - Image 1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk downloaded successfully.
+2024-07-23 17:04:02,944 - ImageWrangler - INFO - Image 1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk already exists in the database.
+2024-07-23 17:04:02,945 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt
+2024-07-23 17:04:02,945 - ImageWrangler - INFO - image_id: 15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt
+2024-07-23 17:04:05,397 - ImageWrangler - INFO - Image 15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt downloaded successfully.
+2024-07-23 17:04:05,692 - ImageWrangler - INFO - Image 15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt already exists in the database.
+2024-07-23 17:04:05,692 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG
+2024-07-23 17:04:05,692 - ImageWrangler - INFO - image_id: 1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG
+2024-07-23 17:04:07,912 - ImageWrangler - INFO - Image 1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG downloaded successfully.
+2024-07-23 17:04:08,175 - ImageWrangler - INFO - Image 1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG already exists in the database.
+2024-07-23 17:04:08,175 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH
+2024-07-23 17:04:08,175 - ImageWrangler - INFO - image_id: 1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH
+2024-07-23 17:04:11,140 - ImageWrangler - INFO - Image 1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH downloaded successfully.
+2024-07-23 17:04:11,433 - ImageWrangler - INFO - Image 1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH already exists in the database.
+2024-07-23 17:04:11,435 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1w2WX5lM_cPUQKPaNQ6CXwwXHgGdYhUbw
+2024-07-23 17:04:11,435 - ImageWrangler - INFO - image_id: 1w2WX5lM_cPUQKPaNQ6CXwwXHgGdYhUbw
+2024-07-23 17:04:13,826 - ImageWrangler - INFO - Image 1w2WX5lM_cPUQKPaNQ6CXwwXHgGdYhUbw downloaded successfully.
+2024-07-23 17:04:14,074 - ImageWrangler - INFO - Image 1w2WX5lM_cPUQKPaNQ6CXwwXHgGdYhUbw already exists in the database.
+2024-07-23 17:04:14,076 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7
+2024-07-23 17:04:14,076 - ImageWrangler - INFO - image_id: 1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7
+2024-07-23 17:04:16,695 - ImageWrangler - INFO - Image 1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7 downloaded successfully.
+2024-07-23 17:04:16,977 - ImageWrangler - INFO - Image 1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7 already exists in the database.
+2024-07-23 17:04:16,979 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV
+2024-07-23 17:04:16,979 - ImageWrangler - INFO - image_id: 1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV
+2024-07-23 17:04:20,687 - ImageWrangler - INFO - Image 1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV downloaded successfully.
+2024-07-23 17:04:20,954 - ImageWrangler - INFO - Image 1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV already exists in the database.
+2024-07-23 17:04:20,955 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l
+2024-07-23 17:04:20,955 - ImageWrangler - INFO - image_id: 1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l
+2024-07-23 17:04:23,656 - ImageWrangler - INFO - Image 1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l downloaded successfully.
+2024-07-23 17:04:23,922 - ImageWrangler - INFO - Image 1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l already exists in the database.
+2024-07-23 17:04:23,924 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI
+2024-07-23 17:04:23,924 - ImageWrangler - INFO - image_id: 1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI
+2024-07-23 17:04:26,123 - ImageWrangler - INFO - Image 1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI downloaded successfully.
+2024-07-23 17:04:26,331 - ImageWrangler - INFO - Image 1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI already exists in the database.
+2024-07-23 17:04:26,332 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477
+2024-07-23 17:04:26,332 - ImageWrangler - INFO - image_id: 1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477
+2024-07-23 17:04:29,056 - ImageWrangler - INFO - Image 1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477 downloaded successfully.
+2024-07-23 17:04:29,326 - ImageWrangler - INFO - Image 1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477 already exists in the database.
+2024-07-23 17:04:29,327 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK
+2024-07-23 17:04:29,327 - ImageWrangler - INFO - image_id: 1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK
+2024-07-23 17:04:32,284 - ImageWrangler - INFO - Image 1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK downloaded successfully.
+2024-07-23 17:04:32,528 - ImageWrangler - INFO - Image 1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK already exists in the database.
+2024-07-23 17:04:32,529 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3
+2024-07-23 17:04:32,529 - ImageWrangler - INFO - image_id: 1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3
+2024-07-23 17:04:35,804 - ImageWrangler - INFO - Image 1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3 downloaded successfully.
+2024-07-23 17:04:36,046 - ImageWrangler - INFO - Image 1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3 already exists in the database.
+2024-07-23 17:04:36,046 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA
+2024-07-23 17:04:36,046 - ImageWrangler - INFO - image_id: 1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA
+2024-07-23 17:04:39,322 - ImageWrangler - INFO - Image 1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA downloaded successfully.
+2024-07-23 17:04:39,624 - ImageWrangler - INFO - Image 1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA already exists in the database.
+2024-07-23 17:04:39,625 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK
+2024-07-23 17:04:39,625 - ImageWrangler - INFO - image_id: 1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK
+2024-07-23 17:04:42,357 - ImageWrangler - INFO - Image 1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK downloaded successfully.
+2024-07-23 17:04:42,602 - ImageWrangler - INFO - Image 1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK already exists in the database.
+2024-07-23 17:04:42,602 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr
+2024-07-23 17:04:42,602 - ImageWrangler - INFO - image_id: 1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr
+2024-07-23 17:04:45,521 - ImageWrangler - INFO - Image 1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr downloaded successfully.
+2024-07-23 17:04:45,786 - ImageWrangler - INFO - Image 1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr already exists in the database.
+2024-07-23 17:04:45,787 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5
+2024-07-23 17:04:45,787 - ImageWrangler - INFO - image_id: 1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5
+2024-07-23 17:04:49,674 - ImageWrangler - INFO - Image 1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5 downloaded successfully.
+2024-07-23 17:04:49,921 - ImageWrangler - INFO - Image 1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5 already exists in the database.
+2024-07-23 17:04:49,923 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo
+2024-07-23 17:04:49,923 - ImageWrangler - INFO - image_id: 1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo
+2024-07-23 17:04:53,350 - ImageWrangler - INFO - Image 1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo downloaded successfully.
+2024-07-23 17:04:53,659 - ImageWrangler - INFO - Image 1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo already exists in the database.
+2024-07-23 17:04:53,659 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Qljilc-poLem9BouVy54Vn0pP7zhZe-9
+2024-07-23 17:04:53,659 - ImageWrangler - INFO - image_id: 1Qljilc-poLem9BouVy54Vn0pP7zhZe-9
+2024-07-23 17:04:56,729 - ImageWrangler - INFO - Image 1Qljilc-poLem9BouVy54Vn0pP7zhZe-9 downloaded successfully.
+2024-07-23 17:04:57,134 - ImageWrangler - INFO - Image 1Qljilc-poLem9BouVy54Vn0pP7zhZe-9 already exists in the database.
+2024-07-23 17:04:57,136 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z
+2024-07-23 17:04:57,136 - ImageWrangler - INFO - image_id: 1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z
+2024-07-23 17:05:00,089 - ImageWrangler - INFO - Image 1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z downloaded successfully.
+2024-07-23 17:05:00,330 - ImageWrangler - INFO - Image 1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z already exists in the database.
+2024-07-23 17:05:00,331 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=11b936fzqsXB4lyjIPebCeTLkjGqOcppk
+2024-07-23 17:05:00,331 - ImageWrangler - INFO - image_id: 11b936fzqsXB4lyjIPebCeTLkjGqOcppk
+2024-07-23 17:05:03,540 - ImageWrangler - INFO - Image 11b936fzqsXB4lyjIPebCeTLkjGqOcppk downloaded successfully.
+2024-07-23 17:05:03,921 - ImageWrangler - INFO - Image 11b936fzqsXB4lyjIPebCeTLkjGqOcppk already exists in the database.
+2024-07-23 17:05:03,922 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF
+2024-07-23 17:05:03,922 - ImageWrangler - INFO - image_id: 1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF
+2024-07-23 17:05:07,171 - ImageWrangler - INFO - Image 1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF downloaded successfully.
+2024-07-23 17:05:07,469 - ImageWrangler - INFO - Image 1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF already exists in the database.
+2024-07-23 17:05:07,470 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB
+2024-07-23 17:05:07,470 - ImageWrangler - INFO - image_id: 1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB
+2024-07-23 17:05:10,861 - ImageWrangler - INFO - Image 1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB downloaded successfully.
+2024-07-23 17:05:11,129 - ImageWrangler - INFO - Image 1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB already exists in the database.
+2024-07-23 17:05:11,130 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk
+2024-07-23 17:05:11,130 - ImageWrangler - INFO - image_id: 1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk
+2024-07-23 17:05:14,865 - ImageWrangler - INFO - Image 1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk downloaded successfully.
+2024-07-23 17:05:15,132 - ImageWrangler - INFO - Image 1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk already exists in the database.
+2024-07-23 17:05:15,133 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=14rWubRMJukC97mOtY0GPxZpqMFwuQaGf
+2024-07-23 17:05:15,133 - ImageWrangler - INFO - image_id: 14rWubRMJukC97mOtY0GPxZpqMFwuQaGf
+2024-07-23 17:05:18,641 - ImageWrangler - INFO - Image 14rWubRMJukC97mOtY0GPxZpqMFwuQaGf downloaded successfully.
+2024-07-23 17:05:18,944 - ImageWrangler - INFO - Image 14rWubRMJukC97mOtY0GPxZpqMFwuQaGf already exists in the database.
+2024-07-23 17:05:18,945 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR
+2024-07-23 17:05:18,945 - ImageWrangler - INFO - image_id: 1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR
+2024-07-23 17:05:22,638 - ImageWrangler - INFO - Image 1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR downloaded successfully.
+2024-07-23 17:05:22,930 - ImageWrangler - INFO - Image 1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR already exists in the database.
+2024-07-23 17:05:22,931 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1_4915zDUhmVFfXnqGZY4m44lQPX6dox1
+2024-07-23 17:05:22,931 - ImageWrangler - INFO - image_id: 1_4915zDUhmVFfXnqGZY4m44lQPX6dox1
+2024-07-23 17:05:25,908 - ImageWrangler - INFO - Image 1_4915zDUhmVFfXnqGZY4m44lQPX6dox1 downloaded successfully.
+2024-07-23 17:05:26,174 - ImageWrangler - INFO - Image 1_4915zDUhmVFfXnqGZY4m44lQPX6dox1 already exists in the database.
+2024-07-23 17:05:26,175 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi
+2024-07-23 17:05:26,175 - ImageWrangler - INFO - image_id: 1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi
+2024-07-23 17:05:29,517 - ImageWrangler - INFO - Image 1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi downloaded successfully.
+2024-07-23 17:05:29,757 - ImageWrangler - INFO - Image 1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi already exists in the database.
+2024-07-23 17:05:29,758 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq
+2024-07-23 17:05:29,758 - ImageWrangler - INFO - image_id: 1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq
+2024-07-23 17:05:32,468 - ImageWrangler - INFO - Image 1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq downloaded successfully.
+2024-07-23 17:05:32,716 - ImageWrangler - INFO - Image 1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq already exists in the database.
+2024-07-23 17:05:32,717 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw
+2024-07-23 17:05:32,717 - ImageWrangler - INFO - image_id: 1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw
+2024-07-23 17:05:35,435 - ImageWrangler - INFO - Image 1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw downloaded successfully.
+2024-07-23 17:05:35,706 - ImageWrangler - INFO - Image 1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw already exists in the database.
+2024-07-23 17:05:35,708 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs
+2024-07-23 17:05:35,708 - ImageWrangler - INFO - image_id: 13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs
+2024-07-23 17:05:38,508 - ImageWrangler - INFO - Image 13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs downloaded successfully.
+2024-07-23 17:05:38,765 - ImageWrangler - INFO - Image 13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs already exists in the database.
+2024-07-23 17:05:38,769 - root - INFO - Loading data into table measurements.
+2024-07-23 17:05:38,769 - LoadData - INFO - Database connection established.
+2024-07-23 17:05:38,769 - LoadData - INFO - Inserting data into table measurements.
+2024-07-23 17:05:38,777 - LoadData - INFO - Inserted 45 new records into the database.
+2024-07-23 17:05:38,778 - LoadData - INFO - Database connection closed.
+2024-07-23 17:05:38,778 - root - INFO - Checking data in table measurements.
+2024-07-23 17:05:38,779 - LoadData - INFO - Database connection established.
+2024-07-23 17:05:38,779 - LoadData - INFO - Querying table measurements.
+2024-07-23 17:05:38,780 - LoadData - INFO - Table measurements columns: ['measurement_id', 'city', 'methane_level', 'leak', 'type_of_infrastructure', 'photo_id', 'latitude', 'longitude', 'volunteer', 'timestamp']
+2024-07-23 17:05:38,781 - LoadData - INFO - Table measurements contents:
+Empty DataFrame
+Columns: [measurement_id, city, methane_level, leak, type_of_infrastructure, photo_id, latitude, longitude, volunteer, timestamp]
+Index: []
+2024-07-23 17:05:38,781 - LoadData - INFO - Database connection closed.
+2024-07-23 17:11:37,535 - LeakDB - INFO - Database tables created successfully.
+2024-07-23 17:11:37,573 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-07-23 17:11:37,575 - root - INFO - Creating database if not exists.
+2024-07-23 17:11:37,576 - root - INFO - Fetching data.
+2024-07-23 17:11:38,369 - root - INFO - Transforming data.
+2024-07-23 17:11:38,370 - TransformData - INFO - Data validation successful.
+2024-07-23 17:11:38,375 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR
+2024-07-23 17:11:38,376 - ImageWrangler - INFO - image_id: 12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR
+2024-07-23 17:11:38,378 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,378 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8
+2024-07-23 17:11:38,378 - ImageWrangler - INFO - image_id: 1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8
+2024-07-23 17:11:38,378 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,378 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF
+2024-07-23 17:11:38,378 - ImageWrangler - INFO - image_id: 10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF
+2024-07-23 17:11:38,379 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,379 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD
+2024-07-23 17:11:38,379 - ImageWrangler - INFO - image_id: 1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD
+2024-07-23 17:11:38,380 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,380 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z
+2024-07-23 17:11:38,380 - ImageWrangler - INFO - image_id: 13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z
+2024-07-23 17:11:38,380 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,380 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_
+2024-07-23 17:11:38,380 - ImageWrangler - INFO - image_id: 1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_
+2024-07-23 17:11:38,381 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,381 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_
+2024-07-23 17:11:38,381 - ImageWrangler - INFO - image_id: 1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_
+2024-07-23 17:11:38,382 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,382 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll
+2024-07-23 17:11:38,382 - ImageWrangler - INFO - image_id: 1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll
+2024-07-23 17:11:38,382 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,382 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1KDNyEAlPwdbgreeDYHSwom1GFb05usrB
+2024-07-23 17:11:38,382 - ImageWrangler - INFO - image_id: 1KDNyEAlPwdbgreeDYHSwom1GFb05usrB
+2024-07-23 17:11:38,383 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,383 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938
+2024-07-23 17:11:38,383 - ImageWrangler - INFO - image_id: 1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938
+2024-07-23 17:11:38,383 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,383 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW
+2024-07-23 17:11:38,383 - ImageWrangler - INFO - image_id: 1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW
+2024-07-23 17:11:38,384 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,384 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR
+2024-07-23 17:11:38,384 - ImageWrangler - INFO - image_id: 11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR
+2024-07-23 17:11:38,384 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,384 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB
+2024-07-23 17:11:38,384 - ImageWrangler - INFO - image_id: 1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB
+2024-07-23 17:11:38,385 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,385 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt
+2024-07-23 17:11:38,385 - ImageWrangler - INFO - image_id: 1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt
+2024-07-23 17:11:38,385 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,385 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5
+2024-07-23 17:11:38,385 - ImageWrangler - INFO - image_id: 1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5
+2024-07-23 17:11:38,386 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,386 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk
+2024-07-23 17:11:38,386 - ImageWrangler - INFO - image_id: 1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk
+2024-07-23 17:11:38,386 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,386 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt
+2024-07-23 17:11:38,386 - ImageWrangler - INFO - image_id: 15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt
+2024-07-23 17:11:38,386 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,387 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG
+2024-07-23 17:11:38,387 - ImageWrangler - INFO - image_id: 1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG
+2024-07-23 17:11:38,387 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,387 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH
+2024-07-23 17:11:38,387 - ImageWrangler - INFO - image_id: 1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH
+2024-07-23 17:11:38,387 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,387 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1w2WX5lM_cPUQKPaNQ6CXwwXHgGdYhUbw
+2024-07-23 17:11:38,387 - ImageWrangler - INFO - image_id: 1w2WX5lM_cPUQKPaNQ6CXwwXHgGdYhUbw
+2024-07-23 17:11:38,388 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,388 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7
+2024-07-23 17:11:38,388 - ImageWrangler - INFO - image_id: 1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7
+2024-07-23 17:11:38,388 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,388 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV
+2024-07-23 17:11:38,388 - ImageWrangler - INFO - image_id: 1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV
+2024-07-23 17:11:38,389 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,389 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l
+2024-07-23 17:11:38,389 - ImageWrangler - INFO - image_id: 1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l
+2024-07-23 17:11:38,389 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,389 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI
+2024-07-23 17:11:38,389 - ImageWrangler - INFO - image_id: 1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI
+2024-07-23 17:11:38,390 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,390 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477
+2024-07-23 17:11:38,390 - ImageWrangler - INFO - image_id: 1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477
+2024-07-23 17:11:38,390 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,390 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK
+2024-07-23 17:11:38,390 - ImageWrangler - INFO - image_id: 1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK
+2024-07-23 17:11:38,391 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,391 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3
+2024-07-23 17:11:38,391 - ImageWrangler - INFO - image_id: 1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3
+2024-07-23 17:11:38,391 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,391 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA
+2024-07-23 17:11:38,391 - ImageWrangler - INFO - image_id: 1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA
+2024-07-23 17:11:38,392 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,392 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK
+2024-07-23 17:11:38,392 - ImageWrangler - INFO - image_id: 1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK
+2024-07-23 17:11:38,392 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,392 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr
+2024-07-23 17:11:38,392 - ImageWrangler - INFO - image_id: 1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr
+2024-07-23 17:11:38,392 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,392 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5
+2024-07-23 17:11:38,392 - ImageWrangler - INFO - image_id: 1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5
+2024-07-23 17:11:38,393 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,393 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo
+2024-07-23 17:11:38,393 - ImageWrangler - INFO - image_id: 1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo
+2024-07-23 17:11:38,393 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,393 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Qljilc-poLem9BouVy54Vn0pP7zhZe-9
+2024-07-23 17:11:38,393 - ImageWrangler - INFO - image_id: 1Qljilc-poLem9BouVy54Vn0pP7zhZe-9
+2024-07-23 17:11:38,394 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,394 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z
+2024-07-23 17:11:38,394 - ImageWrangler - INFO - image_id: 1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z
+2024-07-23 17:11:38,394 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,394 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=11b936fzqsXB4lyjIPebCeTLkjGqOcppk
+2024-07-23 17:11:38,394 - ImageWrangler - INFO - image_id: 11b936fzqsXB4lyjIPebCeTLkjGqOcppk
+2024-07-23 17:11:38,394 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,395 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF
+2024-07-23 17:11:38,395 - ImageWrangler - INFO - image_id: 1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF
+2024-07-23 17:11:38,395 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,395 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB
+2024-07-23 17:11:38,395 - ImageWrangler - INFO - image_id: 1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB
+2024-07-23 17:11:38,395 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,395 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk
+2024-07-23 17:11:38,395 - ImageWrangler - INFO - image_id: 1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk
+2024-07-23 17:11:38,396 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,396 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=14rWubRMJukC97mOtY0GPxZpqMFwuQaGf
+2024-07-23 17:11:38,396 - ImageWrangler - INFO - image_id: 14rWubRMJukC97mOtY0GPxZpqMFwuQaGf
+2024-07-23 17:11:38,396 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,396 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR
+2024-07-23 17:11:38,396 - ImageWrangler - INFO - image_id: 1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR
+2024-07-23 17:11:38,397 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,397 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1_4915zDUhmVFfXnqGZY4m44lQPX6dox1
+2024-07-23 17:11:38,397 - ImageWrangler - INFO - image_id: 1_4915zDUhmVFfXnqGZY4m44lQPX6dox1
+2024-07-23 17:11:38,397 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,397 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi
+2024-07-23 17:11:38,397 - ImageWrangler - INFO - image_id: 1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi
+2024-07-23 17:11:38,397 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,397 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq
+2024-07-23 17:11:38,397 - ImageWrangler - INFO - image_id: 1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq
+2024-07-23 17:11:38,398 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,398 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw
+2024-07-23 17:11:38,398 - ImageWrangler - INFO - image_id: 1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw
+2024-07-23 17:11:38,398 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,398 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs
+2024-07-23 17:11:38,398 - ImageWrangler - INFO - image_id: 13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs
+2024-07-23 17:11:38,399 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:11:38,400 - root - INFO - Loading data into table measurements.
+2024-07-23 17:11:38,400 - LoadData - INFO - Database connection established.
+2024-07-23 17:11:38,400 - LoadData - INFO - Inserting data into table measurements.
+2024-07-23 17:11:38,404 - LoadData - INFO - Inserted 45 new records into the database.
+2024-07-23 17:11:38,404 - LoadData - INFO - Database connection closed.
+2024-07-23 17:11:38,404 - root - INFO - Checking data in table measurements.
+2024-07-23 17:11:38,404 - LoadData - INFO - Database connection established.
+2024-07-23 17:11:38,404 - LoadData - INFO - Querying table measurements.
+2024-07-23 17:11:38,405 - LoadData - INFO - Table measurements columns: ['measurement_id', 'city', 'methane_level', 'leak', 'type_of_infrastructure', 'photo_id', 'latitude', 'longitude', 'volunteer', 'timestamp']
+2024-07-23 17:11:38,406 - LoadData - INFO - Table measurements contents:
+Empty DataFrame
+Columns: [measurement_id, city, methane_level, leak, type_of_infrastructure, photo_id, latitude, longitude, volunteer, timestamp]
+Index: []
+2024-07-23 17:11:38,406 - LoadData - INFO - Database connection closed.
+2024-07-23 17:12:04,479 - LeakDB - INFO - Database tables created successfully.
+2024-07-23 17:12:04,516 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-07-23 17:12:04,517 - root - INFO - Creating database if not exists.
+2024-07-23 17:12:04,517 - root - INFO - Fetching data.
+2024-07-23 17:12:05,050 - root - INFO - Transforming data.
+2024-07-23 17:12:05,050 - TransformData - INFO - Data validation successful.
+2024-07-23 17:12:05,056 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR
+2024-07-23 17:12:05,056 - ImageWrangler - INFO - image_id: 12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR
+2024-07-23 17:12:05,057 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,058 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8
+2024-07-23 17:12:05,058 - ImageWrangler - INFO - image_id: 1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8
+2024-07-23 17:12:05,058 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,059 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF
+2024-07-23 17:12:05,059 - ImageWrangler - INFO - image_id: 10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF
+2024-07-23 17:12:05,059 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,059 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD
+2024-07-23 17:12:05,060 - ImageWrangler - INFO - image_id: 1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD
+2024-07-23 17:12:05,060 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,060 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z
+2024-07-23 17:12:05,060 - ImageWrangler - INFO - image_id: 13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z
+2024-07-23 17:12:05,061 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,061 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_
+2024-07-23 17:12:05,061 - ImageWrangler - INFO - image_id: 1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_
+2024-07-23 17:12:05,062 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,062 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_
+2024-07-23 17:12:05,062 - ImageWrangler - INFO - image_id: 1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_
+2024-07-23 17:12:05,062 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,063 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll
+2024-07-23 17:12:05,063 - ImageWrangler - INFO - image_id: 1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll
+2024-07-23 17:12:05,063 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,063 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1KDNyEAlPwdbgreeDYHSwom1GFb05usrB
+2024-07-23 17:12:05,063 - ImageWrangler - INFO - image_id: 1KDNyEAlPwdbgreeDYHSwom1GFb05usrB
+2024-07-23 17:12:05,064 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,064 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938
+2024-07-23 17:12:05,064 - ImageWrangler - INFO - image_id: 1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938
+2024-07-23 17:12:05,064 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,064 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW
+2024-07-23 17:12:05,064 - ImageWrangler - INFO - image_id: 1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW
+2024-07-23 17:12:05,065 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,065 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR
+2024-07-23 17:12:05,065 - ImageWrangler - INFO - image_id: 11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR
+2024-07-23 17:12:05,065 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,065 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB
+2024-07-23 17:12:05,065 - ImageWrangler - INFO - image_id: 1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB
+2024-07-23 17:12:05,066 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,066 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt
+2024-07-23 17:12:05,066 - ImageWrangler - INFO - image_id: 1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt
+2024-07-23 17:12:05,066 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,066 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5
+2024-07-23 17:12:05,066 - ImageWrangler - INFO - image_id: 1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5
+2024-07-23 17:12:05,067 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,067 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk
+2024-07-23 17:12:05,067 - ImageWrangler - INFO - image_id: 1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk
+2024-07-23 17:12:05,068 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,068 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt
+2024-07-23 17:12:05,068 - ImageWrangler - INFO - image_id: 15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt
+2024-07-23 17:12:05,068 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,069 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG
+2024-07-23 17:12:05,069 - ImageWrangler - INFO - image_id: 1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG
+2024-07-23 17:12:05,069 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,069 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH
+2024-07-23 17:12:05,069 - ImageWrangler - INFO - image_id: 1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH
+2024-07-23 17:12:05,070 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,070 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1w2WX5lM_cPUQKPaNQ6CXwwXHgGdYhUbw
+2024-07-23 17:12:05,070 - ImageWrangler - INFO - image_id: 1w2WX5lM_cPUQKPaNQ6CXwwXHgGdYhUbw
+2024-07-23 17:12:05,070 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,070 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7
+2024-07-23 17:12:05,070 - ImageWrangler - INFO - image_id: 1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7
+2024-07-23 17:12:05,071 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,071 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV
+2024-07-23 17:12:05,071 - ImageWrangler - INFO - image_id: 1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV
+2024-07-23 17:12:05,071 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,071 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l
+2024-07-23 17:12:05,071 - ImageWrangler - INFO - image_id: 1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l
+2024-07-23 17:12:05,072 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,072 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI
+2024-07-23 17:12:05,072 - ImageWrangler - INFO - image_id: 1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI
+2024-07-23 17:12:05,072 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,072 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477
+2024-07-23 17:12:05,072 - ImageWrangler - INFO - image_id: 1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477
+2024-07-23 17:12:05,073 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,073 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK
+2024-07-23 17:12:05,073 - ImageWrangler - INFO - image_id: 1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK
+2024-07-23 17:12:05,073 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,073 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3
+2024-07-23 17:12:05,073 - ImageWrangler - INFO - image_id: 1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3
+2024-07-23 17:12:05,074 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,074 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA
+2024-07-23 17:12:05,074 - ImageWrangler - INFO - image_id: 1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA
+2024-07-23 17:12:05,074 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,074 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK
+2024-07-23 17:12:05,074 - ImageWrangler - INFO - image_id: 1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK
+2024-07-23 17:12:05,075 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,075 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr
+2024-07-23 17:12:05,075 - ImageWrangler - INFO - image_id: 1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr
+2024-07-23 17:12:05,075 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,075 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5
+2024-07-23 17:12:05,075 - ImageWrangler - INFO - image_id: 1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5
+2024-07-23 17:12:05,076 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,076 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo
+2024-07-23 17:12:05,076 - ImageWrangler - INFO - image_id: 1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo
+2024-07-23 17:12:05,076 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,076 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Qljilc-poLem9BouVy54Vn0pP7zhZe-9
+2024-07-23 17:12:05,076 - ImageWrangler - INFO - image_id: 1Qljilc-poLem9BouVy54Vn0pP7zhZe-9
+2024-07-23 17:12:05,077 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,077 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z
+2024-07-23 17:12:05,077 - ImageWrangler - INFO - image_id: 1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z
+2024-07-23 17:12:05,077 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,077 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=11b936fzqsXB4lyjIPebCeTLkjGqOcppk
+2024-07-23 17:12:05,077 - ImageWrangler - INFO - image_id: 11b936fzqsXB4lyjIPebCeTLkjGqOcppk
+2024-07-23 17:12:05,077 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,077 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF
+2024-07-23 17:12:05,077 - ImageWrangler - INFO - image_id: 1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF
+2024-07-23 17:12:05,078 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,078 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB
+2024-07-23 17:12:05,078 - ImageWrangler - INFO - image_id: 1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB
+2024-07-23 17:12:05,078 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,078 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk
+2024-07-23 17:12:05,078 - ImageWrangler - INFO - image_id: 1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk
+2024-07-23 17:12:05,079 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,079 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=14rWubRMJukC97mOtY0GPxZpqMFwuQaGf
+2024-07-23 17:12:05,079 - ImageWrangler - INFO - image_id: 14rWubRMJukC97mOtY0GPxZpqMFwuQaGf
+2024-07-23 17:12:05,079 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,079 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR
+2024-07-23 17:12:05,079 - ImageWrangler - INFO - image_id: 1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR
+2024-07-23 17:12:05,080 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,080 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1_4915zDUhmVFfXnqGZY4m44lQPX6dox1
+2024-07-23 17:12:05,080 - ImageWrangler - INFO - image_id: 1_4915zDUhmVFfXnqGZY4m44lQPX6dox1
+2024-07-23 17:12:05,080 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,080 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi
+2024-07-23 17:12:05,080 - ImageWrangler - INFO - image_id: 1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi
+2024-07-23 17:12:05,080 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,080 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq
+2024-07-23 17:12:05,080 - ImageWrangler - INFO - image_id: 1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq
+2024-07-23 17:12:05,081 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,081 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw
+2024-07-23 17:12:05,081 - ImageWrangler - INFO - image_id: 1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw
+2024-07-23 17:12:05,081 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,081 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs
+2024-07-23 17:12:05,081 - ImageWrangler - INFO - image_id: 13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs
+2024-07-23 17:12:05,082 - ImageWrangler - ERROR - An unexpected error occurred: 'ImageWrangler' object has no attribute 'image_id'
+2024-07-23 17:12:05,083 - root - INFO - Loading data into table measurements.
+2024-07-23 17:12:05,083 - LoadData - INFO - Database connection established.
+2024-07-23 17:12:05,083 - LoadData - INFO - Inserting data into table measurements.
+2024-07-23 17:12:05,086 - LoadData - INFO - Inserted 45 new records into the database.
+2024-07-23 17:12:05,087 - LoadData - INFO - Database connection closed.
+2024-07-23 17:12:05,087 - root - INFO - Checking data in table measurements.
+2024-07-23 17:12:05,087 - LoadData - INFO - Database connection established.
+2024-07-23 17:12:05,087 - LoadData - INFO - Querying table measurements.
+2024-07-23 17:12:05,088 - LoadData - INFO - Table measurements columns: ['measurement_id', 'city', 'methane_level', 'leak', 'type_of_infrastructure', 'photo_id', 'latitude', 'longitude', 'volunteer', 'timestamp']
+2024-07-23 17:12:05,089 - LoadData - INFO - Table measurements contents:
+Empty DataFrame
+Columns: [measurement_id, city, methane_level, leak, type_of_infrastructure, photo_id, latitude, longitude, volunteer, timestamp]
+Index: []
+2024-07-23 17:12:05,089 - LoadData - INFO - Database connection closed.
+2024-07-23 17:12:37,565 - LeakDB - INFO - Database tables created successfully.
+2024-07-23 17:12:37,601 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-07-23 17:12:37,603 - root - INFO - Creating database if not exists.
+2024-07-23 17:12:37,603 - root - INFO - Fetching data.
+2024-07-23 17:12:38,117 - root - INFO - Transforming data.
+2024-07-23 17:12:38,117 - TransformData - INFO - Data validation successful.
+2024-07-23 17:12:38,125 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR
+2024-07-23 17:12:38,126 - ImageWrangler - INFO - image_id: 12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR
+2024-07-23 17:12:38,127 - TransformData - ERROR - Failed to get images: cannot unpack non-iterable NoneType object
+2024-07-23 17:12:38,127 - TransformData - ERROR - Execution failed: cannot unpack non-iterable NoneType object
+2024-07-23 17:12:38,127 - root - ERROR - Error in ETL pipeline: cannot unpack non-iterable NoneType object
+2024-07-23 17:13:48,301 - LeakDB - INFO - Database tables created successfully.
+2024-07-23 17:13:48,337 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-07-23 17:13:48,339 - root - INFO - Creating database if not exists.
+2024-07-23 17:13:48,339 - root - INFO - Fetching data.
+2024-07-23 17:13:48,882 - root - INFO - Transforming data.
+2024-07-23 17:13:48,882 - TransformData - INFO - Data validation successful.
+2024-07-23 17:13:48,887 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR
+2024-07-23 17:13:48,887 - ImageWrangler - INFO - image_id: 12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR
+2024-07-23 17:13:48,889 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8
+2024-07-23 17:13:48,889 - ImageWrangler - INFO - image_id: 1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8
+2024-07-23 17:13:48,890 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF
+2024-07-23 17:13:48,890 - ImageWrangler - INFO - image_id: 10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF
+2024-07-23 17:13:48,890 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD
+2024-07-23 17:13:48,891 - ImageWrangler - INFO - image_id: 1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD
+2024-07-23 17:13:48,891 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z
+2024-07-23 17:13:48,891 - ImageWrangler - INFO - image_id: 13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z
+2024-07-23 17:13:48,892 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_
+2024-07-23 17:13:48,892 - ImageWrangler - INFO - image_id: 1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_
+2024-07-23 17:13:48,892 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_
+2024-07-23 17:13:48,892 - ImageWrangler - INFO - image_id: 1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_
+2024-07-23 17:13:48,893 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll
+2024-07-23 17:13:48,893 - ImageWrangler - INFO - image_id: 1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll
+2024-07-23 17:13:48,893 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1KDNyEAlPwdbgreeDYHSwom1GFb05usrB
+2024-07-23 17:13:48,893 - ImageWrangler - INFO - image_id: 1KDNyEAlPwdbgreeDYHSwom1GFb05usrB
+2024-07-23 17:13:48,893 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938
+2024-07-23 17:13:48,894 - ImageWrangler - INFO - image_id: 1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938
+2024-07-23 17:13:48,894 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW
+2024-07-23 17:13:48,894 - ImageWrangler - INFO - image_id: 1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW
+2024-07-23 17:13:48,895 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR
+2024-07-23 17:13:48,895 - ImageWrangler - INFO - image_id: 11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR
+2024-07-23 17:13:48,895 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB
+2024-07-23 17:13:48,895 - ImageWrangler - INFO - image_id: 1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB
+2024-07-23 17:13:48,896 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt
+2024-07-23 17:13:48,896 - ImageWrangler - INFO - image_id: 1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt
+2024-07-23 17:13:48,896 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5
+2024-07-23 17:13:48,896 - ImageWrangler - INFO - image_id: 1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5
+2024-07-23 17:13:48,897 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk
+2024-07-23 17:13:48,897 - ImageWrangler - INFO - image_id: 1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk
+2024-07-23 17:13:48,897 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt
+2024-07-23 17:13:48,897 - ImageWrangler - INFO - image_id: 15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt
+2024-07-23 17:13:48,898 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG
+2024-07-23 17:13:48,898 - ImageWrangler - INFO - image_id: 1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG
+2024-07-23 17:13:48,898 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH
+2024-07-23 17:13:48,898 - ImageWrangler - INFO - image_id: 1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH
+2024-07-23 17:13:48,899 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1w2WX5lM_cPUQKPaNQ6CXwwXHgGdYhUbw
+2024-07-23 17:13:48,899 - ImageWrangler - INFO - image_id: 1w2WX5lM_cPUQKPaNQ6CXwwXHgGdYhUbw
+2024-07-23 17:13:48,899 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7
+2024-07-23 17:13:48,899 - ImageWrangler - INFO - image_id: 1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7
+2024-07-23 17:13:48,900 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV
+2024-07-23 17:13:48,900 - ImageWrangler - INFO - image_id: 1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV
+2024-07-23 17:13:48,900 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l
+2024-07-23 17:13:48,900 - ImageWrangler - INFO - image_id: 1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l
+2024-07-23 17:13:48,901 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI
+2024-07-23 17:13:48,901 - ImageWrangler - INFO - image_id: 1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI
+2024-07-23 17:13:48,901 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477
+2024-07-23 17:13:48,901 - ImageWrangler - INFO - image_id: 1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477
+2024-07-23 17:13:48,902 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK
+2024-07-23 17:13:48,902 - ImageWrangler - INFO - image_id: 1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK
+2024-07-23 17:13:48,902 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3
+2024-07-23 17:13:48,902 - ImageWrangler - INFO - image_id: 1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3
+2024-07-23 17:13:48,903 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA
+2024-07-23 17:13:48,903 - ImageWrangler - INFO - image_id: 1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA
+2024-07-23 17:13:48,903 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK
+2024-07-23 17:13:48,903 - ImageWrangler - INFO - image_id: 1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK
+2024-07-23 17:13:48,904 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr
+2024-07-23 17:13:48,904 - ImageWrangler - INFO - image_id: 1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr
+2024-07-23 17:13:48,904 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5
+2024-07-23 17:13:48,904 - ImageWrangler - INFO - image_id: 1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5
+2024-07-23 17:13:48,904 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo
+2024-07-23 17:13:48,904 - ImageWrangler - INFO - image_id: 1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo
+2024-07-23 17:13:48,905 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Qljilc-poLem9BouVy54Vn0pP7zhZe-9
+2024-07-23 17:13:48,905 - ImageWrangler - INFO - image_id: 1Qljilc-poLem9BouVy54Vn0pP7zhZe-9
+2024-07-23 17:13:48,905 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z
+2024-07-23 17:13:48,906 - ImageWrangler - INFO - image_id: 1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z
+2024-07-23 17:13:48,906 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=11b936fzqsXB4lyjIPebCeTLkjGqOcppk
+2024-07-23 17:13:48,906 - ImageWrangler - INFO - image_id: 11b936fzqsXB4lyjIPebCeTLkjGqOcppk
+2024-07-23 17:13:48,907 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF
+2024-07-23 17:13:48,907 - ImageWrangler - INFO - image_id: 1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF
+2024-07-23 17:13:48,908 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB
+2024-07-23 17:13:48,908 - ImageWrangler - INFO - image_id: 1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB
+2024-07-23 17:13:48,908 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk
+2024-07-23 17:13:48,908 - ImageWrangler - INFO - image_id: 1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk
+2024-07-23 17:13:48,908 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=14rWubRMJukC97mOtY0GPxZpqMFwuQaGf
+2024-07-23 17:13:48,909 - ImageWrangler - INFO - image_id: 14rWubRMJukC97mOtY0GPxZpqMFwuQaGf
+2024-07-23 17:13:48,909 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR
+2024-07-23 17:13:48,909 - ImageWrangler - INFO - image_id: 1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR
+2024-07-23 17:13:48,909 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1_4915zDUhmVFfXnqGZY4m44lQPX6dox1
+2024-07-23 17:13:48,909 - ImageWrangler - INFO - image_id: 1_4915zDUhmVFfXnqGZY4m44lQPX6dox1
+2024-07-23 17:13:48,910 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi
+2024-07-23 17:13:48,910 - ImageWrangler - INFO - image_id: 1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi
+2024-07-23 17:13:48,910 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq
+2024-07-23 17:13:48,910 - ImageWrangler - INFO - image_id: 1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq
+2024-07-23 17:13:48,911 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw
+2024-07-23 17:13:48,911 - ImageWrangler - INFO - image_id: 1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw
+2024-07-23 17:13:48,911 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs
+2024-07-23 17:13:48,911 - ImageWrangler - INFO - image_id: 13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs
+2024-07-23 17:13:48,912 - root - INFO - Loading data into table measurements.
+2024-07-23 17:13:48,912 - LoadData - INFO - Database connection established.
+2024-07-23 17:13:48,913 - LoadData - INFO - Inserting data into table measurements.
+2024-07-23 17:13:48,916 - LoadData - INFO - Inserted 45 new records into the database.
+2024-07-23 17:13:48,916 - LoadData - INFO - Database connection closed.
+2024-07-23 17:13:48,916 - root - INFO - Checking data in table measurements.
+2024-07-23 17:13:48,916 - LoadData - INFO - Database connection established.
+2024-07-23 17:13:48,917 - LoadData - INFO - Querying table measurements.
+2024-07-23 17:13:48,918 - LoadData - INFO - Table measurements columns: ['measurement_id', 'city', 'methane_level', 'leak', 'type_of_infrastructure', 'photo_id', 'latitude', 'longitude', 'volunteer', 'timestamp']
+2024-07-23 17:13:48,918 - LoadData - INFO - Table measurements contents:
+Empty DataFrame
+Columns: [measurement_id, city, methane_level, leak, type_of_infrastructure, photo_id, latitude, longitude, volunteer, timestamp]
+Index: []
+2024-07-23 17:13:48,918 - LoadData - INFO - Database connection closed.
