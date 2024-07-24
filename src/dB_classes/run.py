@@ -73,12 +73,12 @@ def main():
     pipe.pipe_data_to(TABLE_NAME)
     
     # Check db contents
-    #database.print_all_tables_and_values()
+    database.print_all_tables_and_values()
 
     # Query DB
-    query="SELECT * FROM photos"
-    df = database.query_db(query)
-    print(df)
+    #query="SELECT * FROM photos"
+    #df = database.query_db(query)
+    #print(df)
 
 #####################################################################################################################
 ## END

@@ -10,7 +10,7 @@ Last Updated: 7/23/2024
 import logging
 
 import pandas as pd
-from sqlalchemy import create_engine, text, Column, Integer, String, Float, Boolean, LargeBinary, ForeignKey, TIMESTAMP
+from sqlalchemy import create_engine, text, Column, Integer, String, Float, Boolean, LargeBinary, ForeignKey, TIMESTAMP, select
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
 
@@ -206,11 +206,12 @@ class LeakDB:
         """
         session = self.Session()
         try:
-            tables = Base.metadata.tables.keys()
+            tables = Base.metadata.tables.values()
             for table in tables:
                 self.logger.info(f"Table: {table}")
-                result = session.execute(f"SELECT * FROM {table}")
-                columns = result.keys()
+                stmt = select(table)
+                result = session.execute(stmt)
+                columns = table.columns.keys()
                 self.logger.info(f"Columns: {columns}")
                 for row in result:
                     self.logger.info(row)
