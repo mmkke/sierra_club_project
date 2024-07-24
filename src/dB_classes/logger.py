@@ -6,7 +6,11 @@ Last Updated: 7/23/24
 '''
 
 # Libraries
+import os
 import logging
+
+DIR_PATH = os.getcwd() + "/logs"
+FILE_PATH = DIR_PATH + "/etl.log"
 
 # Logging setup function
 def setup_logger():
@@ -14,7 +18,7 @@ def setup_logger():
         level=logging.INFO,  # Set the log level
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',  # Set the log format
         handlers=[
-            logging.FileHandler("etl.log"),  # Log messages to a file named 'etl.log'
+            logging.FileHandler(FILE_PATH),  # Log messages to a file named 'etl.log'
             logging.StreamHandler()  # Log messages to the console
         ]
     )
