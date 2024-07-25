@@ -1,0 +1,563 @@
+2024-07-25 15:23:39,785 - LeakDB - INFO - Database tables created successfully.
+2024-07-25 15:23:39,822 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-07-25 15:23:39,824 - root - INFO - Creating database if not exists.
+2024-07-25 15:23:39,824 - root - INFO - Fetching data.
+2024-07-25 15:23:40,707 - root - INFO - Transforming data.
+2024-07-25 15:23:40,707 - TransformData - INFO - Data validation successful.
+2024-07-25 15:23:40,713 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR
+2024-07-25 15:23:40,713 - ImageWrangler - INFO - image_id: 12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR
+2024-07-25 15:23:40,715 - ImageWrangler - INFO - Image 12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR already exists in table.
+2024-07-25 15:23:40,715 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,715 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8
+2024-07-25 15:23:40,715 - ImageWrangler - INFO - image_id: 1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8
+2024-07-25 15:23:40,716 - ImageWrangler - INFO - Image 1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8 already exists in table.
+2024-07-25 15:23:40,716 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,716 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF
+2024-07-25 15:23:40,716 - ImageWrangler - INFO - image_id: 10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF
+2024-07-25 15:23:40,717 - ImageWrangler - INFO - Image 10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF already exists in table.
+2024-07-25 15:23:40,717 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,717 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD
+2024-07-25 15:23:40,717 - ImageWrangler - INFO - image_id: 1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD
+2024-07-25 15:23:40,717 - ImageWrangler - INFO - Image 1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD already exists in table.
+2024-07-25 15:23:40,718 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,718 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z
+2024-07-25 15:23:40,718 - ImageWrangler - INFO - image_id: 13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z
+2024-07-25 15:23:40,718 - ImageWrangler - INFO - Image 13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z already exists in table.
+2024-07-25 15:23:40,718 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,718 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_
+2024-07-25 15:23:40,718 - ImageWrangler - INFO - image_id: 1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_
+2024-07-25 15:23:40,719 - ImageWrangler - INFO - Image 1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_ already exists in table.
+2024-07-25 15:23:40,719 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,719 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_
+2024-07-25 15:23:40,719 - ImageWrangler - INFO - image_id: 1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_
+2024-07-25 15:23:40,719 - ImageWrangler - INFO - Image 1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_ already exists in table.
+2024-07-25 15:23:40,719 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,719 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll
+2024-07-25 15:23:40,719 - ImageWrangler - INFO - image_id: 1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll
+2024-07-25 15:23:40,720 - ImageWrangler - INFO - Image 1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll already exists in table.
+2024-07-25 15:23:40,720 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,720 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1KDNyEAlPwdbgreeDYHSwom1GFb05usrB
+2024-07-25 15:23:40,720 - ImageWrangler - INFO - image_id: 1KDNyEAlPwdbgreeDYHSwom1GFb05usrB
+2024-07-25 15:23:40,720 - ImageWrangler - INFO - Image 1KDNyEAlPwdbgreeDYHSwom1GFb05usrB already exists in table.
+2024-07-25 15:23:40,720 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,720 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938
+2024-07-25 15:23:40,720 - ImageWrangler - INFO - image_id: 1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938
+2024-07-25 15:23:40,721 - ImageWrangler - INFO - Image 1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938 already exists in table.
+2024-07-25 15:23:40,721 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,721 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW
+2024-07-25 15:23:40,721 - ImageWrangler - INFO - image_id: 1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW
+2024-07-25 15:23:40,721 - ImageWrangler - INFO - Image 1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW already exists in table.
+2024-07-25 15:23:40,721 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,721 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR
+2024-07-25 15:23:40,721 - ImageWrangler - INFO - image_id: 11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR
+2024-07-25 15:23:40,722 - ImageWrangler - INFO - Image 11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR already exists in table.
+2024-07-25 15:23:40,722 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,722 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB
+2024-07-25 15:23:40,722 - ImageWrangler - INFO - image_id: 1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB
+2024-07-25 15:23:40,722 - ImageWrangler - INFO - Image 1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB already exists in table.
+2024-07-25 15:23:40,722 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,723 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt
+2024-07-25 15:23:40,723 - ImageWrangler - INFO - image_id: 1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt
+2024-07-25 15:23:40,723 - ImageWrangler - INFO - Image 1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt already exists in table.
+2024-07-25 15:23:40,723 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,723 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5
+2024-07-25 15:23:40,723 - ImageWrangler - INFO - image_id: 1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5
+2024-07-25 15:23:40,723 - ImageWrangler - INFO - Image 1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5 already exists in table.
+2024-07-25 15:23:40,724 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,724 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk
+2024-07-25 15:23:40,724 - ImageWrangler - INFO - image_id: 1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk
+2024-07-25 15:23:40,724 - ImageWrangler - INFO - Image 1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk already exists in table.
+2024-07-25 15:23:40,724 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,724 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt
+2024-07-25 15:23:40,724 - ImageWrangler - INFO - image_id: 15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt
+2024-07-25 15:23:40,725 - ImageWrangler - INFO - Image 15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt already exists in table.
+2024-07-25 15:23:40,725 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,725 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG
+2024-07-25 15:23:40,725 - ImageWrangler - INFO - image_id: 1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG
+2024-07-25 15:23:40,726 - ImageWrangler - INFO - Image 1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG already exists in table.
+2024-07-25 15:23:40,726 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,726 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH
+2024-07-25 15:23:40,726 - ImageWrangler - INFO - image_id: 1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH
+2024-07-25 15:23:40,726 - ImageWrangler - INFO - Image 1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH already exists in table.
+2024-07-25 15:23:40,727 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,727 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1w2WX5lM_cPUQKPaNQ6CXwwXHgGdYhUbw
+2024-07-25 15:23:40,727 - ImageWrangler - INFO - image_id: 1w2WX5lM_cPUQKPaNQ6CXwwXHgGdYhUbw
+2024-07-25 15:23:40,727 - ImageWrangler - INFO - Image 1w2WX5lM_cPUQKPaNQ6CXwwXHgGdYhUbw already exists in table.
+2024-07-25 15:23:40,727 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,727 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7
+2024-07-25 15:23:40,727 - ImageWrangler - INFO - image_id: 1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7
+2024-07-25 15:23:40,728 - ImageWrangler - INFO - Image 1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7 already exists in table.
+2024-07-25 15:23:40,728 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,728 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV
+2024-07-25 15:23:40,728 - ImageWrangler - INFO - image_id: 1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV
+2024-07-25 15:23:40,728 - ImageWrangler - INFO - Image 1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV already exists in table.
+2024-07-25 15:23:40,728 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,728 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l
+2024-07-25 15:23:40,728 - ImageWrangler - INFO - image_id: 1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l
+2024-07-25 15:23:40,729 - ImageWrangler - INFO - Image 1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l already exists in table.
+2024-07-25 15:23:40,729 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,729 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI
+2024-07-25 15:23:40,729 - ImageWrangler - INFO - image_id: 1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI
+2024-07-25 15:23:40,729 - ImageWrangler - INFO - Image 1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI already exists in table.
+2024-07-25 15:23:40,729 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,729 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477
+2024-07-25 15:23:40,729 - ImageWrangler - INFO - image_id: 1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477
+2024-07-25 15:23:40,730 - ImageWrangler - INFO - Image 1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477 already exists in table.
+2024-07-25 15:23:40,730 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,730 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK
+2024-07-25 15:23:40,730 - ImageWrangler - INFO - image_id: 1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK
+2024-07-25 15:23:40,730 - ImageWrangler - INFO - Image 1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK already exists in table.
+2024-07-25 15:23:40,730 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,730 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3
+2024-07-25 15:23:40,730 - ImageWrangler - INFO - image_id: 1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3
+2024-07-25 15:23:40,730 - ImageWrangler - INFO - Image 1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3 already exists in table.
+2024-07-25 15:23:40,730 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,730 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA
+2024-07-25 15:23:40,731 - ImageWrangler - INFO - image_id: 1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA
+2024-07-25 15:23:40,731 - ImageWrangler - INFO - Image 1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA already exists in table.
+2024-07-25 15:23:40,731 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,731 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK
+2024-07-25 15:23:40,731 - ImageWrangler - INFO - image_id: 1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK
+2024-07-25 15:23:40,731 - ImageWrangler - INFO - Image 1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK already exists in table.
+2024-07-25 15:23:40,731 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,731 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr
+2024-07-25 15:23:40,731 - ImageWrangler - INFO - image_id: 1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr
+2024-07-25 15:23:40,732 - ImageWrangler - INFO - Image 1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr already exists in table.
+2024-07-25 15:23:40,732 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,732 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5
+2024-07-25 15:23:40,732 - ImageWrangler - INFO - image_id: 1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5
+2024-07-25 15:23:40,732 - ImageWrangler - INFO - Image 1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5 already exists in table.
+2024-07-25 15:23:40,732 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,732 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo
+2024-07-25 15:23:40,732 - ImageWrangler - INFO - image_id: 1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo
+2024-07-25 15:23:40,733 - ImageWrangler - INFO - Image 1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo already exists in table.
+2024-07-25 15:23:40,733 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,733 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Qljilc-poLem9BouVy54Vn0pP7zhZe-9
+2024-07-25 15:23:40,733 - ImageWrangler - INFO - image_id: 1Qljilc-poLem9BouVy54Vn0pP7zhZe-9
+2024-07-25 15:23:40,733 - ImageWrangler - INFO - Image 1Qljilc-poLem9BouVy54Vn0pP7zhZe-9 already exists in table.
+2024-07-25 15:23:40,733 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,733 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z
+2024-07-25 15:23:40,733 - ImageWrangler - INFO - image_id: 1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z
+2024-07-25 15:23:40,734 - ImageWrangler - INFO - Image 1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z already exists in table.
+2024-07-25 15:23:40,734 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,734 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=11b936fzqsXB4lyjIPebCeTLkjGqOcppk
+2024-07-25 15:23:40,734 - ImageWrangler - INFO - image_id: 11b936fzqsXB4lyjIPebCeTLkjGqOcppk
+2024-07-25 15:23:40,734 - ImageWrangler - INFO - Image 11b936fzqsXB4lyjIPebCeTLkjGqOcppk already exists in table.
+2024-07-25 15:23:40,734 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,734 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF
+2024-07-25 15:23:40,734 - ImageWrangler - INFO - image_id: 1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF
+2024-07-25 15:23:40,735 - ImageWrangler - INFO - Image 1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF already exists in table.
+2024-07-25 15:23:40,735 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,735 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB
+2024-07-25 15:23:40,735 - ImageWrangler - INFO - image_id: 1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB
+2024-07-25 15:23:40,736 - ImageWrangler - INFO - Image 1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB already exists in table.
+2024-07-25 15:23:40,736 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,736 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk
+2024-07-25 15:23:40,736 - ImageWrangler - INFO - image_id: 1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk
+2024-07-25 15:23:40,736 - ImageWrangler - INFO - Image 1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk already exists in table.
+2024-07-25 15:23:40,736 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,736 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=14rWubRMJukC97mOtY0GPxZpqMFwuQaGf
+2024-07-25 15:23:40,736 - ImageWrangler - INFO - image_id: 14rWubRMJukC97mOtY0GPxZpqMFwuQaGf
+2024-07-25 15:23:40,737 - ImageWrangler - INFO - Image 14rWubRMJukC97mOtY0GPxZpqMFwuQaGf already exists in table.
+2024-07-25 15:23:40,737 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,737 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR
+2024-07-25 15:23:40,737 - ImageWrangler - INFO - image_id: 1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR
+2024-07-25 15:23:40,737 - ImageWrangler - INFO - Image 1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR already exists in table.
+2024-07-25 15:23:40,737 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,737 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1_4915zDUhmVFfXnqGZY4m44lQPX6dox1
+2024-07-25 15:23:40,737 - ImageWrangler - INFO - image_id: 1_4915zDUhmVFfXnqGZY4m44lQPX6dox1
+2024-07-25 15:23:40,738 - ImageWrangler - INFO - Image 1_4915zDUhmVFfXnqGZY4m44lQPX6dox1 already exists in table.
+2024-07-25 15:23:40,738 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,738 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi
+2024-07-25 15:23:40,738 - ImageWrangler - INFO - image_id: 1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi
+2024-07-25 15:23:40,738 - ImageWrangler - INFO - Image 1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi already exists in table.
+2024-07-25 15:23:40,738 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,738 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq
+2024-07-25 15:23:40,738 - ImageWrangler - INFO - image_id: 1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq
+2024-07-25 15:23:40,739 - ImageWrangler - INFO - Image 1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq already exists in table.
+2024-07-25 15:23:40,739 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,739 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw
+2024-07-25 15:23:40,739 - ImageWrangler - INFO - image_id: 1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw
+2024-07-25 15:23:40,739 - ImageWrangler - INFO - Image 1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw already exists in table.
+2024-07-25 15:23:40,739 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,739 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs
+2024-07-25 15:23:40,739 - ImageWrangler - INFO - image_id: 13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs
+2024-07-25 15:23:40,739 - ImageWrangler - INFO - Image 13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs already exists in table.
+2024-07-25 15:23:40,740 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,740 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1iT1Ko_JNsMWm6xMs1thLAhgHURK5cZv0
+2024-07-25 15:23:40,740 - ImageWrangler - INFO - image_id: 1iT1Ko_JNsMWm6xMs1thLAhgHURK5cZv0
+2024-07-25 15:23:40,740 - ImageWrangler - INFO - Image 1iT1Ko_JNsMWm6xMs1thLAhgHURK5cZv0 already exists in table.
+2024-07-25 15:23:40,740 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,740 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1UeOJhzkbwlbcdzwC_0MaPqA9DV1Bkt6E
+2024-07-25 15:23:40,741 - ImageWrangler - INFO - image_id: 1UeOJhzkbwlbcdzwC_0MaPqA9DV1Bkt6E
+2024-07-25 15:23:40,741 - ImageWrangler - INFO - Image 1UeOJhzkbwlbcdzwC_0MaPqA9DV1Bkt6E already exists in table.
+2024-07-25 15:23:40,741 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,741 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1c1j_oPxRS9XWl3jGLprBeWOIf2bGvnMn
+2024-07-25 15:23:40,741 - ImageWrangler - INFO - image_id: 1c1j_oPxRS9XWl3jGLprBeWOIf2bGvnMn
+2024-07-25 15:23:40,741 - ImageWrangler - INFO - Image 1c1j_oPxRS9XWl3jGLprBeWOIf2bGvnMn already exists in table.
+2024-07-25 15:23:40,741 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,741 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1-DF9EcrzN2PFDrmVDod5I40cpXSDHNxv
+2024-07-25 15:23:40,741 - ImageWrangler - INFO - image_id: 1-DF9EcrzN2PFDrmVDod5I40cpXSDHNxv
+2024-07-25 15:23:40,742 - ImageWrangler - INFO - Image 1-DF9EcrzN2PFDrmVDod5I40cpXSDHNxv already exists in table.
+2024-07-25 15:23:40,742 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,742 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1gFhBrkEArKFxYgQzwRErHbArVpXcGDYF
+2024-07-25 15:23:40,742 - ImageWrangler - INFO - image_id: 1gFhBrkEArKFxYgQzwRErHbArVpXcGDYF
+2024-07-25 15:23:40,742 - ImageWrangler - INFO - Image 1gFhBrkEArKFxYgQzwRErHbArVpXcGDYF already exists in table.
+2024-07-25 15:23:40,742 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,742 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1jsgLdtZFolWhcmzAcH9c6dWIt2pcCkQg
+2024-07-25 15:23:40,742 - ImageWrangler - INFO - image_id: 1jsgLdtZFolWhcmzAcH9c6dWIt2pcCkQg
+2024-07-25 15:23:40,743 - ImageWrangler - INFO - Image 1jsgLdtZFolWhcmzAcH9c6dWIt2pcCkQg already exists in table.
+2024-07-25 15:23:40,743 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,743 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Bc5n7xyfmQYsMtlgQDwUjJzLXuBbIf29
+2024-07-25 15:23:40,743 - ImageWrangler - INFO - image_id: 1Bc5n7xyfmQYsMtlgQDwUjJzLXuBbIf29
+2024-07-25 15:23:40,743 - ImageWrangler - INFO - Image 1Bc5n7xyfmQYsMtlgQDwUjJzLXuBbIf29 already exists in table.
+2024-07-25 15:23:40,743 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,743 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1KyWJF4ZNxzGoOgjlrbNaJUPthFxLU8rd
+2024-07-25 15:23:40,743 - ImageWrangler - INFO - image_id: 1KyWJF4ZNxzGoOgjlrbNaJUPthFxLU8rd
+2024-07-25 15:23:40,743 - ImageWrangler - INFO - Image 1KyWJF4ZNxzGoOgjlrbNaJUPthFxLU8rd already exists in table.
+2024-07-25 15:23:40,743 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,743 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=14NoDg-xKHZQL4j84swkbvFCVuVsbUI1R
+2024-07-25 15:23:40,743 - ImageWrangler - INFO - image_id: 14NoDg-xKHZQL4j84swkbvFCVuVsbUI1R
+2024-07-25 15:23:40,744 - ImageWrangler - INFO - Image 14NoDg-xKHZQL4j84swkbvFCVuVsbUI1R already exists in table.
+2024-07-25 15:23:40,744 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,744 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1ABIcR5FrgHNWGf6rIjMqgE4Xdndu67_c
+2024-07-25 15:23:40,744 - ImageWrangler - INFO - image_id: 1ABIcR5FrgHNWGf6rIjMqgE4Xdndu67_c
+2024-07-25 15:23:40,744 - ImageWrangler - INFO - Image 1ABIcR5FrgHNWGf6rIjMqgE4Xdndu67_c already exists in table.
+2024-07-25 15:23:40,744 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,744 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1MfF4N1dgu4rpkcxrNVxsrANP5bOhiKDC
+2024-07-25 15:23:40,744 - ImageWrangler - INFO - image_id: 1MfF4N1dgu4rpkcxrNVxsrANP5bOhiKDC
+2024-07-25 15:23:40,745 - ImageWrangler - INFO - Image 1MfF4N1dgu4rpkcxrNVxsrANP5bOhiKDC already exists in table.
+2024-07-25 15:23:40,745 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,745 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1OC96E_XROMx412mfoHL4hb2JP_SKjbmP
+2024-07-25 15:23:40,745 - ImageWrangler - INFO - image_id: 1OC96E_XROMx412mfoHL4hb2JP_SKjbmP
+2024-07-25 15:23:40,745 - ImageWrangler - INFO - Image 1OC96E_XROMx412mfoHL4hb2JP_SKjbmP already exists in table.
+2024-07-25 15:23:40,745 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,745 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1jZptFeYgW0TW2wNfTFMrgewiUT2oYzz4
+2024-07-25 15:23:40,745 - ImageWrangler - INFO - image_id: 1jZptFeYgW0TW2wNfTFMrgewiUT2oYzz4
+2024-07-25 15:23:40,746 - ImageWrangler - INFO - Image 1jZptFeYgW0TW2wNfTFMrgewiUT2oYzz4 already exists in table.
+2024-07-25 15:23:40,746 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,746 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=16RzdJeOonI_O_e44jCtGuEGJXp4_EZrH
+2024-07-25 15:23:40,746 - ImageWrangler - INFO - image_id: 16RzdJeOonI_O_e44jCtGuEGJXp4_EZrH
+2024-07-25 15:23:40,746 - ImageWrangler - INFO - Image 16RzdJeOonI_O_e44jCtGuEGJXp4_EZrH already exists in table.
+2024-07-25 15:23:40,746 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,746 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=113UJuPe89i7RZ3b_SZ_EF-VPiha_Nzf9
+2024-07-25 15:23:40,746 - ImageWrangler - INFO - image_id: 113UJuPe89i7RZ3b_SZ_EF-VPiha_Nzf9
+2024-07-25 15:23:40,746 - ImageWrangler - INFO - Image 113UJuPe89i7RZ3b_SZ_EF-VPiha_Nzf9 already exists in table.
+2024-07-25 15:23:40,746 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,746 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1hQzxKgT5FzDCkpv340RtjYaO_w5m2fFp
+2024-07-25 15:23:40,746 - ImageWrangler - INFO - image_id: 1hQzxKgT5FzDCkpv340RtjYaO_w5m2fFp
+2024-07-25 15:23:40,747 - ImageWrangler - INFO - Image 1hQzxKgT5FzDCkpv340RtjYaO_w5m2fFp already exists in table.
+2024-07-25 15:23:40,747 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,747 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1Wrp3WicDph9ubWWHbL86UvrX4tY7iIOj
+2024-07-25 15:23:40,747 - ImageWrangler - INFO - image_id: 1Wrp3WicDph9ubWWHbL86UvrX4tY7iIOj
+2024-07-25 15:23:40,747 - ImageWrangler - INFO - Image 1Wrp3WicDph9ubWWHbL86UvrX4tY7iIOj already exists in table.
+2024-07-25 15:23:40,747 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,747 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1v8tzHVVFQrbVl0TNg60G_vRiAbXJf-0U
+2024-07-25 15:23:40,747 - ImageWrangler - INFO - image_id: 1v8tzHVVFQrbVl0TNg60G_vRiAbXJf-0U
+2024-07-25 15:23:40,748 - ImageWrangler - INFO - Image 1v8tzHVVFQrbVl0TNg60G_vRiAbXJf-0U already exists in table.
+2024-07-25 15:23:40,748 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,748 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1XVkeY0biBB7IWMf2NQcyaVEmYya7qMJy
+2024-07-25 15:23:40,748 - ImageWrangler - INFO - image_id: 1XVkeY0biBB7IWMf2NQcyaVEmYya7qMJy
+2024-07-25 15:23:40,749 - ImageWrangler - INFO - Image 1XVkeY0biBB7IWMf2NQcyaVEmYya7qMJy already exists in table.
+2024-07-25 15:23:40,749 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,749 - TransformData - INFO - Downloading image from https://drive.google.com/open?id=1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl
+2024-07-25 15:23:40,749 - ImageWrangler - INFO - image_id: 1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl
+2024-07-25 15:23:40,749 - ImageWrangler - INFO - Image 1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl already exists in table.
+2024-07-25 15:23:40,749 - ImageWrangler - INFO - Download image returned: 
+  photo_id: True 
+  photo: False
+2024-07-25 15:23:40,749 - TransformData - INFO - 'photo_id column: ['12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR', '1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8', '10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF', '1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD', '13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z', '1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_', '1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_', '1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll', '1KDNyEAlPwdbgreeDYHSwom1GFb05usrB', '1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938', '1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW', '11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR', '1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB', '1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt', '1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5', '1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk', '15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt', '1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG', '1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH', '1w2WX5lM_cPUQKPaNQ6CXwwXHgGdYhUbw', '1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7', '1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV', '1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l', '1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI', '1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477', '1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK', '1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3', '1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA', '1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK', '1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr', '1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5', '1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo', '1Qljilc-poLem9BouVy54Vn0pP7zhZe-9', '1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z', '11b936fzqsXB4lyjIPebCeTLkjGqOcppk', '1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF', '1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB', '1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk', '14rWubRMJukC97mOtY0GPxZpqMFwuQaGf', '1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR', '1_4915zDUhmVFfXnqGZY4m44lQPX6dox1', '1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi', '1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq', '1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw', '13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs', '1iT1Ko_JNsMWm6xMs1thLAhgHURK5cZv0', '1UeOJhzkbwlbcdzwC_0MaPqA9DV1Bkt6E', '1c1j_oPxRS9XWl3jGLprBeWOIf2bGvnMn', '1-DF9EcrzN2PFDrmVDod5I40cpXSDHNxv', '1gFhBrkEArKFxYgQzwRErHbArVpXcGDYF', '1jsgLdtZFolWhcmzAcH9c6dWIt2pcCkQg', '1Bc5n7xyfmQYsMtlgQDwUjJzLXuBbIf29', '1KyWJF4ZNxzGoOgjlrbNaJUPthFxLU8rd', '14NoDg-xKHZQL4j84swkbvFCVuVsbUI1R', '1ABIcR5FrgHNWGf6rIjMqgE4Xdndu67_c', '1MfF4N1dgu4rpkcxrNVxsrANP5bOhiKDC', '1OC96E_XROMx412mfoHL4hb2JP_SKjbmP', '1jZptFeYgW0TW2wNfTFMrgewiUT2oYzz4', '16RzdJeOonI_O_e44jCtGuEGJXp4_EZrH', '113UJuPe89i7RZ3b_SZ_EF-VPiha_Nzf9', '1hQzxKgT5FzDCkpv340RtjYaO_w5m2fFp', '1Wrp3WicDph9ubWWHbL86UvrX4tY7iIOj', '1v8tzHVVFQrbVl0TNg60G_vRiAbXJf-0U', '1XVkeY0biBB7IWMf2NQcyaVEmYya7qMJy', '1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl']
+2024-07-25 15:23:40,750 - root - INFO - Loading data into table measurements.
+2024-07-25 15:23:40,750 - LoadData - INFO - Database connection established.
+2024-07-25 15:23:40,750 - LoadData - INFO - Inserting data into table 'measurements'.
+2024-07-25 15:23:40,757 - LoadData - INFO - Existing timestamps: ['2024-06-27 13:54:00', '2024-06-27 13:57:53', '2024-06-27 14:01:37', '2024-06-27 14:05:02', '2024-06-27 14:08:43', '2024-06-27 14:13:46', '2024-06-27 14:18:13', '2024-06-27 14:20:02', '2024-06-27 14:24:29', '2024-06-27 14:28:04', '2024-06-27 14:31:05', '2024-06-27 15:26:55', '2024-06-27 15:29:09', '2024-06-27 15:31:29', '2024-06-27 15:33:38', '2024-06-27 15:35:00', '2024-06-27 15:38:11', '2024-06-27 15:39:55', '2024-06-27 15:42:05', '2024-06-27 15:45:12', '2024-06-27 15:47:28', '2024-06-27 15:48:59', '2024-06-27 15:52:14', '2024-07-02 20:01:12', '2024-07-02 20:04:22', '2024-07-02 20:07:24', '2024-07-18 09:16:52', '2024-07-18 09:21:26', '2024-07-18 09:33:50', '2024-07-18 09:37:05', '2024-07-18 09:39:09', '2024-07-18 09:46:40', '2024-07-18 09:49:56', '2024-07-18 09:52:29', '2024-07-18 09:58:41', '2024-07-18 10:01:01', '2024-07-18 10:04:24', '2024-07-18 10:10:43', '2024-07-18 10:16:46', '2024-07-18 10:19:28', '2024-07-18 10:22:14', '2024-07-18 10:29:40', '2024-07-18 10:42:44', '2024-07-18 11:02:21', '2024-07-18 11:10:01', '2024-07-24 13:32:07', '2024-07-24 13:35:49', '2024-07-24 13:40:25', '2024-07-24 13:48:44', '2024-07-24 13:50:47', '2024-07-24 13:54:24', '2024-07-24 13:58:12', '2024-07-24 14:01:20', '2024-07-24 14:06:07', '2024-07-24 14:11:46', '2024-07-24 14:14:17', '2024-07-25 08:45:24', '2024-07-25 08:51:51', '2024-07-25 08:52:35', '2024-07-25 08:55:11', '2024-07-25 08:58:02', '2024-07-25 09:03:20', '2024-07-25 09:06:12', '2024-07-25 09:08:41', '2024-07-25 09:10:52']
+2024-07-25 15:23:40,757 - LoadData - INFO - No new data to insert for table 'measurements'.
+2024-07-25 15:23:40,757 - LoadData - INFO - Database connection closed.
+2024-07-25 15:23:40,757 - root - INFO - Checking data in table measurements.
+2024-07-25 15:23:40,757 - LoadData - INFO - Database connection established.
+2024-07-25 15:23:40,757 - LoadData - INFO - Querying table 'measurements' at sqlite:////Users/mikey/code_projects/sierra_club_project/data/methane_project_DB.db.
+2024-07-25 15:23:40,762 - LoadData - INFO - Table 'measurements' columns: ['measurement_id', 'city', 'methane_level', 'leak', 'type_of_infrastructure', 'photo_id', 'latitude', 'longitude', 'volunteer', 'timestamp']
+2024-07-25 15:23:40,767 - LoadData - INFO - Table 'measurements' contents:
+    measurement_id      city  methane_level   leak type_of_infrastructure                           photo_id   latitude  longitude volunteer           timestamp
+0                1  Portland            0.0  False                Gas Cap  12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR  43.655346 -70.271033        MM 2024-06-27 13:54:00
+1                2  Portland            0.0  False          Utility Meter  1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8  43.655298 -70.271195        MM 2024-06-27 13:57:53
+2                3  Portland            0.0  False                Gas Cap  10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF  43.655195 -70.272789        MM 2024-06-27 14:01:37
+3                4  Portland            0.0  False                Gas Cap  1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD  43.655706 -70.271992        MM 2024-06-27 14:05:02
+4                5  Portland          100.0   True            Sewer Grate  13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z  43.655734 -70.271807        MM 2024-06-27 14:08:43
+..             ...       ...            ...    ...                    ...                                ...        ...        ...       ...                 ...
+60              61  Portland            0.0  False                Gas Cap  1hQzxKgT5FzDCkpv340RtjYaO_w5m2fFp  43.650828 -70.274532        MM 2024-07-25 08:58:02
+61              62  Portland            0.0  False            Sewer Grate  1Wrp3WicDph9ubWWHbL86UvrX4tY7iIOj  43.650802 -70.271878        MM 2024-07-25 09:03:20
+62              63  Portland            0.0  False                Gas Cap  1v8tzHVVFQrbVl0TNg60G_vRiAbXJf-0U  43.650530 -70.270958        MM 2024-07-25 09:06:12
+63              64  Portland            0.0  False                Gas Cap  1XVkeY0biBB7IWMf2NQcyaVEmYya7qMJy  43.649552 -70.270524        MM 2024-07-25 09:08:41
+64              65  Portland            0.0  False                Gas Cap  1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl  43.648541 -70.270598        MM 2024-07-25 09:10:52
+
+[65 rows x 10 columns]
+2024-07-25 15:23:40,767 - LoadData - INFO - Database connection closed.
+2024-07-25 15:23:40,767 - LeakDB - INFO - Table: cities
+2024-07-25 15:23:40,768 - LeakDB - INFO - Columns: ['city_id', 'city', 'county', 'state', 'utility_provider']
+2024-07-25 15:23:40,768 - LeakDB - INFO - Table: utility_providers
+2024-07-25 15:23:40,768 - LeakDB - INFO - Columns: ['provider_id', 'company_name', 'mailing_address', 'phone_number', 'region']
+2024-07-25 15:23:40,768 - LeakDB - INFO - Table: measurements
+2024-07-25 15:23:40,769 - LeakDB - INFO - Columns: ['measurement_id', 'city', 'methane_level', 'leak', 'type_of_infrastructure', 'photo_id', 'latitude', 'longitude', 'volunteer', 'timestamp']
+2024-07-25 15:23:40,769 - LeakDB - INFO - (1, 'Portland', 0.0, False, 'Gas Cap', '12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR', 43.6553457, -70.2710327, 'MM', datetime.datetime(2024, 6, 27, 13, 54))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (2, 'Portland', 0.0, False, 'Utility Meter', '1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8', 43.6552984, -70.2711947, 'MM', datetime.datetime(2024, 6, 27, 13, 57, 53))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (3, 'Portland', 0.0, False, 'Gas Cap', '10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF', 43.6551953, -70.2727886, 'MM', datetime.datetime(2024, 6, 27, 14, 1, 37))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (4, 'Portland', 0.0, False, 'Gas Cap', '1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD', 43.6557056, -70.2719924, 'MM', datetime.datetime(2024, 6, 27, 14, 5, 2))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (5, 'Portland', 100.0, True, 'Sewer Grate', '13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z', 43.6557337, -70.2718071, 'MM', datetime.datetime(2024, 6, 27, 14, 8, 43))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (6, 'Portland', 50.0, True, 'Gas Cap', '1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_', 43.6563261, -70.2697231, 'MM', datetime.datetime(2024, 6, 27, 14, 13, 46))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (7, 'Portland', 100.0, True, 'Gas Cap', '1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_', 43.6566696, -70.2674211, 'MM', datetime.datetime(2024, 6, 27, 14, 18, 13))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (8, 'Portland', 50.0, True, 'Gas Cap', '1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll', 43.6567528, -70.2669752, 'MM', datetime.datetime(2024, 6, 27, 14, 20, 2))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (9, 'Portland', 0.0, False, 'Gas Cap', '1KDNyEAlPwdbgreeDYHSwom1GFb05usrB', 43.6561869, -70.266703, 'MM', datetime.datetime(2024, 6, 27, 14, 24, 29))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (10, 'Portland', 0.0, False, 'Gas Cap', '1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938', 43.6557379, -70.2686221, 'MM', datetime.datetime(2024, 6, 27, 14, 28, 4))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (11, 'Portland', 0.0, False, 'Gas Cap', '1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW', 43.6555271, -70.2698864, 'MM', datetime.datetime(2024, 6, 27, 14, 31, 5))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (12, 'Portland', 0.0, False, 'Gas Cap', '11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR', 43.6474256, -70.2628936, 'MM', datetime.datetime(2024, 6, 27, 15, 26, 55))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (13, 'Portland', 50.0, True, 'Gas Cap', '1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB', 43.6471412, -70.26355, 'MM', datetime.datetime(2024, 6, 27, 15, 29, 9))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (14, 'Portland', 50.0, True, 'Gas Cap', '1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt', 43.6467206, -70.2641036, 'MM', datetime.datetime(2024, 6, 27, 15, 31, 29))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (15, 'Portland', 50.0, True, 'Gas Cap', '1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5', 43.6463154, -70.2649122, 'MM', datetime.datetime(2024, 6, 27, 15, 33, 38))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (16, 'Portland', 50.0, True, 'Gas Cap', '1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk', 43.6462785, -70.2649853, 'MM', datetime.datetime(2024, 6, 27, 15, 35))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (17, 'Portland', 100.0, True, 'Gas Cap', '15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt', 43.6464782, -70.2659717, 'MM', datetime.datetime(2024, 6, 27, 15, 38, 11))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (18, 'Portland', 0.0, False, 'Gas Cap', '1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG', 43.6467065, -70.2656036, 'MM', datetime.datetime(2024, 6, 27, 15, 39, 55))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (19, 'Portland', 100.0, True, 'Gas Cap', '1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH', 43.6471063, -70.2653769, 'MM', datetime.datetime(2024, 6, 27, 15, 42, 5))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (20, 'Portland', 0.0, False, 'Gas Cap', '1w2WX5lM_cPUQKPaNQ6CXwwXHgGdYhUbw', None, None, 'MM', datetime.datetime(2024, 6, 27, 15, 45, 12))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (21, 'Portland', 50.0, True, 'Sewer Grate', '1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7', 43.6479418, -70.2639433, 'MM', datetime.datetime(2024, 6, 27, 15, 47, 28))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (22, 'Portland', 50.0, True, 'Gas Cap', '1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV', 43.6478555, -70.2636674, 'MM', datetime.datetime(2024, 6, 27, 15, 48, 59))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (23, 'Portland', 0.0, False, 'Gas Cap', '1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l', 43.6478793, -70.2629842, 'MM', datetime.datetime(2024, 6, 27, 15, 52, 14))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (24, 'Portland', 0.0, False, 'Gas Cap', '1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI', 43.6677547, -70.2470699, 'MC', datetime.datetime(2024, 7, 2, 20, 1, 12))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (25, 'Portland', 150.0, True, 'Sewer Grate', '1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477', 43.6685342, -70.2469331, 'MC', datetime.datetime(2024, 7, 2, 20, 4, 22))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (26, 'Portland', 200.0, True, 'Sewer Grate', '1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK', 43.6691429, -70.2476616, 'MC', datetime.datetime(2024, 7, 2, 20, 7, 24))
+2024-07-25 15:23:40,769 - LeakDB - INFO - (27, 'Portland', 0.0, False, 'Gas Cap', '1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3', 43.6622324, -70.2464882, 'MM', datetime.datetime(2024, 7, 18, 9, 16, 52))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (28, 'Portland', 0.0, False, 'Gas Cap', '1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA', 43.6623258, -70.2480267, 'MM', datetime.datetime(2024, 7, 18, 9, 21, 26))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (29, 'Portland', 0.0, False, 'Gas Cap', '1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK', 43.6649763, -70.2485179, 'MM', datetime.datetime(2024, 7, 18, 9, 33, 50))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (30, 'Portland', 0.0, False, 'Gas Cap', '1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr', 43.6659195, -70.2477619, 'MM', datetime.datetime(2024, 7, 18, 9, 37, 5))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (31, 'Portland', 0.0, False, 'Gas Cap', '1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5', 43.6662271, -70.2471554, 'MM', datetime.datetime(2024, 7, 18, 9, 39, 9))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (32, 'Portland', 0.0, False, 'Gas Cap', '1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo', 43.6685512, -70.2468684, 'MM', datetime.datetime(2024, 7, 18, 9, 46, 40))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (33, 'Portland', 0.0, False, 'Gas Cap', '1Qljilc-poLem9BouVy54Vn0pP7zhZe-9', 43.6692319, -70.2477505, 'MM', datetime.datetime(2024, 7, 18, 9, 49, 56))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (34, 'Portland', 0.0, False, 'Gas Cap', '1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z', 43.6686993, -70.2483691, 'MM', datetime.datetime(2024, 7, 18, 9, 52, 29))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (35, 'Portland', 0.0, False, 'Gas Cap', '11b936fzqsXB4lyjIPebCeTLkjGqOcppk', 43.6678156, -70.250788, 'MM', datetime.datetime(2024, 7, 18, 9, 58, 41))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (36, 'Portland', 0.0, False, 'Gas Cap', '1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF', 43.6683909, -70.2509611, 'MM', datetime.datetime(2024, 7, 18, 10, 1, 1))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (37, 'Portland', 550.0000000000001, True, 'Gas Cap', '1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB', 43.6686646, -70.251653, 'MM', datetime.datetime(2024, 7, 18, 10, 4, 24))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (38, 'Portland', 0.0, False, 'Gas Cap', '1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk', 43.666749, -70.2527558, 'MM', datetime.datetime(2024, 7, 18, 10, 10, 43))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (39, 'Portland', 0.0, False, 'Gas Cap', '14rWubRMJukC97mOtY0GPxZpqMFwuQaGf', 43.6657132, -70.2502079, 'MM', datetime.datetime(2024, 7, 18, 10, 16, 46))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (40, 'Portland', 0.0, False, 'Gas Cap', '1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR', 43.6652647, -70.2501815, 'MM', datetime.datetime(2024, 7, 18, 10, 19, 28))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (41, 'Portland', 0.0, False, 'Gas Cap', '1_4915zDUhmVFfXnqGZY4m44lQPX6dox1', 43.66467, -70.2493646, 'MM', datetime.datetime(2024, 7, 18, 10, 22, 14))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (42, 'Portland', 0.0, False, 'Gas Cap', '1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi', 43.6625121, -70.2485082, 'MM', datetime.datetime(2024, 7, 18, 10, 29, 40))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (43, 'Portland', 200.0, True, 'Gas Cap', '1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq', 43.6587741, -70.2542086, 'MM', datetime.datetime(2024, 7, 18, 10, 42, 44))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (44, 'Portland', 0.0, False, 'Gas Cap', '1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw', 43.6559577, -70.2584444, 'MM', datetime.datetime(2024, 7, 18, 11, 2, 21))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (45, 'Portland', 0.0, False, 'Gas Cap', '13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs', 43.6555116, -70.2548835, 'MM', datetime.datetime(2024, 7, 18, 11, 10, 1))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (46, 'Portland', 50.0, True, 'Gas Cap', '1iT1Ko_JNsMWm6xMs1thLAhgHURK5cZv0', 43.6573161, -70.2625727, 'MM', datetime.datetime(2024, 7, 24, 13, 32, 7))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (47, 'Portland', 0.0, False, 'Gas Cap', '1UeOJhzkbwlbcdzwC_0MaPqA9DV1Bkt6E', 43.6570854, -70.2630602, 'MM', datetime.datetime(2024, 7, 24, 13, 35, 49))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (48, 'Portland', 0.0, False, 'Gas Cap', '1c1j_oPxRS9XWl3jGLprBeWOIf2bGvnMn', 43.6556957, -70.2638846, 'MM', datetime.datetime(2024, 7, 24, 13, 40, 25))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (49, 'Portland', 0.0, False, 'Gas Cap', '1-DF9EcrzN2PFDrmVDod5I40cpXSDHNxv', 43.6530059, -70.2621, 'MM', datetime.datetime(2024, 7, 24, 13, 48, 44))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (50, 'Portland', 0.0, False, 'Gas Cap', '1gFhBrkEArKFxYgQzwRErHbArVpXcGDYF', 43.6526906, -70.2627706, 'MM', datetime.datetime(2024, 7, 24, 13, 50, 47))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (51, 'Portland', 0.0, False, 'Gas Cap', '1jsgLdtZFolWhcmzAcH9c6dWIt2pcCkQg', 43.6515872, -70.2638178, 'MM', datetime.datetime(2024, 7, 24, 13, 54, 24))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (52, 'Portland', 0.0, False, 'Gas Cap', '1Bc5n7xyfmQYsMtlgQDwUjJzLXuBbIf29', 43.6507148, -70.2650382, 'MM', datetime.datetime(2024, 7, 24, 13, 58, 12))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (53, 'Portland', 0.0, False, 'Gas Cap', '1KyWJF4ZNxzGoOgjlrbNaJUPthFxLU8rd', 43.6503346, -70.2660109, 'MM', datetime.datetime(2024, 7, 24, 14, 1, 20))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (54, 'Portland', 0.0, False, 'Gas Cap', '14NoDg-xKHZQL4j84swkbvFCVuVsbUI1R', 43.6510293, -70.2669952, 'MM', datetime.datetime(2024, 7, 24, 14, 6, 7))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (55, 'Portland', 0.0, False, 'Gas Cap', '1ABIcR5FrgHNWGf6rIjMqgE4Xdndu67_c', 43.6536762, -70.2662346, 'MM', datetime.datetime(2024, 7, 24, 14, 11, 46))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (56, 'Portland', 0.0, False, 'Gas Cap', '1MfF4N1dgu4rpkcxrNVxsrANP5bOhiKDC', 43.6545372, -70.2655375, 'MM', datetime.datetime(2024, 7, 24, 14, 14, 17))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (57, 'Portland', 0.0, False, 'Gas Cap', '1OC96E_XROMx412mfoHL4hb2JP_SKjbmP', 43.6476222, -70.2706337, 'MM', datetime.datetime(2024, 7, 25, 8, 45, 24))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (58, 'Portland', 0.0, False, 'Gas Cap', '1jZptFeYgW0TW2wNfTFMrgewiUT2oYzz4', 43.6480103, -70.2728032, 'MM', datetime.datetime(2024, 7, 25, 8, 51, 51))
+2024-07-25 15:23:40,770 - LeakDB - INFO - (59, 'Portland', 0.0, False, 'Sewer Grate', '16RzdJeOonI_O_e44jCtGuEGJXp4_EZrH', 43.6482352, -70.2745618, 'MM', datetime.datetime(2024, 7, 25, 8, 52, 35))
+2024-07-25 15:23:40,771 - LeakDB - INFO - (60, 'Portland', 0.0, False, 'Sewer Grate', '113UJuPe89i7RZ3b_SZ_EF-VPiha_Nzf9', 43.6495661, -70.2745434, 'MM', datetime.datetime(2024, 7, 25, 8, 55, 11))
+2024-07-25 15:23:40,771 - LeakDB - INFO - (61, 'Portland', 0.0, False, 'Gas Cap', '1hQzxKgT5FzDCkpv340RtjYaO_w5m2fFp', 43.6508278, -70.2745317, 'MM', datetime.datetime(2024, 7, 25, 8, 58, 2))
+2024-07-25 15:23:40,771 - LeakDB - INFO - (62, 'Portland', 0.0, False, 'Sewer Grate', '1Wrp3WicDph9ubWWHbL86UvrX4tY7iIOj', 43.6508023, -70.2718783, 'MM', datetime.datetime(2024, 7, 25, 9, 3, 20))
+2024-07-25 15:23:40,771 - LeakDB - INFO - (63, 'Portland', 0.0, False, 'Gas Cap', '1v8tzHVVFQrbVl0TNg60G_vRiAbXJf-0U', 43.6505299, -70.2709576, 'MM', datetime.datetime(2024, 7, 25, 9, 6, 12))
+2024-07-25 15:23:40,771 - LeakDB - INFO - (64, 'Portland', 0.0, False, 'Gas Cap', '1XVkeY0biBB7IWMf2NQcyaVEmYya7qMJy', 43.6495516, -70.270524, 'MM', datetime.datetime(2024, 7, 25, 9, 8, 41))
+2024-07-25 15:23:40,771 - LeakDB - INFO - (65, 'Portland', 0.0, False, 'Gas Cap', '1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl', 43.6485413, -70.2705979, 'MM', datetime.datetime(2024, 7, 25, 9, 10, 52))
+2024-07-25 15:23:40,771 - LeakDB - INFO - Table: photos
+2024-07-25 15:23:40,775 - LeakDB - INFO - Columns: ['photo_id', 'photo']
+2024-07-25 15:23:40,777 - LeakDB - INFO - ('12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe12pExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x00\ ... (16247212 characters truncated) ... xd2\xab\xbf\x07h\xef\xcdBB\xf7\xa4\xf9q\x80k"\xee\x10\xacX\xd6K\xdc\x08\xd7\x14\x93\xdf\xb0\x84(\xac\xf8.w\x93\x91Z \xf7\x14\xed\xed\xd3&\xbf\xff\xd9')
+2024-07-25 15:23:40,840 - LeakDB - INFO - ('1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe16\xbcExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (11796741 characters truncated) ... f5hJ\x8f\xf8\t\xc5Gaq4\x16N\x89\xf78\xc5s\xf2\xa1\x9aRg~i\x8b$\xb0>\xd5\x7f\x96\x96@\xce7H\xc5\xb9\xafF\xf0w\xc3=w\xc4\xb6\xbfk\xb0\xe8A\xeb_\xff\xd9')
+2024-07-25 15:23:40,884 - LeakDB - INFO - ('10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe11\xa1Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (16841136 characters truncated) ... f\xafJ\x86bsM.\x07\x15\x01\xe9Q"\x87\x1cq\x9a[\xd1\xf6{l\x9fZ\xcb\xb2\x91Kd\x0e\xb5\xaa\x9b\xb7\x8cV\xa0\x04\x01\x9aPpG5<`\x891C\x82$\xe6\xbf\xff\xd9')
+2024-07-25 15:23:40,951 - LeakDB - INFO - ('1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1.\x90Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (17952566 characters truncated) ... P\xac\x98lf\xae\xa4\x9f\x9d!p* H\xe9WT\x0f(\xd6p\xfb\xe6\xa4=M%\x14QE[\xb5\x00\xb8\xcdX\xb8\x008\xc5f\x9e\xa6\x92\xab\xd1E\x14Trv\xa8\xe8\xaf\xff\xd9')
+2024-07-25 15:23:41,020 - LeakDB - INFO - ('13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1(8Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x00\ ... (20894737 characters truncated) ... bH=*\xa9\x05e\x1fZ\xd4H\xfc\xc4\xc7\xa5Q\xb7b\x0b\x0e\xf9\xa5\xf3\x1b\xcc\xeb\xda\xa9\xbb\x936\xda\xb6\x18\x8e\x01\xa4\xc0=j"\xacy"\xa5Dm\xb5\xff\xd9')
+2024-07-25 15:23:41,102 - LeakDB - INFO - ('1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe13\xcdExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (16223388 characters truncated) ... \x8dg\x7f\x19\x00\x03L\xbb\x8eM"A\x1ci\x81\xd2\xa9\x8b\xcb\xc5\xbb\x12\x85\xc5z\xc6\x93\xab\xce\x96~[\xfc\xe1\x85R\xb9\xd1\xa5\xb9&h\x89L\xd7\xff\xd9')
+2024-07-25 15:23:41,163 - LeakDB - INFO - ('1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe19\xdaExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (18758625 characters truncated) ... x87\xe5\xf4\xae\x84M\xa7\xdc\xe1[\xefUi\x12\x15`\t\xe35[T\x96\xde928\xc0\xab\x1a$w\x1a\x8d\xe2[C\xf3\x87\xae\xea\xd6\xe6_\x0cjl\xc3\xe5e\xeb_\xff\xd9')
+2024-07-25 15:23:41,234 - LeakDB - INFO - ('1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe15\x93Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (18714539 characters truncated) ... c7\xc0\xabWW\x03\xcb\x03\xd2\xa8\xfd\xa8\x19T\xd5\x99\xf2Y\x19kJ\xdaL\xa3\x069\xabW\x17\x17\xb1[\x06\x85\xb2\xb5\xaf\xa5ZKue\xf6\x9d\xdf5\x7f\xff\xd9')
+2024-07-25 15:23:41,307 - LeakDB - INFO - ('1KDNyEAlPwdbgreeDYHSwom1GFb05usrB', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1:hExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x00\ ... (17142714 characters truncated) ... 14\x0c\xd73\xe2]9%\xb4Z\xe4\xb4\x1db]>\xeb\xc9~\x80\xe0\xd7\xad\xe9\xba\x94e\xc0\xcf\x07\xa7\xe3[\xab(\xdd\x8c\x8a& sLbH\xe3\x8a\x10\xed\xeb_\xff\xd9')
+2024-07-25 15:23:41,373 - LeakDB - INFO - ('1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1,\x9fExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (13602426 characters truncated) ... \xcb\x9eEEV(<\x8cUp9\xa9\xd61\x8c\x01@\x8f\xda\xa4E \xe6\xa5\xa2\xaa\xca\xd9<t\xaa\xea\xc4\x1c\xd2\x17\x14\xe2\xe4\xc7\x8a\xa6\x9dj\xecg\x035\xff\xd9')
+2024-07-25 15:23:41,424 - LeakDB - INFO - ('1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe13\xebExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (14369942 characters truncated) ... \xb5\x9e5Vh\x8a\x1ej\x84"K\x89>Q\xd6\xb6\xecu\x0b\x9d&\xe0InpEz\x01\xf1\xa4Z\xc5\xb0\xb2\xbbPX\x8cV\x05\xbd\xb4v\xb3\x97^\x06j\xcb\xa4WR\xe4W\xff\xd9')
+2024-07-25 15:23:41,478 - LeakDB - INFO - ('11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1/\x9eExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (14260446 characters truncated) ... 9c\xd4{OqS\xc41\x8a\xba\xfd*\xab\xf5\xa9h\xa8\xf1\x87\xa8_\xee\xd6\x04\x7f\xf1\xf4\xdfZ\xd5\x8f\xbdIE\x14T\xae\x00\x1cUW\xfb\xd9\xa6\xe4\xd2W\xff\xd9')
+2024-07-25 15:23:41,533 - LeakDB - INFO - ('1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe18\xb6Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (23708460 characters truncated) ... xb9\x1e\xb5\xc8j2d{\x9a\xe5\xa7nMP\xa2\xacR9;Nk\x1e\xcc\xff\x00\xa5\x9d\xdd)\xfa\x94\xbf6\xd1X\xdb\x8e1\x9aC\x921V-\x8e\xd7\xab36\xf1\xcd\x7f\xff\xd9')
+2024-07-25 15:23:41,624 - LeakDB - INFO - ('1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe13\x9bExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (20029723 characters truncated) ... 5jL\x003\xd2\xb3\xc3\xed\x9b\x00\xd6m\xfbo\x98\x0c\xd6\xde\x8d8\xe2\x0f\xe7[7W!\x7fqQ[)\xdb\xcf\xadi\x94\n\xb9\xc5V\x12+8\x04V\xa7\x90\x1e0q_\xff\xd9')
+2024-07-25 15:23:41,700 - LeakDB - INFO - ('1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe17\xafExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (25259737 characters truncated) ... 8-~K\x98\x0e\x19\x0fz\xe2tH\xe5\xb4\xd6qt6\xb4m\xf3/L\xd7{\xaf\xea\xd72b\xd2\xdd6\x8a\xcf\xb6\x96\xde\xfe\xcb\xfb7ZQ\xbb\xfeY\xb7\x7f\xce\xbf\xff\xd9')
+2024-07-25 15:23:41,797 - LeakDB - INFO - ('1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe11\xc2Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (21360529 characters truncated) ... 3m%\x9aH\xc1SO\x97\xeeo=A\xaawj/\x10"\xf5\xe9\\\xccZn\xa5\xa7_\x87\x8c\xe5:\xd7K\xe6\xc3$\x80\x91\x96\xaec\xc5L\x16\xd2\xbc\xe6\xdc\xe2@}\xab\xff\xd9')
+2024-07-25 15:23:41,881 - LeakDB - INFO - ('15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1.aExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x00\ ... (24669313 characters truncated) ... c\xefI\x85\xc9C\xca\x9a\xaa\xd6,J,\xef\xc3\x1e+\xd4n~\x1d\xf9^\x0e\x1a\xba6X\x1c\xd7\x8d\xbcs\xc2\xc5[\x98\xcd,W\x97\x11)\xb5\xc9\xf2\xcd\x7f\xff\xd9')
+2024-07-25 15:23:41,975 - LeakDB - INFO - ('1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1+\x97Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (20333208 characters truncated) ... \xb1\xd9j\xbd\xc7J\x8cr\xebW\x92\xcd\xb2\xca?\x8b\x9a\xce\x92\x12\x01\x1e\xf8\xa7\xaar=j`\x98l\xd3W\xa1\xa6QE\x14Uz(\xa2\x8a0\x0fZq?.*\'\xe9_\xff\xd9')
+2024-07-25 15:23:42,050 - LeakDB - INFO - ('1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1-\xa9Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (22298277 characters truncated) ... \xae2pj\xa0\xb5\x12}\xeekwB\x81"\x0f\x91Un\x9bl\xae\xb5\x9d\x1d\xa6\xdf\xdf/j\xbdy9XG\x19\xac)$,\xdbOLT\x10\x0c\\\x9a\xb8\xa7\xe7\xc5Ua\xbaLW\xff\xd9')
+2024-07-25 15:23:42,136 - LeakDB - INFO - ('1w2WX5lM_cPUQKPaNQ6CXwwXHgGdYhUbw', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe10FExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x00\ ... (13948457 characters truncated) ... a7.7\x0c\xd5\xeb\x89\x84\xf5U\xa5\xf2\xc5L\xb2\x03\x8e*U\x07<\x1a|}\xea\xc4}\xea:)\x92}\xc3Q\xdb\x8c\x86\x15\x8c\xf0\x9f<\x8fzo\x92|\xccv\xaf\xff\xd9')
+2024-07-25 15:23:42,192 - LeakDB - INFO - ('1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe13NExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x00\ ... (21161932 characters truncated) ... de6\xd1\xf5(\x82^I\x829_\xadxW\x8f\xb5\x11w\xa8\xca\xc2C\xc7\xdd\xfaW\x97\x8b\xdc\x0c1\xe6\x91\xafT\xae3Y\x87U\t\xbbi\xc5r\x17W\x9ec7\xbd\x7f\xff\xd9')
+2024-07-25 15:23:42,274 - LeakDB - INFO - ('1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1)\xffExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (19631467 characters truncated) ... s\xb4\xd7\x9b\xf8\xdf\xc2)3\r\x7fJP\x1dWp\xe3\xefW\x8d\xf8j=b\xda\xf2\xe7Vp\x1a3\x9d\xc2\xa8\xdd\x1f\x0c\xea\xba\xad\xbd\xd1]\x92\xe4\x86\xaf\xff\xd9')
+2024-07-25 15:23:42,345 - LeakDB - INFO - ('1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe14\xd7Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (16785581 characters truncated) ... \xafR\xc5\xd6\xaf\xce\xd9\xebT\xc2\x92\xe0\xd5Mg\x8br\xb5B\xc2"\x10\x1a\xda\xa2\x9e\xa4\x00E>3\x81P\xd1R\xbfJ\xaa\xfdjE9\x19\xa9Q\xbf\x84\xd7\xff\xd9')
+2024-07-25 15:23:42,410 - LeakDB - INFO - ('1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe13\xaeExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0b\x01\x0f\x00\x02\x00\x00\x ... (13464964 characters truncated) ... a5\xc8\xe4W\xb3\xf8_T\xb7\x91\x00S\xcd]\xf1\x14bB&^\xb5\x8b\r\xdf\xfa1#\xb5a\re\x9d\x99q\xde\xb64\xfdAYI\xf5\x15\xcd\xebW\xaa\x91\xe0\xf7\xaf\xff\xd9')
+2024-07-25 15:23:42,463 - LeakDB - INFO - ('1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe13dExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0b\x01\x0f\x00\x02\x00\x00\x00\ ... (18276545 characters truncated) ... c0\x96\xcb&e$b\xbd\xf7\xc2\xda~\xbf\xa7\xdb\x1b\x8b\x88\xf7\xc4\xcb\xc5x\xb7\xc4\x9f\x0eEt\xafv\xd1\x84\xc6k\xe7y\xad\xe0\xb7\x19\xc6\xee\xd5\xff\xd9')
+2024-07-25 15:23:42,530 - LeakDB - INFO - ('1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe11\x87Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0b\x01\x0f\x00\x02\x00\x00\x ... (15475383 characters truncated) ... b\xa8\x1a>\xa2\xba\x16\xd4\x0e\xafk\x1e\x9e\xddA\xa85q\xa8i6\xebl\x8d\xf2\xd2\xef\x97QX\xf7\r\xc6\xb3\xe5\x96\xe6\xd6\xff\x00\xcb\x90\x95\x15\xff\xd9')
+2024-07-25 15:23:42,590 - LeakDB - INFO - ('1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1-\xafExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (14986133 characters truncated) ... xc8\xf7\xad(n\xa6\xb3=q\xfc\xaa\xe9\xd6"\x90a\xfeS\xfaU\x9b[\x95 \xf3G\x9b\x9985&^\x9c\t\xee)\xc7\xa1\xaa\xcd\xdb\xebV\x13\xee\x8auW\xa2\x8a+\xff\xd9')
+2024-07-25 15:23:42,650 - LeakDB - INFO - ('1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1)\x10Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (23533685 characters truncated) ... x05tzJ\x86\x93\xed\x12\xf2)\x93\x9d1\xee\x1d\x92<9\xac\xf5\xb0\xb4}\xd2\xabm\x92\xb2V\xd6\xf4\x82\x03o"\xbd\x0fE\x85\x8c\x11\x9b\xb8r\x05\x7f\xff\xd9')
+2024-07-25 15:23:42,740 - LeakDB - INFO - ('1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe12\\Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x00 ... (17634274 characters truncated) ... bT\xfa\x9c!\x9f8\xaa\x11&\x1f\x8e\xb4\x84\x95l\x93@\xcb\x9am!\xe9U\xb7\x15nzU\xa8\xfeo\xbbS\xee\x1e\xb4ei\x1f\xee\xd44QP\xb8\xc1\xa8\xdc\x12+\xff\xd9')
+2024-07-25 15:23:42,808 - LeakDB - INFO - ('1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe12\x0eExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (21210398 characters truncated) ... w \t\x8e=i\x90\xe7\x7f\x15\xb7\x1f\xdd\x01\x85,\xa4\x049\xaa\xb6\xb0Cy\xfb\xd1\xd4V\xcb\xa24~[\x1e\x94\xb1\x92\x06\xda$\xedV\x13\xbd\x12v\xaf\xff\xd9')
+2024-07-25 15:23:42,888 - LeakDB - INFO - ('1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe14\x92Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (17897207 characters truncated) ... xf20\xc4\xc9\x9fq\xc5b\xccw\xb1+\xdc\xd3c\xf9G5*N\x01\xe3\x8a\xb4\xb7\x1e\xa6\xa1,(\xdc=h.=i\xbeb\xff\x00\x9f\xff\x00U0\xb7\xa7\x14\x994\x94W\xff\xd9')
+2024-07-25 15:23:42,960 - LeakDB - INFO - ('1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1/.Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x00\ ... (24972613 characters truncated) ... \xa6\xdf\xb3#\xeb\x8a\xe9-\xf5\xb8uh\xd8\xdc\x8e\x82\xbc\xdf_\x8e\x18\xaewA\xd0\x9a~\x93\xab\xcb\xa6\xc8\xc61\xf2V\x95\x8e\xa6\x13T\x17\xf1u5\xff\xd9')
+2024-07-25 15:23:43,053 - LeakDB - INFO - ('1Qljilc-poLem9BouVy54Vn0pP7zhZe-9', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1+\xadExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (25811409 characters truncated) ... \x1b\x891\xfck\x8a\xbb\xf6)\xae\x99\x96.6-s\xb2\x89\x80\x01\xfa\xd5\x88\x8c0\xc8$q\xc8\xe6\xb4/u\x19\xb5\x05UNEU\xb0\x8e\xde\x16\x7f\xb5b\xbf\xff\xd9')
+2024-07-25 15:23:43,152 - LeakDB - INFO - ('1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe13\x9aExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (15628787 characters truncated) ... H\xe2\x84\xfb\xb5]\x87qY7\xd6+2\xee^\xbd\xaa\xa5\x85\xfc\x96\xaf\xf6k\x9e\x9d\x8du\x11\x90W"\x9cz\x1aj\x0c\n\x93\rU]X\x8azp\xa75\x14r\x00\xf5\xff\xd9')
+2024-07-25 15:23:43,214 - LeakDB - INFO - ('11b936fzqsXB4lyjIPebCeTLkjGqOcppk', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe18QExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x00\ ... (24851699 characters truncated) ... x9eZ\xb8\xc8\xacg\xb3L\x98\xe1z\xa0"(|\xa9\x0f\xb5[\x9e\xd0Z\xdby\xa8:\xd6q\xbdm\xa0\x1e*\xe5\xb5\xd0n\x0fz\xcd\xd4>\xf1#\x8a\xcf\x94\xb6\xca\xff\xd9')
+2024-07-25 15:23:43,307 - LeakDB - INFO - ('1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1-\xaeExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (25702702 characters truncated) ... \xd4B\xc8I\xe0\n\xca7Gh\x8b\xbdQx\x8c\x83p=k\xa6XO\xd8@<\xf1U\x9c\x9d\x80zUB0\xd9?Z\x8c\xcas\x91R%\xd6\x06*L\xee\xfd\xe5R\x90\x10\xdb\xc5\x7f\xff\xd9')
+2024-07-25 15:23:43,404 - LeakDB - INFO - ('1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB', b'\xff\xd8\xff\xe1.\xd3Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x00\x06\x00\x00\x00\x9e\x01\x10\x00\x02\x00\x00\x00\x0f\x00 ... (19777817 characters truncated) ... 9\xce\x7f\x11\x9c{W\xb3\xe8Wr5\xea\xdbN\x81B\x8f/\x18\x18\xca\xe4p:\x02\x01+\x9fOJ_\x13Am\x0c\x91\xea\r\nfl\xc7\x9cr<\xae\xbd\x07\xfb_\x95g`?\xff\xd9')
+2024-07-25 15:23:43,477 - LeakDB - INFO - ('1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe16\xe3Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (22234503 characters truncated) ... da\xad"np+6\xf36s\x07=\xebf\xc5\xd6q\xbb\x8a\xb3u\x00f\x0c+*\xee6T\xc14\xdbV\xdf\x19A\xda\xa2\x0b\xe5\xc8T\xf7\xa9\x07\xcax\xad(X\x15\x19\xaf\xff\xd9')
+2024-07-25 15:23:43,564 - LeakDB - INFO - ('14rWubRMJukC97mOtY0GPxZpqMFwuQaGf', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe11\x07Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (24762238 characters truncated) ... \xad\xb9\xacE\xb9a8$V\xe4\xf7k$\x00\x13\xc5Q\x91a\x94a\rr\xb7\r=\x95\xc9U\xe8k\xb4\xd35\xfb\xd8-B\xac\xbd\xaa\xac\xd7\xd7\x97\xe4\xf9\x92\xd7\xff\xd9')
+2024-07-25 15:23:43,658 - LeakDB - INFO - ('1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1/\x0cExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (26211392 characters truncated) ... xeam.\xf3\xed6\x04\x83\xdc\n\xeb5\x9d^\xdbW\x81\xd6\xfc\xe2J\xf2\xa7\xd3e\x12\x9f+\xa6x\xa4\x9eK\x88\xff\x00w/N\x9c\xd3\xe2\x8e\xde\x11\xe6K_\xff\xd9')
+2024-07-25 15:23:43,756 - LeakDB - INFO - ('1_4915zDUhmVFfXnqGZY4m44lQPX6dox1', b'\xff\xd8\xff\xe1-\xcaExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x00\x06\x00\x00\x00\x9e\x01\x10\x00\x02\x00\x00\x00\x0f\x00 ... (19996832 characters truncated) ... f1J\xa0\x0c1\x18\x07\x82A#\x9c\x0c\xf4\xe2\xb2\xfe*xF\xc0\xdd\xcf4\xafs\x03\xd89h\x9a\xdd\x97\xe7\x85>m\xb9\xe3\x85=\x88^\x99\xe34st\x0ek\x9f\xff\xd9')
+2024-07-25 15:23:43,830 - LeakDB - INFO - ('1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe10sExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x00\ ... (16129325 characters truncated) ... cfJ\xfdj&Ua\x83U\x9e6NG4\x91\x16\x03\x9a\x94\xb14\xf9;SG\xdd4\xe3\xd4\xff\x00\x9e\xd5\xe7~(\xeb\xfe}\ri\xe8\x1f\xf1\xea\x9f\x85t\xf3\x7f\xabZ\xff\xd9')
+2024-07-25 15:23:43,893 - LeakDB - INFO - ('1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1+\x16Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (15640919 characters truncated) ... mB\xff\x00z\x9bEE\xfd\xd3X\xb7\x04\xa5\xd8>\xf5\xdc\xc1\xf7\x07\xd0U\xc7\xff\x00R*\x1a)\xcb\xf7\xaaS\xd2\x96\x8a(\xa2\x8c\x91\xd2\x8a\\\x9aJ+\xff\xd9')
+2024-07-25 15:23:43,973 - LeakDB - INFO - ('1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1/.Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x00\ ... (19699459 characters truncated) ... \x05aL\xc92\xf3D\xc4\xe7\x15\x14\xca\xa5zU\x11n\x0epiZ<t\x18\xaa\xd3\x81\x9d\xc3\xadTe\xfd\xdej\x12\xbf&k.\xf2\x06wS\xe9M\x8a\xdb\x9e\x05\x7f\xff\xd9')
+2024-07-25 15:23:44,047 - LeakDB - INFO - ('13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe12\x98Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (17494479 characters truncated) ... bg4\xe4\x93j\x91W\xa0\x8bj\x96\xa64\xc5\x1c\x8c\xd4\xea\xfb\xa3"\x8bpw\x1a\x7fsH\x9fz\xad\xaf\xdf5e>\xedQ\x959\xc8\xa8fRFE@\xb9\xcf\x15>Z\xbf\xff\xd9')
+2024-07-25 15:23:44,115 - LeakDB - INFO - ('1iT1Ko_JNsMWm6xMs1thLAhgHURK5cZv0', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe18\x11Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (26362408 characters truncated) ... f7\xc8\xacg\xd5\xedt\xdb\xc0\x9a\x98\xdd\x160+&]r)<\xe8,\xc63\xd2\xa0\x8bR\xb9X\xc5\xbc\xc35\xa0t\xc8\xafB4\x8f\xd2\xb5\xc2X\xe9\x8e\xb99\xaf\xff\xd9')
+2024-07-25 15:23:44,217 - LeakDB - INFO - ('1UeOJhzkbwlbcdzwC_0MaPqA9DV1Bkt6E', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe12HExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x00\ ... (23517799 characters truncated) ... \xf4}0\xea\xdfk\x97a\x11\x90O\x15\xf4\xc7\x8du_\x0c\xc5\xa0\xcd\x1b\x05\xcb\x0fJ\xf8\x02X\xc9\xd5\xe5\xba\xb99\\\xd5\xf7\x94\xdd\\m\x1c&8\x15\xff\xd9')
+2024-07-25 15:23:44,306 - LeakDB - INFO - ('1c1j_oPxRS9XWl3jGLprBeWOIf2bGvnMn', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe16lExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x00\ ... (16719391 characters truncated) ... xb2*\x9cj`l8\xe2\xb6\x96\xfe\x08\x10c\x9a\xd8\xd3\xf5\xfb`6\xb9\xc5jj\xc9m}\xa7\xf9\xaa\xd4\xcf\x0fG\x0e\xcf,=h\\\xaa\xac\xe0\n\xba\xca\xbePj\xff\xd9')
+2024-07-25 15:23:44,372 - LeakDB - INFO - ('1-DF9EcrzN2PFDrmVDod5I40cpXSDHNxv', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1/\xe5Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (18248043 characters truncated) ... 4\xd4s1\xe4\xd5a\xd7\x9a\xb0%\xf9qNV\xc04\xd8\xf7\x07\'&\xaf\xf0h\xa6\xbf\xdd5\r\x14S\x97\xefT\xd5Q\xc1#\x8a}J\xfd(N\x94\x92.A"\xb3\xdd\x88<W\xff\xd9')
+2024-07-25 15:23:44,440 - LeakDB - INFO - ('1gFhBrkEArKFxYgQzwRErHbArVpXcGDYF', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe11\xd3Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (23756836 characters truncated) ... O\xdd\xc8\xff\x00_\xebK\'\xcf\x08\xa8T`R\xb3\x103S\xa9\xda\xb9\xab)\x812\xd5y\x91\xb2\xf5P\xa9\x0c\xb9\x1d\xaa\xf7\x9a\x02`qU\x9b\x04\xe6\xbf\xff\xd9')
+2024-07-25 15:23:44,533 - LeakDB - INFO - ('1jsgLdtZFolWhcmzAcH9c6dWIt2pcCkQg', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe15\xd4Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (19084815 characters truncated) ... 0b(cU\x15\x0f\xde=)\xa9\xf7\xaa\xd2\x00G5\x15\x14QE\x14QS+\x129\xa8\xff\x00\x8f\xf1\xa4=M4\xf45Zb\x7f\xb3\xde\xb8\xd8\xff\x00\xd6\x9f\xa5\x7f\xff\xd9')
+2024-07-25 15:23:44,604 - LeakDB - INFO - ('1Bc5n7xyfmQYsMtlgQDwUjJzLXuBbIf29', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe10\x87Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (26838470 characters truncated) ... d\xd9\xe6\xb0\xf5\x1b\xb9\xae\x0cRJ\xbc\n\xf4\x1d\n\xf3M\x9e8\xe0q\xf3V\xcd\xb5\x81\x17\r\x01l\xaex\x06\xba\x8dKL\xd0%\xd2Z\x1b\xe0\t\xc5\x7f\xff\xd9')
+2024-07-25 15:23:44,706 - LeakDB - INFO - ('1KyWJF4ZNxzGoOgjlrbNaJUPthFxLU8rd', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe11\x80Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (22845979 characters truncated) ... \xdc*\xd2.~\x95\xbd\x0c"H7/\x18\xf4\xac\x84\xb9\x16\xf7\x04\x1e\xc6\xae\\\xdd-\xdcek:\xd26\x85\xc9^+]\xe7\x13\x8f.N\xa6\xaf\xdai/$FD\x19\xc7Z\xff\xd9')
+2024-07-25 15:23:44,793 - LeakDB - INFO - ('14NoDg-xKHZQL4j84swkbvFCVuVsbUI1R', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe13\x9aExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (17456619 characters truncated) ... xe8\xa2^\xf4\xb0\xf2@\xa4\x9cc\x92+2Q\xb8\xe1zTC\x8e*\xe1p\x17\xadS\xa5S\x86\x04W\xb2h\xd7:|\xd6\xbf/\'\x15\xcf\xf8\xba\xe9-\xec\x88Q\xc5\x7f\xff\xd9')
+2024-07-25 15:23:44,861 - LeakDB - INFO - ('1ABIcR5FrgHNWGf6rIjMqgE4Xdndu67_c', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe12\x9cExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (15053411 characters truncated) ... x16\xd3\x9a\xc7W{\xa7?\xbb\'\x8a\xea\xf5\x1dVH%\'\x1c\x9e\x95\xc7j\x11\xdc\xdf\xa9vA\x8a\x8e\xd6k\x98#*W\x18\x1d\xab\x9f\xb8\xd5#W&F\xe4z\xd7\xff\xd9')
+2024-07-25 15:23:44,922 - LeakDB - INFO - ('1MfF4N1dgu4rpkcxrNVxsrANP5bOhiKDC', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe12|Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x00\ ... (17733294 characters truncated) ... xc1\xf2\x06:\xd5u\x18P)\xe9\xf7\xaa\xea\xf4\x14\xe2sU\xa9G\x074\x98\x00qUf\xfb\xd5:t\xa5o\xbbM\x93\xb5@\xe4\x8a\x8a\xacS\x1c\x0cUY9<\xd3(\xaf\xff\xd9')
+2024-07-25 15:23:44,991 - LeakDB - INFO - ('1OC96E_XROMx412mfoHL4hb2JP_SKjbmP', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1@\xfdExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (25941772 characters truncated) ... 4\x96\x1e6\xb0rX\xb8\x12\xee\xc9\x15\xd9Yk\xf0]\xaf\xee\t\xe7\xde\xad\xden\x9a!\xb8\xf5\xae3W\x95\xac\x90\xaf\xdf^\xb5\xe77w\x83TI\x84_#-\x7f\xff\xd9')
+2024-07-25 15:23:45,091 - LeakDB - INFO - ('1jZptFeYgW0TW2wNfTFMrgewiUT2oYzz4', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1;\xe2Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (27672421 characters truncated) ... ea\xc3\n\xdf\xed\x0fZ\x8f\xc46K\xa9i[-x\xdb\xf3W\x07\xa8\xda\xad\xcd\x84b\xef\xe71~4\xef\x0e\xcc,d.\x0f\xc9\'\x18\xedY\x1e!\xf9\xaf\xc0\x1czW\xff\xd9')
+2024-07-25 15:23:45,196 - LeakDB - INFO - ('16RzdJeOonI_O_e44jCtGuEGJXp4_EZrH', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe14\xbcExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (24037244 characters truncated) ... 4\xb8*$\x03\x1d\xea\xcd\xc1Q\x12\x10+.\xefs\xb8&\xa4\x81\xc0\\zU\xfbp\x12\'c\xde\xb3\t-\x03\n\xae\x0b`d\xe4\xd3\x8b\xb1\xefOfR\xa4Tk\xb0b\xbf\xff\xd9')
+2024-07-25 15:23:45,288 - LeakDB - INFO - ('113UJuPe89i7RZ3b_SZ_EF-VPiha_Nzf9', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe11\x04Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (24405402 characters truncated) ... xe2\r\x8d\xa7\xf6<S\x18\xf9\xaf\x10\xd4l-\xacDW\x98\xc1"\xba?\r_\xf8z\xf3Q0k\x11\xf9l\xdd\x08\xfaW\xa5_|7\xd1\xe4\xb77\xf6R\xf9\xc8Fv\xe6\xbf\xff\xd9')
+2024-07-25 15:23:45,381 - LeakDB - INFO - ('1hQzxKgT5FzDCkpv340RtjYaO_w5m2fFp', b'\xff\xd8\xff\xe10\x93Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x00\x06\x00\x00\x00\x9e\x01\x10\x00\x02\x00\x00\x00\x0f\x00 ... (22482499 characters truncated) ... \x8d\x97\xe4\x04\x81\xd7\xd7\x1c\x01\xf5\xfaWg\xa7\xf8\xa7\xfb_L:^\xbe\xe0\xdc[.b\x95\x90\x92v\x903\xf5\x00\x81\xf4\x15U)\xbf\x89\x15\xca\x7f\xff\xd9')
+2024-07-25 15:23:45,467 - LeakDB - INFO - ('1Wrp3WicDph9ubWWHbL86UvrX4tY7iIOj', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe11\x86Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (20773195 characters truncated) ... \xb9u\x17\xdb\xac\xdd\x9b\xb5y\x93Y#\xdd\x15\x1d\xb8\xad\x08-\xc5\xaa\x1d\x87\x1fJ\xd8\xd3\xbcEn\x17\xc8\xbf\xe7\xb5s:\xb7\xd9\xe6\xb82Yq\x9a\xff\xd9')
+2024-07-25 15:23:45,543 - LeakDB - INFO - ('1v8tzHVVFQrbVl0TNg60G_vRiAbXJf-0U', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe1F\x0cExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x ... (23026072 characters truncated) ... dS\xdcx\xfeM6\xd4\xc1<g8\xc6k\x86>5\xbf\x9f\xcc{)vf\xb3<Z\xd2M4R1\xc9eRO\xb9\x15\xceX&\xdb\x91\x9fQ^\x85\x13\x01"{\xd6\xdd\xdc\x9ba\'\xd6\xbf\xff\xd9')
+2024-07-25 15:23:45,631 - LeakDB - INFO - ('1XVkeY0biBB7IWMf2NQcyaVEmYya7qMJy', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe107Exif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x00\ ... (22701752 characters truncated) ... x9aA\x7fb\x0c\x83;}k\x1e\xe2\xc6\xdfQ\x8cA*)\xfa\x81T\x1f\xc3(\xb2\xa8\x03\xa5v:n\x93\x88\xf2\x07\x02\xb4#\x8f\xc9\x90\x06\xa7^[\x89\xd4\xf1_\xff\xd9')
+2024-07-25 15:23:45,717 - LeakDB - INFO - ('1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl', b'\xff\xd8\xff\xe0\x00\x14JFIF\x00\x01\x01\x01\x01,\x01,\x00\x00AMPF\xff\xe17lExif\x00\x00MM\x00*\x00\x00\x00\x08\x00\x0c\x01\x0f\x00\x02\x00\x00\x00\ ... (19365987 characters truncated) ... a2\xd3JX\x07\r\x9a\xa9|\xdeZl\xcd=\xb4\xb9\xeft\xdc\xdb\xf2\xc0w\xae_IH\xa1\xbf\xff\x00H\x18e8?\x85u~%\xf1\r\x82H\x84\xf6\xacf\xd7l\xe7E\xda+\xff\xd9')
+2024-07-25 15:23:45,785 - LeakDB - INFO - Table: volunteers
+2024-07-25 15:23:45,786 - LeakDB - INFO - Columns: ['volunteer_id', 'first_name', 'last_name', 'city', 'initials']

@@ -69,8 +69,8 @@ class ImageWrangler:
             # Check if image already exists in db
             existing_image_ids = pd.read_sql(f"SELECT photo_id FROM photos", self.engine)['photo_id'].tolist()
             if image_id in existing_image_ids:
-                print(f"Image {image_id} already exists in table.")
-                return None, None
+                self.logger.info(f"Image {image_id} already exists in table.")
+                return image_id, None
             
             # Download image data
             response = requests.get(download_url, stream=True)
@@ -79,14 +79,14 @@ class ImageWrangler:
                 return image_id, response.content
             else:
                 self.logger.error(f"Failed to download image. HTTP Status Code: {response.status_code}")
-                return None, None
+                return image_id, None
             
         except requests.RequestException as e:
             self.logger.error(f"Failed to download image. Network error: {e}")
-            return None, None
+            return image_id, None
         except Exception as e:
             self.logger.error(f"An unexpected error occurred: {e}")
-            return None, None
+            return image_id, None
 
     def insert_image(self, image_id, image_data):
         """
@@ -127,10 +127,11 @@ class ImageWrangler:
             str: The image_id if the image was inserted successfully, None otherwise.
         """
         image_id, image_data = self.download_image(image_link)
+        self.logger.info(f"Download image returned: \n  photo_id: {bool(image_id)} \n  photo: {bool(image_data)}")
         if image_id and image_data:
             self.insert_image(image_id, image_data)
             return image_id
-        return None
+        return image_id
         
 #####################################################################################################################
 ## END

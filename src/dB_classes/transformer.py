@@ -107,6 +107,7 @@ class TransformData:
                     id_list.append(photo_id)
                 else:
                     id_list.append(None)
+            self.logger.info(f"'photo_id column: {id_list}")
             self.df['photo_id'] = pd.Series(id_list)
             self.df.drop(columns='photo', inplace=True)
         except Exception as e:

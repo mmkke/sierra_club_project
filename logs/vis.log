@@ -1,0 +1,95 @@
+2024-07-25 15:23:24,916 - leakMapper - INFO -     measurement_id      city  methane_level  leak type_of_infrastructure                           photo_id   latitude  longitude volunteer            timestamp
+0                1  Portland            0.0     0                Gas Cap  12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR  43.655346 -70.271033        MM  2024-06-27 13:54:00
+1                2  Portland            0.0     0          Utility Meter  1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8  43.655298 -70.271195        MM  2024-06-27 13:57:53
+2                3  Portland            0.0     0                Gas Cap  10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF  43.655195 -70.272789        MM  2024-06-27 14:01:37
+3                4  Portland            0.0     0                Gas Cap  1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD  43.655706 -70.271992        MM  2024-06-27 14:05:02
+4                5  Portland          100.0     1            Sewer Grate  13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z  43.655734 -70.271807        MM  2024-06-27 14:08:43
+..             ...       ...            ...   ...                    ...                                ...        ...        ...       ...                  ...
+60              61  Portland            0.0     0                Gas Cap  1hQzxKgT5FzDCkpv340RtjYaO_w5m2fFp  43.650828 -70.274532        MM  2024-07-25 08:58:02
+61              62  Portland            0.0     0            Sewer Grate  1Wrp3WicDph9ubWWHbL86UvrX4tY7iIOj  43.650802 -70.271878        MM  2024-07-25 09:03:20
+62              63  Portland            0.0     0                Gas Cap  1v8tzHVVFQrbVl0TNg60G_vRiAbXJf-0U  43.650530 -70.270958        MM  2024-07-25 09:06:12
+63              64  Portland            0.0     0                Gas Cap  1XVkeY0biBB7IWMf2NQcyaVEmYya7qMJy  43.649552 -70.270524        MM  2024-07-25 09:08:41
+64              65  Portland            0.0     0                Gas Cap  1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl  43.648541 -70.270598        MM  2024-07-25 09:10:52
+
+[65 rows x 10 columns]
+2024-07-25 15:23:24,925 - leakMapper - INFO -     measurement_id      city  methane_level  leak type_of_infrastructure                           photo_id   latitude  longitude volunteer            timestamp                    geometry
+0                1  Portland            0.0     0                Gas Cap  12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR  43.655346 -70.271033        MM  2024-06-27 13:54:00  POINT (-70.27103 43.65535)
+1                2  Portland            0.0     0          Utility Meter  1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8  43.655298 -70.271195        MM  2024-06-27 13:57:53   POINT (-70.27119 43.6553)
+2                3  Portland            0.0     0                Gas Cap  10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF  43.655195 -70.272789        MM  2024-06-27 14:01:37   POINT (-70.27279 43.6552)
+3                4  Portland            0.0     0                Gas Cap  1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD  43.655706 -70.271992        MM  2024-06-27 14:05:02  POINT (-70.27199 43.65571)
+4                5  Portland          100.0     1            Sewer Grate  13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z  43.655734 -70.271807        MM  2024-06-27 14:08:43  POINT (-70.27181 43.65573)
+..             ...       ...            ...   ...                    ...                                ...        ...        ...       ...                  ...                         ...
+60              61  Portland            0.0     0                Gas Cap  1hQzxKgT5FzDCkpv340RtjYaO_w5m2fFp  43.650828 -70.274532        MM  2024-07-25 08:58:02  POINT (-70.27453 43.65083)
+61              62  Portland            0.0     0            Sewer Grate  1Wrp3WicDph9ubWWHbL86UvrX4tY7iIOj  43.650802 -70.271878        MM  2024-07-25 09:03:20   POINT (-70.27188 43.6508)
+62              63  Portland            0.0     0                Gas Cap  1v8tzHVVFQrbVl0TNg60G_vRiAbXJf-0U  43.650530 -70.270958        MM  2024-07-25 09:06:12  POINT (-70.27096 43.65053)
+63              64  Portland            0.0     0                Gas Cap  1XVkeY0biBB7IWMf2NQcyaVEmYya7qMJy  43.649552 -70.270524        MM  2024-07-25 09:08:41  POINT (-70.27052 43.64955)
+64              65  Portland            0.0     0                Gas Cap  1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl  43.648541 -70.270598        MM  2024-07-25 09:10:52   POINT (-70.2706 43.64854)
+
+[65 rows x 11 columns]
+2024-07-25 15:23:24,957 - leakMapper - INFO - Getting image: 12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR
+2024-07-25 15:23:25,011 - leakMapper - INFO - Getting image: 1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8
+2024-07-25 15:23:25,044 - leakMapper - INFO - Getting image: 10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF
+2024-07-25 15:23:25,089 - leakMapper - INFO - Getting image: 1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD
+2024-07-25 15:23:25,136 - leakMapper - INFO - Getting image: 13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z
+2024-07-25 15:23:25,188 - leakMapper - INFO - Getting image: 1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_
+2024-07-25 15:23:25,233 - leakMapper - INFO - Getting image: 1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_
+2024-07-25 15:23:25,282 - leakMapper - INFO - Getting image: 1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll
+2024-07-25 15:23:25,331 - leakMapper - INFO - Getting image: 1KDNyEAlPwdbgreeDYHSwom1GFb05usrB
+2024-07-25 15:23:25,377 - leakMapper - INFO - Getting image: 1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938
+2024-07-25 15:23:25,417 - leakMapper - INFO - Getting image: 1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW
+2024-07-25 15:23:25,456 - leakMapper - INFO - Getting image: 11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR
+2024-07-25 15:23:25,496 - leakMapper - INFO - Getting image: 1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB
+2024-07-25 15:23:25,553 - leakMapper - INFO - Getting image: 1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt
+2024-07-25 15:23:25,605 - leakMapper - INFO - Getting image: 1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5
+2024-07-25 15:23:25,664 - leakMapper - INFO - Getting image: 1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk
+2024-07-25 15:23:25,717 - leakMapper - INFO - Getting image: 15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt
+2024-07-25 15:23:25,775 - leakMapper - INFO - Getting image: 1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG
+2024-07-25 15:23:25,826 - leakMapper - INFO - Getting image: 1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH
+2024-07-25 15:23:25,881 - leakMapper - INFO - Getting image: 1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7
+2024-07-25 15:23:25,933 - leakMapper - INFO - Getting image: 1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV
+2024-07-25 15:23:25,983 - leakMapper - INFO - Getting image: 1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l
+2024-07-25 15:23:26,028 - leakMapper - INFO - Getting image: 1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI
+2024-07-25 15:23:26,064 - leakMapper - INFO - Getting image: 1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477
+2024-07-25 15:23:26,110 - leakMapper - INFO - Getting image: 1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK
+2024-07-25 15:23:26,151 - leakMapper - INFO - Getting image: 1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3
+2024-07-25 15:23:26,193 - leakMapper - INFO - Getting image: 1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA
+2024-07-25 15:23:26,250 - leakMapper - INFO - Getting image: 1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK
+2024-07-25 15:23:26,296 - leakMapper - INFO - Getting image: 1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr
+2024-07-25 15:23:26,349 - leakMapper - INFO - Getting image: 1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5
+2024-07-25 15:23:26,395 - leakMapper - INFO - Getting image: 1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo
+2024-07-25 15:23:26,454 - leakMapper - INFO - Getting image: 1Qljilc-poLem9BouVy54Vn0pP7zhZe-9
+2024-07-25 15:23:26,514 - leakMapper - INFO - Getting image: 1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z
+2024-07-25 15:23:26,558 - leakMapper - INFO - Getting image: 11b936fzqsXB4lyjIPebCeTLkjGqOcppk
+2024-07-25 15:23:26,617 - leakMapper - INFO - Getting image: 1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF
+2024-07-25 15:23:26,677 - leakMapper - INFO - Getting image: 1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB
+2024-07-25 15:23:26,730 - leakMapper - INFO - Getting image: 1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk
+2024-07-25 15:23:26,785 - leakMapper - INFO - Getting image: 14rWubRMJukC97mOtY0GPxZpqMFwuQaGf
+2024-07-25 15:23:26,843 - leakMapper - INFO - Getting image: 1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR
+2024-07-25 15:23:26,904 - leakMapper - INFO - Getting image: 1_4915zDUhmVFfXnqGZY4m44lQPX6dox1
+2024-07-25 15:23:26,957 - leakMapper - INFO - Getting image: 1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi
+2024-07-25 15:23:27,001 - leakMapper - INFO - Getting image: 1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq
+2024-07-25 15:23:27,043 - leakMapper - INFO - Getting image: 1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw
+2024-07-25 15:23:27,093 - leakMapper - INFO - Getting image: 13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs
+2024-07-25 15:23:27,140 - leakMapper - INFO - Getting image: 1iT1Ko_JNsMWm6xMs1thLAhgHURK5cZv0
+2024-07-25 15:23:27,201 - leakMapper - INFO - Getting image: 1UeOJhzkbwlbcdzwC_0MaPqA9DV1Bkt6E
+2024-07-25 15:23:27,258 - leakMapper - INFO - Getting image: 1c1j_oPxRS9XWl3jGLprBeWOIf2bGvnMn
+2024-07-25 15:23:27,304 - leakMapper - INFO - Getting image: 1-DF9EcrzN2PFDrmVDod5I40cpXSDHNxv
+2024-07-25 15:23:27,352 - leakMapper - INFO - Getting image: 1gFhBrkEArKFxYgQzwRErHbArVpXcGDYF
+2024-07-25 15:23:27,408 - leakMapper - INFO - Getting image: 1jsgLdtZFolWhcmzAcH9c6dWIt2pcCkQg
+2024-07-25 15:23:27,458 - leakMapper - INFO - Getting image: 1Bc5n7xyfmQYsMtlgQDwUjJzLXuBbIf29
+2024-07-25 15:23:27,520 - leakMapper - INFO - Getting image: 1KyWJF4ZNxzGoOgjlrbNaJUPthFxLU8rd
+2024-07-25 15:23:27,577 - leakMapper - INFO - Getting image: 14NoDg-xKHZQL4j84swkbvFCVuVsbUI1R
+2024-07-25 15:23:27,623 - leakMapper - INFO - Getting image: 1ABIcR5FrgHNWGf6rIjMqgE4Xdndu67_c
+2024-07-25 15:23:27,665 - leakMapper - INFO - Getting image: 1MfF4N1dgu4rpkcxrNVxsrANP5bOhiKDC
+2024-07-25 15:23:27,712 - leakMapper - INFO - Getting image: 1OC96E_XROMx412mfoHL4hb2JP_SKjbmP
+2024-07-25 15:23:27,772 - leakMapper - INFO - Getting image: 1jZptFeYgW0TW2wNfTFMrgewiUT2oYzz4
+2024-07-25 15:23:27,836 - leakMapper - INFO - Getting image: 16RzdJeOonI_O_e44jCtGuEGJXp4_EZrH
+2024-07-25 15:23:27,893 - leakMapper - INFO - Getting image: 113UJuPe89i7RZ3b_SZ_EF-VPiha_Nzf9
+2024-07-25 15:23:27,950 - leakMapper - INFO - Getting image: 1hQzxKgT5FzDCkpv340RtjYaO_w5m2fFp
+2024-07-25 15:23:28,007 - leakMapper - INFO - Getting image: 1Wrp3WicDph9ubWWHbL86UvrX4tY7iIOj
+2024-07-25 15:23:28,057 - leakMapper - INFO - Getting image: 1v8tzHVVFQrbVl0TNg60G_vRiAbXJf-0U
+2024-07-25 15:23:28,134 - leakMapper - INFO - Getting image: 1XVkeY0biBB7IWMf2NQcyaVEmYya7qMJy
+2024-07-25 15:23:28,189 - leakMapper - INFO - Getting image: 1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl
+2024-07-25 15:23:28,238 - leakMapper - INFO - Saving map to: /Users/mikey/code_projects/sierra_club_project/html/Portland_maine_map.html
+2024-07-25 15:23:28,324 - leakMapper - INFO - Map has been saved as /Users/mikey/code_projects/sierra_club_project/html/Portland_maine_map.html
+2024-07-25 15:23:28,481 - leakMapper - INFO - Opening map in browser...

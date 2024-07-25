@@ -2,7 +2,7 @@
 Maps methane leaks.
 
 Started: 7/12/2024
-Last Updated: 7/19/2024
+Last Updated: 7/25/2024
 '''
 
 #####################################################################################################################
@@ -14,6 +14,7 @@ import io
 import os
 import sys
 import webbrowser
+import logging
 from pathlib import Path
 
 import folium
@@ -38,16 +39,18 @@ print(f"Current working directory: {current_dir}")
 #####################################################################################################################
 
 # Add the directory containing the module to sys.path
-module_path = os.path.abspath(os.path.join('src/dB_classes'))
-sys.path.append(module_path)
+module_path = os.path.abspath(os.path.join('src', 'dB_classes'))
+if module_path not in sys.path:
+    sys.path.append(module_path)
 
-from manage_methane_db import MethaneDB
+from db_manager import LeakDB
+from log_class import Log
 
 #####################################################################################################################
 ## Parameters
 #####################################################################################################################
 
-DATABASE = "methane_project_DB"
+DATABASE = "methane_project_DB.db"
 DB_FOLDER_PATH = current_dir / "data"
 PATH_TO_DB = str(DB_FOLDER_PATH / DATABASE)
 print(f"Path to DB: {PATH_TO_DB}")
@@ -67,6 +70,7 @@ class leakMapper():
         self.map = None
         self.map_name = f"{city}_maine_map.html"
         self.imgdf = pd.read_sql_table('photos', self.engine)
+        self.logger = logging.getLogger(self.__class__.__name__)
 
     def set_df(self):
         """
@@ -92,10 +96,10 @@ class leakMapper():
             self.df = pd.read_sql_query(query, self.engine)
             
             # Print the DataFrame for debugging purposes
-            print(self.df)
+            self.logger.info(self.df)
 
         except Exception as e:
-            print('Error retrieving data from database.', e)            
+            self.logger.error('Error retrieving data from database.', e)            
             raise
 
     def set_gdf(self):
@@ -117,7 +121,7 @@ class leakMapper():
        
         # Check if the DataFrame is set
         if self.df is None:
-            print('DataFrame is not set. Call set_df() first.')
+            self.logger.info('DataFrame is not set. Call set_df() first.')
             return
         
         try:
@@ -127,10 +131,10 @@ class leakMapper():
                                     )
             
             # Print the GeoPandas DataFrame for debugging purposes
-            print(self.gdf)
+            self.logger.info(self.gdf)
 
         except Exception as e:
-            print('Error creating GeoPandas dataframe.', e)
+            self.logger.error('Error creating GeoPandas dataframe.', e)
             raise
        
     def get_image(self, photo_id):
@@ -147,7 +151,7 @@ class leakMapper():
         """
         try:
             # Print a message indicating the image retrieval process has started
-            print('Getting image...')
+            self.logger.info(f'Getting image: {photo_id}')
             
             # Retrieve the image blob corresponding to the given photo_id from the DataFrame
             image_blob = self.imgdf[self.imgdf['photo_id'] == photo_id]['photo'].values[0]
@@ -163,7 +167,7 @@ class leakMapper():
     
         except IndexError:
             # Print an error message if no matching image is found for the given photo_id
-            print(f"No matching image found for photo_id == {photo_id}")
+            self.logger.error(f"No matching image found for photo_id == {photo_id}")
     
     def compress_image(self, img_blob, img_size=(100,100), quality=100):
         """
@@ -197,7 +201,7 @@ class leakMapper():
             return img_base64
         
         except Exception as e:
-            print(f"Error in image compression: {e}")
+            self.logger.error(f"Error in image compression: {e}")
         
     def set_base_map(self):
         """
@@ -210,7 +214,7 @@ class leakMapper():
         """
 
         if self.gdf is None:
-            print('GeoDataFrame is not set. Call set_gdf() first.')
+            self.logger.info('GeoDataFrame is not set. Call set_gdf() first.')
             return
         try:
             # Set the coordinate reference system (CRS) to WGS84 (EPSG:4326)
@@ -237,7 +241,7 @@ class leakMapper():
             self.map.fit_bounds(bounds)
 
         except Exception as e:
-            print(f"Error setting base map layer:, {e}")
+            self.logger.error(f"Error setting base map layer:, {e}")
 
     def create_popup(self, row):
         """
@@ -269,7 +273,7 @@ class leakMapper():
         
         except Exception as e:
             # Print an error message if an exception occurs
-            print(f"Error creating popup: {e}")
+            self.logger.error(f"Error creating popup: {e}")
             
         # Ensure None is returned if an exception occurs
         return None
@@ -285,37 +289,40 @@ class leakMapper():
         Returns:
             None
             '''
-
-        if layers:
-            # Create feature groups for different marker layers
-            layer_nonzero = folium.FeatureGroup(name='Non Zero Results')
-            layer_zero = folium.FeatureGroup(name='Zero Results')
-        
-        # Iterrate through records and add pop-up for each
-        for idx, row in self.gdf.iterrows():
-            # get lcoation
-            location = [row['latitude'], row['longitude']]
-            if not np.isnan(location).any():
-                popup = self.create_popup(row)
-                if layers:
-                    # Add markers to specific layers based on your condition
-                    if row['leak']: 
-                        icon = folium.Icon(color='red', prefix='fa', icon="fa-fire-flame-simple")
-                        layer = layer_nonzero
+        try:
+            if layers:
+                # Create feature groups for different marker layers
+                layer_nonzero = folium.FeatureGroup(name='Non Zero Results')
+                layer_zero = folium.FeatureGroup(name='Zero Results')
+            
+            # Iterrate through records and add pop-up for each
+            for idx, row in self.gdf.iterrows():
+                # get lcoation
+                location = [row['latitude'], row['longitude']]
+                if not np.isnan(location).any():
+                    popup = self.create_popup(row)
+                    if layers:
+                        # Add markers to specific layers based on your condition
+                        if row['leak']: 
+                            icon = folium.Icon(color='red', prefix='fa', icon="fa-fire-flame-simple")
+                            layer = layer_nonzero
+                        else:
+                            icon = folium.Icon(color='green', prefix='fa',  icon="fa-fire-flame-simple")
+                            layer = layer_zero
                     else:
-                        icon = folium.Icon(color='green', prefix='fa',  icon="fa-fire-flame-simple")
-                        layer = layer_zero
-                else:
-                    icon = folium.Icon(color='blue', prefix='fa',  icon='fa-fire-flame-simple')
-                    layer = self.map
-                
-                folium.Marker(location=location, popup=popup, icon=icon).add_to(layer)
+                        icon = folium.Icon(color='blue', prefix='fa',  icon='fa-fire-flame-simple')
+                        layer = self.map
+                    
+                    folium.Marker(location=location, popup=popup, icon=icon).add_to(layer)
 
-        if layers:
-            # Add the feature groups and layer control to the map
-            layer_nonzero.add_to(self.map)
-            layer_zero.add_to(self.map)
-            folium.LayerControl().add_to(self.map)
+            if layers:
+                # Add the feature groups and layer control to the map
+                layer_nonzero.add_to(self.map)
+                layer_zero.add_to(self.map)
+                folium.LayerControl().add_to(self.map)
+        except Exception as e:
+            # Print an error message if an exception occurs
+            self.logger.error("Error adding markers:", e)
 
     def save_map(self, path_to_save_html=None):
         """
@@ -344,13 +351,13 @@ class leakMapper():
                 save_path = os.path.join(os.getcwd(), self.map_name)
             
             # Save the map as an HTML file
-            print(f'Saving map to: {save_path}')
+            self.logger.info(f'Saving map to: {save_path}')
             self.map.save(save_path)
-            print(f"Map has been saved as {save_path}")
+            self.logger.info(f"Map has been saved as {save_path}")
 
         except Exception as e:
             # Print an error message if an exception occurs
-            print("Error saving map:", e)
+            self.logger.error("Error saving map:", e)
 
     def open_map(self):
         '''
@@ -364,15 +371,15 @@ class leakMapper():
         '''
         try:
             # Construct the file URL for the map HTML file
-            file_url = 'file://' + os.path.join(os.getcwd(), self.map_name)
+            file_url = 'file://' + os.path.join(os.getcwd() + '/html/', self.map_name)
             
             # Open the HTML file in the default web browser
             webbrowser.open(file_url)
-            print('Opening map in browser...')
+            self.logger.info('Opening map in browser...')
         
         except Exception as e:
             # Print an error message if an exception occurs
-            print("Error opening map:", e)
+            self.logger.error("Error opening map:", e)
     
     def create_map(self):
         self.set_df()
@@ -389,6 +396,11 @@ def main():
 
     # set city to map
     CITY = 'Portland'
+
+    # configure log
+    file_path = current_dir / "logs/vis.log"
+    etl_log = Log(file_path=file_path, stream=True)
+    etl_log.configure()
 
     # create map object
     portland_map = leakMapper(PATH_TO_DB, CITY)

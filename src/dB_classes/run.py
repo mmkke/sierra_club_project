@@ -29,7 +29,7 @@ from fetch_data_from_api import FetchData
 from transformer import TransformData
 from loader import LoadData
 from etl_pipe import ETLPipeline
-from logger import setup_logger
+from log_class import Log
 
 #####################################################################################################################
 ## Parameters
@@ -56,8 +56,10 @@ def main():
     print(f"Directory {DB_FOLDER_PATH} exists: {DB_FOLDER_PATH.exists()}")
 
     # Setup logging
-    setup_logger()
-    
+    file_path = current_dir / "logs/etl.log"
+    etl_log = Log(file_path=file_path, stream=True)
+    etl_log.configure()
+
     # Init databaseand etl objects
     database = LeakDB(PATH_TO_DB)
     fetcher = FetchData(CREDENTIALS_PATH, GOOGLE_SHEET_ID, RANGE_NAME)
