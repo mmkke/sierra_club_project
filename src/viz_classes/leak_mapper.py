@@ -1,5 +1,5 @@
 '''
-Maps methane leaks.
+Maps methane leaks and creates an HTML file.
 
 Started: 7/12/2024
 Last Updated: 7/25/2024

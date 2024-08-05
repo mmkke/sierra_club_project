@@ -2,7 +2,7 @@
 Class for creating and managing methane database.
 
 Started: 6/23/2023
-Last Updated: 7/23/2024
+Last Updated: 7/26/2024
 '''
 #####################################################################################################################
 ## Libraries
@@ -37,7 +37,7 @@ class UtilityProvider(Base):
     ORM class representing the 'utility_providers' table.
     """
     __tablename__ = 'utility_providers'
-    provider_id = Column(Integer, primary_key=True, autoincrement=True)
+    provider_id = Column(Integer, primary_key=True)
     company_name = Column(String, unique=True)
     mailing_address = Column(String)
     phone_number = Column(String)
@@ -95,6 +95,8 @@ class LeakDB:
         self.logger = logging.getLogger(self.__class__.__name__)
         Base.metadata.create_all(self.engine)
         self.logger.info("Database tables created successfully.")
+        self.initialize_data()
+
 
     def add_volunteer(self, first_name, last_name, initials, city):
         """
@@ -192,6 +194,9 @@ class LeakDB:
         """
         session = self.Session()
         try:
+            first_column_name = table_class.__table__.columns.keys()[0]
+            existing_records = session.query(getattr(table_class, first_column_name)).all()
+
             df.to_sql(table_class.__tablename__, con=self.engine, if_exists='append', index=False)
             self.logger.info("Data inserted successfully.")
         except Exception as e:
@@ -239,6 +244,34 @@ class LeakDB:
             self.logger.error(f"An error occurred while executing the query: {str(e)}")
         finally:
             session.close()
+
+    def initialize_data(self):
+        """
+        Reads CSV files and inserts data into the respective tables.
+        """
+        try:
+            volunteers_df = pd.read_csv("data/project_data/volunteers.csv")
+            volunteers_df.columns = volunteers_df.columns.str.strip()  # Strip any leading/trailing whitespace
+            volunteers_df.index.name = 'volunteer_id'
+            self.logger.info(f'Volunteers DataFrame: \n{volunteers_df}')
+            self.insert_data_to_sql(volunteers_df, Volunteer)
+            
+            utilities_df = pd.read_csv("data/project_data/utilities.csv")
+            utilities_df.columns = utilities_df.columns.str.strip()  # Strip any leading/trailing whitespace
+            utilities_df.index.name = ''
+            self.logger.info(f'Utilties DataFrame: \n{utilities_df}')
+            self.insert_data_to_sql(utilities_df, UtilityProvider)
+            
+            cities_df = pd.read_csv("data/project_data/cities.csv")
+            cities_df.columns = cities_df.columns.str.strip()  # Strip any leading/trailing whitespace
+            self.logger.info(f'Cities DataFrame: \n{cities_df}')
+            self.insert_data_to_sql(cities_df, City)
+        except FileNotFoundError as e:
+            print(f"File not found: {e}")
+            raise
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            raise
 
 #####################################################################################################################
 ## END

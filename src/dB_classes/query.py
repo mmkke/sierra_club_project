@@ -12,7 +12,8 @@ import argparse
 from pathlib import Path
 
 import pandas as pd
-from sqlalchemy import create_engine, text, exec
+from sqlalchemy import create_engine, text
+from sqlalchemy.exc import SQLAlchemyError
 
 #####################################################################################################################
 ## Pathing
@@ -26,7 +27,7 @@ print(f"Current working directory: {current_dir}")
 ## Parameters
 #####################################################################################################################
 
-DATABASE = "methane_project_DB"
+DATABASE = "methane_project_DB.db"
 DB_FOLDER_PATH = current_dir / "data"
 SQL_PREFIX = "sqlite:///"
 PATH_TO_DB = SQL_PREFIX + str(DB_FOLDER_PATH / DATABASE)
@@ -51,7 +52,7 @@ def execute_query(engine, query):
         with engine.connect() as connection:
             result = connection.execute(text(query))
             return pd.DataFrame(result.fetchall(), columns=result.keys())
-    except exec.SQLAlchemyError as e:
+    except SQLAlchemyError as e:
         print(f"Error executing query: {e}")
         raise
     
