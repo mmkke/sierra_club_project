@@ -1,8 +1,8 @@
 '''
-Driver for running ETL pipeline. 
+Maps methane leaks and creates an HTML file for each city in the database.
 
-Started: 7/6/2023
-Last Updated: 7/19/2024
+Started: 7/12/2024
+Last Updated: 8/26/2024
 '''
 
 #####################################################################################################################
@@ -10,9 +10,12 @@ Last Updated: 7/19/2024
 #####################################################################################################################
 
 import os
+import sys
+import logging
 from pathlib import Path
 
 import pandas as pd
+from sqlalchemy import create_engine
 
 #####################################################################################################################
 ## Pathing
@@ -26,12 +29,8 @@ print(f"Current working directory: {current_dir}")
 ## Modules
 #####################################################################################################################
 
-from db_manager import LeakDB
-from fetch_data_from_api import FetchData
-from transformer import TransformData
-from loader import LoadData
-from etl_pipe import ETLPipeline
 from log_class import Log
+from mapper_class import leakMapper
 
 #####################################################################################################################
 ## Parameters
@@ -39,52 +38,54 @@ from log_class import Log
 
 DATABASE = "methane_project_DB.db"
 DB_FOLDER_PATH = current_dir / "data"
-SQL_PREFIX = "sqlite:///"
-PATH_TO_DB = SQL_PREFIX + str(DB_FOLDER_PATH / DATABASE)
-CREDENTIALS_PATH = 'credentials.json'
-GOOGLE_SHEET_ID = '1oJ2wAGYLkEd8VeKinrbiAmOwjlZpYqONL09P4LZ01po'
-RANGE_NAME = 'Form Responses 1!A1:G'
-TABLE_NAME = "measurements"
-DEBUG = False
+PATH_TO_DB = str(DB_FOLDER_PATH / DATABASE)
+print(f"Path to DB: {PATH_TO_DB}")
 
 #####################################################################################################################
 ## Main
 #####################################################################################################################
 
 def main():
+# Configure logging
+    DEBUG = False
+    try:
+        log_folder = current_dir / "logs"
+        log_folder.mkdir(exist_ok=True)
+        file_path = log_folder / "vis.log"
+        vis_log = Log(file_path=file_path, stream=True)
+        vis_log.configure()
+        vis_log.debug_mode(enable_debug=DEBUG)
+    except Exception as e:
+        logging.error(f"Failed to configure logging: {e}", exc_info=True)
+        sys.exit(1)
 
-    # Check if the folder exists, if not create it
-    if not DB_FOLDER_PATH.exists():
-        DB_FOLDER_PATH.mkdir(parents=True, exist_ok=True)
-    print(f"Directory {DB_FOLDER_PATH} exists: {DB_FOLDER_PATH.exists()}")
+    # Query the database for a list of unique cities
+    try:
+        engine = create_engine(f'sqlite:///{PATH_TO_DB}')
+        query = "SELECT DISTINCT city FROM measurements;"
+        cities_df = pd.read_sql_query(query, engine)
+        cities = cities_df['city'].tolist()
+    except Exception as e:
+        logging.error(f"Failed to query the database: {e}", exc_info=True)
+        sys.exit(1)
 
-    # Setup logging
-    file_path = current_dir / "logs/etl.log"
-    etl_log = Log(file_path=file_path, stream=True)
-    etl_log.configure()
-    etl_log.debug_mode(enable_debug=DEBUG)
+    # Generate maps for each city
+    for city in cities:
+        try:
+            # Create map object
+            city_map = leakMapper(PATH_TO_DB, city)
+            city_map.create_map()
 
-    # Init databaseand etl objects
-    database = LeakDB(PATH_TO_DB)
-    fetcher = FetchData(CREDENTIALS_PATH, GOOGLE_SHEET_ID, RANGE_NAME)
-    transformer = TransformData(PATH_TO_DB)
-    loader = LoadData(PATH_TO_DB)
+            # Save map to HTML folder
+            path_to_map = os.path.join(os.getcwd(), 'html')
+            city_map.save_map(path_to_save_html=path_to_map)
 
-    # Create pipeline
-    pipe = ETLPipeline(database,
-                       fetcher,
-                       transformer,
-                       loader)
-    # Run pipe
-    pipe.pipe_data_to(TABLE_NAME)
-    
-    # Check db contents
-    database.print_all_tables_and_values()
+            # Open map in web browser
+            city_map.open_map()
 
-    # Query DB
-    #query="SELECT * FROM photos"
-    #df = database.query_db(query)
-    #print(df)
+        except Exception as e:
+            logging.error(f"Failed to process city {city}: {e}", exc_info=True)
+            continue  # Continue with the next city even if an error occurs
 
 #####################################################################################################################
 ## END
@@ -92,6 +93,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-#####################################################################################################################
-## END
-#####################################################################################################################

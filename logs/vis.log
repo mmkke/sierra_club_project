@@ -1,22 +1,4 @@
-2024-08-26 16:16:09,005 - leakMapper - INFO - Empty DataFrame
-Columns: [measurement_id, city, methane_level, leak, type_of_infrastructure, photo_id, latitude, longitude, volunteer, timestamp]
-Index: []
-2024-08-26 16:16:09,006 - leakMapper - INFO - Empty GeoDataFrame
-Columns: [measurement_id, city, methane_level, leak, type_of_infrastructure, photo_id, latitude, longitude, volunteer, timestamp, geometry]
-Index: []
-2024-08-26 16:16:09,007 - leakMapper - ERROR - Error setting base map layer:, Location values cannot contain NaNs.
-2024-08-26 16:16:09,008 - leakMapper - INFO - Saving map to: /Users/mikey/Library/Mobile Documents/com~apple~CloudDocs/Code/code_projects/sierra_club_project/html/portland_maine_map.html
-2024-08-26 16:16:09,299 - leakMapper - INFO - Opening map in browser...
-2024-08-26 16:41:07,514 - leakMapper - INFO - Empty DataFrame
-Columns: [measurement_id, city, methane_level, leak, type_of_infrastructure, photo_id, latitude, longitude, volunteer, timestamp]
-Index: []
-2024-08-26 16:41:07,517 - leakMapper - INFO - Empty GeoDataFrame
-Columns: [measurement_id, city, methane_level, leak, type_of_infrastructure, photo_id, latitude, longitude, volunteer, timestamp, geometry]
-Index: []
-2024-08-26 16:41:07,521 - leakMapper - ERROR - Error setting base map layer:, Location values cannot contain NaNs.
-2024-08-26 16:41:07,522 - leakMapper - INFO - Saving map to: /Users/mikey/Library/Mobile Documents/com~apple~CloudDocs/Code/code_projects/sierra_club_project/html/portland_maine_map.html
-2024-08-26 16:41:07,766 - leakMapper - INFO - Opening map in browser...
-2024-08-26 16:41:51,923 - leakMapper - INFO -     measurement_id      city  methane_level  leak type_of_infrastructure                           photo_id   latitude  longitude volunteer            timestamp
+2024-08-26 17:54:31,654 - leakMapper - INFO -     measurement_id      city  methane_level  leak type_of_infrastructure                           photo_id   latitude  longitude volunteer            timestamp
 0                1  Portland            0.0     0                Gas Cap  12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR  43.655346 -70.271033        MM  2024-06-27 13:54:00
 1                2  Portland            0.0     0          Utility Meter  1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8  43.655298 -70.271195        MM  2024-06-27 13:57:53
 2                3  Portland            0.0     0                Gas Cap  10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF  43.655195 -70.272789        MM  2024-06-27 14:01:37
@@ -30,7 +12,7 @@ Index: []
 64              65  Portland            0.0     0                Gas Cap  1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl  43.648541 -70.270598        MM  2024-07-25 09:10:52
 
 [65 rows x 10 columns]
-2024-08-26 16:41:51,932 - leakMapper - INFO -     measurement_id      city  methane_level  leak type_of_infrastructure                           photo_id   latitude  longitude volunteer            timestamp                    geometry
+2024-08-26 17:54:31,663 - leakMapper - INFO -     measurement_id      city  methane_level  leak type_of_infrastructure                           photo_id   latitude  longitude volunteer            timestamp                    geometry
 0                1  Portland            0.0     0                Gas Cap  12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR  43.655346 -70.271033        MM  2024-06-27 13:54:00  POINT (-70.27103 43.65535)
 1                2  Portland            0.0     0          Utility Meter  1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8  43.655298 -70.271195        MM  2024-06-27 13:57:53   POINT (-70.27119 43.6553)
 2                3  Portland            0.0     0                Gas Cap  10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF  43.655195 -70.272789        MM  2024-06-27 14:01:37   POINT (-70.27279 43.6552)
@@ -44,177 +26,74 @@ Index: []
 64              65  Portland            0.0     0                Gas Cap  1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl  43.648541 -70.270598        MM  2024-07-25 09:10:52   POINT (-70.2706 43.64854)
 
 [65 rows x 11 columns]
-2024-08-26 16:41:51,960 - leakMapper - INFO - Getting image: 12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR
-2024-08-26 16:41:52,018 - leakMapper - INFO - Getting image: 1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8
-2024-08-26 16:41:52,051 - leakMapper - INFO - Getting image: 10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF
-2024-08-26 16:41:52,096 - leakMapper - INFO - Getting image: 1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD
-2024-08-26 16:41:52,142 - leakMapper - INFO - Getting image: 13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z
-2024-08-26 16:41:52,193 - leakMapper - INFO - Getting image: 1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_
-2024-08-26 16:41:52,237 - leakMapper - INFO - Getting image: 1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_
-2024-08-26 16:41:52,285 - leakMapper - INFO - Getting image: 1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll
-2024-08-26 16:41:52,334 - leakMapper - INFO - Getting image: 1KDNyEAlPwdbgreeDYHSwom1GFb05usrB
-2024-08-26 16:41:52,379 - leakMapper - INFO - Getting image: 1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938
-2024-08-26 16:41:52,417 - leakMapper - INFO - Getting image: 1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW
-2024-08-26 16:41:52,456 - leakMapper - INFO - Getting image: 11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR
-2024-08-26 16:41:52,496 - leakMapper - INFO - Getting image: 1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB
-2024-08-26 16:41:52,552 - leakMapper - INFO - Getting image: 1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt
-2024-08-26 16:41:52,602 - leakMapper - INFO - Getting image: 1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5
-2024-08-26 16:41:52,661 - leakMapper - INFO - Getting image: 1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk
-2024-08-26 16:41:52,713 - leakMapper - INFO - Getting image: 15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt
-2024-08-26 16:41:52,770 - leakMapper - INFO - Getting image: 1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG
-2024-08-26 16:41:52,820 - leakMapper - INFO - Getting image: 1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH
-2024-08-26 16:41:52,874 - leakMapper - INFO - Getting image: 1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7
-2024-08-26 16:41:52,925 - leakMapper - INFO - Getting image: 1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV
-2024-08-26 16:41:52,974 - leakMapper - INFO - Getting image: 1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l
-2024-08-26 16:41:53,018 - leakMapper - INFO - Getting image: 1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI
-2024-08-26 16:41:53,054 - leakMapper - INFO - Getting image: 1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477
-2024-08-26 16:41:53,099 - leakMapper - INFO - Getting image: 1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK
-2024-08-26 16:41:53,140 - leakMapper - INFO - Getting image: 1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3
-2024-08-26 16:41:53,181 - leakMapper - INFO - Getting image: 1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA
-2024-08-26 16:41:53,237 - leakMapper - INFO - Getting image: 1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK
-2024-08-26 16:41:53,282 - leakMapper - INFO - Getting image: 1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr
-2024-08-26 16:41:53,334 - leakMapper - INFO - Getting image: 1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5
-2024-08-26 16:41:53,380 - leakMapper - INFO - Getting image: 1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo
-2024-08-26 16:41:53,438 - leakMapper - INFO - Getting image: 1Qljilc-poLem9BouVy54Vn0pP7zhZe-9
-2024-08-26 16:41:53,496 - leakMapper - INFO - Getting image: 1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z
-2024-08-26 16:41:53,539 - leakMapper - INFO - Getting image: 11b936fzqsXB4lyjIPebCeTLkjGqOcppk
-2024-08-26 16:41:53,597 - leakMapper - INFO - Getting image: 1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF
-2024-08-26 16:41:53,656 - leakMapper - INFO - Getting image: 1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB
-2024-08-26 16:41:53,708 - leakMapper - INFO - Getting image: 1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk
-2024-08-26 16:41:53,762 - leakMapper - INFO - Getting image: 14rWubRMJukC97mOtY0GPxZpqMFwuQaGf
-2024-08-26 16:41:53,820 - leakMapper - INFO - Getting image: 1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR
-2024-08-26 16:41:53,879 - leakMapper - INFO - Getting image: 1_4915zDUhmVFfXnqGZY4m44lQPX6dox1
-2024-08-26 16:41:53,932 - leakMapper - INFO - Getting image: 1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi
-2024-08-26 16:41:53,976 - leakMapper - INFO - Getting image: 1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq
-2024-08-26 16:41:54,018 - leakMapper - INFO - Getting image: 1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw
-2024-08-26 16:41:54,067 - leakMapper - INFO - Getting image: 13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs
-2024-08-26 16:41:54,113 - leakMapper - INFO - Getting image: 1iT1Ko_JNsMWm6xMs1thLAhgHURK5cZv0
-2024-08-26 16:41:54,174 - leakMapper - INFO - Getting image: 1UeOJhzkbwlbcdzwC_0MaPqA9DV1Bkt6E
-2024-08-26 16:41:54,230 - leakMapper - INFO - Getting image: 1c1j_oPxRS9XWl3jGLprBeWOIf2bGvnMn
-2024-08-26 16:41:54,274 - leakMapper - INFO - Getting image: 1-DF9EcrzN2PFDrmVDod5I40cpXSDHNxv
-2024-08-26 16:41:54,322 - leakMapper - INFO - Getting image: 1gFhBrkEArKFxYgQzwRErHbArVpXcGDYF
-2024-08-26 16:41:54,378 - leakMapper - INFO - Getting image: 1jsgLdtZFolWhcmzAcH9c6dWIt2pcCkQg
-2024-08-26 16:41:54,427 - leakMapper - INFO - Getting image: 1Bc5n7xyfmQYsMtlgQDwUjJzLXuBbIf29
-2024-08-26 16:41:54,427 - leakMapper - ERROR - No matching image found for photo_id == 1Bc5n7xyfmQYsMtlgQDwUjJzLXuBbIf29
-2024-08-26 16:41:54,427 - leakMapper - INFO - Getting image: 1KyWJF4ZNxzGoOgjlrbNaJUPthFxLU8rd
-2024-08-26 16:41:54,427 - leakMapper - ERROR - No matching image found for photo_id == 1KyWJF4ZNxzGoOgjlrbNaJUPthFxLU8rd
-2024-08-26 16:41:54,427 - leakMapper - INFO - Getting image: 14NoDg-xKHZQL4j84swkbvFCVuVsbUI1R
-2024-08-26 16:41:54,473 - leakMapper - INFO - Getting image: 1ABIcR5FrgHNWGf6rIjMqgE4Xdndu67_c
-2024-08-26 16:41:54,514 - leakMapper - INFO - Getting image: 1MfF4N1dgu4rpkcxrNVxsrANP5bOhiKDC
-2024-08-26 16:41:54,560 - leakMapper - INFO - Getting image: 1OC96E_XROMx412mfoHL4hb2JP_SKjbmP
-2024-08-26 16:41:54,620 - leakMapper - INFO - Getting image: 1jZptFeYgW0TW2wNfTFMrgewiUT2oYzz4
-2024-08-26 16:41:54,683 - leakMapper - INFO - Getting image: 16RzdJeOonI_O_e44jCtGuEGJXp4_EZrH
-2024-08-26 16:41:54,740 - leakMapper - INFO - Getting image: 113UJuPe89i7RZ3b_SZ_EF-VPiha_Nzf9
-2024-08-26 16:41:54,797 - leakMapper - INFO - Getting image: 1hQzxKgT5FzDCkpv340RtjYaO_w5m2fFp
-2024-08-26 16:41:54,853 - leakMapper - INFO - Getting image: 1Wrp3WicDph9ubWWHbL86UvrX4tY7iIOj
-2024-08-26 16:41:54,904 - leakMapper - INFO - Getting image: 1v8tzHVVFQrbVl0TNg60G_vRiAbXJf-0U
-2024-08-26 16:41:54,958 - leakMapper - INFO - Getting image: 1XVkeY0biBB7IWMf2NQcyaVEmYya7qMJy
-2024-08-26 16:41:54,958 - leakMapper - ERROR - No matching image found for photo_id == 1XVkeY0biBB7IWMf2NQcyaVEmYya7qMJy
-2024-08-26 16:41:54,959 - leakMapper - INFO - Getting image: 1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl
-2024-08-26 16:41:54,959 - leakMapper - ERROR - No matching image found for photo_id == 1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl
-2024-08-26 16:41:54,959 - leakMapper - INFO - Saving map to: /Users/mikey/Library/Mobile Documents/com~apple~CloudDocs/Code/code_projects/sierra_club_project/html/Portland_maine_map.html
-2024-08-26 16:41:55,041 - leakMapper - INFO - Map has been saved as /Users/mikey/Library/Mobile Documents/com~apple~CloudDocs/Code/code_projects/sierra_club_project/html/Portland_maine_map.html
-2024-08-26 16:41:55,184 - leakMapper - INFO - Opening map in browser...
-2024-08-26 17:00:00,904 - leakMapper - INFO -     measurement_id      city  methane_level  leak type_of_infrastructure                           photo_id   latitude  longitude volunteer            timestamp
-0                1  Portland            0.0     0                Gas Cap  12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR  43.655346 -70.271033        MM  2024-06-27 13:54:00
-1                2  Portland            0.0     0          Utility Meter  1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8  43.655298 -70.271195        MM  2024-06-27 13:57:53
-2                3  Portland            0.0     0                Gas Cap  10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF  43.655195 -70.272789        MM  2024-06-27 14:01:37
-3                4  Portland            0.0     0                Gas Cap  1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD  43.655706 -70.271992        MM  2024-06-27 14:05:02
-4                5  Portland          100.0     1            Sewer Grate  13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z  43.655734 -70.271807        MM  2024-06-27 14:08:43
-..             ...       ...            ...   ...                    ...                                ...        ...        ...       ...                  ...
-60              61  Portland            0.0     0                Gas Cap  1hQzxKgT5FzDCkpv340RtjYaO_w5m2fFp  43.650828 -70.274532        MM  2024-07-25 08:58:02
-61              62  Portland            0.0     0            Sewer Grate  1Wrp3WicDph9ubWWHbL86UvrX4tY7iIOj  43.650802 -70.271878        MM  2024-07-25 09:03:20
-62              63  Portland            0.0     0                Gas Cap  1v8tzHVVFQrbVl0TNg60G_vRiAbXJf-0U  43.650530 -70.270958        MM  2024-07-25 09:06:12
-63              64  Portland            0.0     0                Gas Cap  1XVkeY0biBB7IWMf2NQcyaVEmYya7qMJy  43.649552 -70.270524        MM  2024-07-25 09:08:41
-64              65  Portland            0.0     0                Gas Cap  1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl  43.648541 -70.270598        MM  2024-07-25 09:10:52
-
-[65 rows x 10 columns]
-2024-08-26 17:00:00,913 - leakMapper - INFO -     measurement_id      city  methane_level  leak type_of_infrastructure                           photo_id   latitude  longitude volunteer            timestamp                    geometry
-0                1  Portland            0.0     0                Gas Cap  12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR  43.655346 -70.271033        MM  2024-06-27 13:54:00  POINT (-70.27103 43.65535)
-1                2  Portland            0.0     0          Utility Meter  1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8  43.655298 -70.271195        MM  2024-06-27 13:57:53   POINT (-70.27119 43.6553)
-2                3  Portland            0.0     0                Gas Cap  10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF  43.655195 -70.272789        MM  2024-06-27 14:01:37   POINT (-70.27279 43.6552)
-3                4  Portland            0.0     0                Gas Cap  1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD  43.655706 -70.271992        MM  2024-06-27 14:05:02  POINT (-70.27199 43.65571)
-4                5  Portland          100.0     1            Sewer Grate  13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z  43.655734 -70.271807        MM  2024-06-27 14:08:43  POINT (-70.27181 43.65573)
-..             ...       ...            ...   ...                    ...                                ...        ...        ...       ...                  ...                         ...
-60              61  Portland            0.0     0                Gas Cap  1hQzxKgT5FzDCkpv340RtjYaO_w5m2fFp  43.650828 -70.274532        MM  2024-07-25 08:58:02  POINT (-70.27453 43.65083)
-61              62  Portland            0.0     0            Sewer Grate  1Wrp3WicDph9ubWWHbL86UvrX4tY7iIOj  43.650802 -70.271878        MM  2024-07-25 09:03:20   POINT (-70.27188 43.6508)
-62              63  Portland            0.0     0                Gas Cap  1v8tzHVVFQrbVl0TNg60G_vRiAbXJf-0U  43.650530 -70.270958        MM  2024-07-25 09:06:12  POINT (-70.27096 43.65053)
-63              64  Portland            0.0     0                Gas Cap  1XVkeY0biBB7IWMf2NQcyaVEmYya7qMJy  43.649552 -70.270524        MM  2024-07-25 09:08:41  POINT (-70.27052 43.64955)
-64              65  Portland            0.0     0                Gas Cap  1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl  43.648541 -70.270598        MM  2024-07-25 09:10:52   POINT (-70.2706 43.64854)
-
-[65 rows x 11 columns]
-2024-08-26 17:00:00,942 - leakMapper - INFO - Getting image: 12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR
-2024-08-26 17:00:00,992 - leakMapper - INFO - Getting image: 1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8
-2024-08-26 17:00:01,025 - leakMapper - INFO - Getting image: 10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF
-2024-08-26 17:00:01,069 - leakMapper - INFO - Getting image: 1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD
-2024-08-26 17:00:01,113 - leakMapper - INFO - Getting image: 13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z
-2024-08-26 17:00:01,164 - leakMapper - INFO - Getting image: 1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_
-2024-08-26 17:00:01,206 - leakMapper - INFO - Getting image: 1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_
-2024-08-26 17:00:01,253 - leakMapper - INFO - Getting image: 1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll
-2024-08-26 17:00:01,300 - leakMapper - INFO - Getting image: 1KDNyEAlPwdbgreeDYHSwom1GFb05usrB
-2024-08-26 17:00:01,345 - leakMapper - INFO - Getting image: 1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938
-2024-08-26 17:00:01,383 - leakMapper - INFO - Getting image: 1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW
-2024-08-26 17:00:01,421 - leakMapper - INFO - Getting image: 11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR
-2024-08-26 17:00:01,462 - leakMapper - INFO - Getting image: 1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB
-2024-08-26 17:00:01,517 - leakMapper - INFO - Getting image: 1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt
-2024-08-26 17:00:01,567 - leakMapper - INFO - Getting image: 1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5
-2024-08-26 17:00:01,625 - leakMapper - INFO - Getting image: 1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk
-2024-08-26 17:00:01,677 - leakMapper - INFO - Getting image: 15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt
-2024-08-26 17:00:01,735 - leakMapper - INFO - Getting image: 1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG
-2024-08-26 17:00:01,786 - leakMapper - INFO - Getting image: 1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH
-2024-08-26 17:00:01,839 - leakMapper - INFO - Getting image: 1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7
-2024-08-26 17:00:01,891 - leakMapper - INFO - Getting image: 1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV
-2024-08-26 17:00:01,939 - leakMapper - INFO - Getting image: 1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l
-2024-08-26 17:00:01,983 - leakMapper - INFO - Getting image: 1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI
-2024-08-26 17:00:02,018 - leakMapper - INFO - Getting image: 1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477
-2024-08-26 17:00:02,063 - leakMapper - INFO - Getting image: 1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK
-2024-08-26 17:00:02,104 - leakMapper - INFO - Getting image: 1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3
-2024-08-26 17:00:02,145 - leakMapper - INFO - Getting image: 1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA
-2024-08-26 17:00:02,200 - leakMapper - INFO - Getting image: 1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK
-2024-08-26 17:00:02,245 - leakMapper - INFO - Getting image: 1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr
-2024-08-26 17:00:02,297 - leakMapper - INFO - Getting image: 1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5
-2024-08-26 17:00:02,342 - leakMapper - INFO - Getting image: 1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo
-2024-08-26 17:00:02,399 - leakMapper - INFO - Getting image: 1Qljilc-poLem9BouVy54Vn0pP7zhZe-9
-2024-08-26 17:00:02,458 - leakMapper - INFO - Getting image: 1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z
-2024-08-26 17:00:02,499 - leakMapper - INFO - Getting image: 11b936fzqsXB4lyjIPebCeTLkjGqOcppk
-2024-08-26 17:00:02,557 - leakMapper - INFO - Getting image: 1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF
-2024-08-26 17:00:02,615 - leakMapper - INFO - Getting image: 1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB
-2024-08-26 17:00:02,667 - leakMapper - INFO - Getting image: 1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk
-2024-08-26 17:00:02,720 - leakMapper - INFO - Getting image: 14rWubRMJukC97mOtY0GPxZpqMFwuQaGf
-2024-08-26 17:00:02,777 - leakMapper - INFO - Getting image: 1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR
-2024-08-26 17:00:02,836 - leakMapper - INFO - Getting image: 1_4915zDUhmVFfXnqGZY4m44lQPX6dox1
-2024-08-26 17:00:02,887 - leakMapper - INFO - Getting image: 1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi
-2024-08-26 17:00:02,930 - leakMapper - INFO - Getting image: 1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq
-2024-08-26 17:00:02,972 - leakMapper - INFO - Getting image: 1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw
-2024-08-26 17:00:03,021 - leakMapper - INFO - Getting image: 13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs
-2024-08-26 17:00:03,066 - leakMapper - INFO - Getting image: 1iT1Ko_JNsMWm6xMs1thLAhgHURK5cZv0
-2024-08-26 17:00:03,127 - leakMapper - INFO - Getting image: 1UeOJhzkbwlbcdzwC_0MaPqA9DV1Bkt6E
-2024-08-26 17:00:03,183 - leakMapper - INFO - Getting image: 1c1j_oPxRS9XWl3jGLprBeWOIf2bGvnMn
-2024-08-26 17:00:03,228 - leakMapper - INFO - Getting image: 1-DF9EcrzN2PFDrmVDod5I40cpXSDHNxv
-2024-08-26 17:00:03,275 - leakMapper - INFO - Getting image: 1gFhBrkEArKFxYgQzwRErHbArVpXcGDYF
-2024-08-26 17:00:03,330 - leakMapper - INFO - Getting image: 1jsgLdtZFolWhcmzAcH9c6dWIt2pcCkQg
-2024-08-26 17:00:03,379 - leakMapper - INFO - Getting image: 1Bc5n7xyfmQYsMtlgQDwUjJzLXuBbIf29
-2024-08-26 17:00:03,379 - leakMapper - ERROR - No matching image found for photo_id == 1Bc5n7xyfmQYsMtlgQDwUjJzLXuBbIf29
-2024-08-26 17:00:03,380 - leakMapper - INFO - Getting image: 1KyWJF4ZNxzGoOgjlrbNaJUPthFxLU8rd
-2024-08-26 17:00:03,380 - leakMapper - ERROR - No matching image found for photo_id == 1KyWJF4ZNxzGoOgjlrbNaJUPthFxLU8rd
-2024-08-26 17:00:03,380 - leakMapper - INFO - Getting image: 14NoDg-xKHZQL4j84swkbvFCVuVsbUI1R
-2024-08-26 17:00:03,426 - leakMapper - INFO - Getting image: 1ABIcR5FrgHNWGf6rIjMqgE4Xdndu67_c
-2024-08-26 17:00:03,467 - leakMapper - INFO - Getting image: 1MfF4N1dgu4rpkcxrNVxsrANP5bOhiKDC
-2024-08-26 17:00:03,513 - leakMapper - INFO - Getting image: 1OC96E_XROMx412mfoHL4hb2JP_SKjbmP
-2024-08-26 17:00:03,572 - leakMapper - INFO - Getting image: 1jZptFeYgW0TW2wNfTFMrgewiUT2oYzz4
-2024-08-26 17:00:03,636 - leakMapper - INFO - Getting image: 16RzdJeOonI_O_e44jCtGuEGJXp4_EZrH
-2024-08-26 17:00:03,693 - leakMapper - INFO - Getting image: 113UJuPe89i7RZ3b_SZ_EF-VPiha_Nzf9
-2024-08-26 17:00:03,749 - leakMapper - INFO - Getting image: 1hQzxKgT5FzDCkpv340RtjYaO_w5m2fFp
-2024-08-26 17:00:03,807 - leakMapper - INFO - Getting image: 1Wrp3WicDph9ubWWHbL86UvrX4tY7iIOj
-2024-08-26 17:00:03,859 - leakMapper - INFO - Getting image: 1v8tzHVVFQrbVl0TNg60G_vRiAbXJf-0U
-2024-08-26 17:00:03,914 - leakMapper - INFO - Getting image: 1XVkeY0biBB7IWMf2NQcyaVEmYya7qMJy
-2024-08-26 17:00:03,914 - leakMapper - ERROR - No matching image found for photo_id == 1XVkeY0biBB7IWMf2NQcyaVEmYya7qMJy
-2024-08-26 17:00:03,914 - leakMapper - INFO - Getting image: 1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl
-2024-08-26 17:00:03,914 - leakMapper - ERROR - No matching image found for photo_id == 1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl
-2024-08-26 17:00:03,915 - leakMapper - INFO - Saving map to: /Users/mikey/Library/Mobile Documents/com~apple~CloudDocs/Code/code_projects/sierra_club_project/html/Portland_maine_map.html
-2024-08-26 17:00:03,994 - leakMapper - INFO - Map has been saved as /Users/mikey/Library/Mobile Documents/com~apple~CloudDocs/Code/code_projects/sierra_club_project/html/Portland_maine_map.html
-2024-08-26 17:00:04,135 - leakMapper - INFO - Opening map in browser...
-2024-08-26 17:00:28,947 - leakMapper - INFO -    measurement_id    city  methane_level  leak type_of_infrastructure                           photo_id  latitude  longitude volunteer            timestamp
+2024-08-26 17:54:31,697 - leakMapper - INFO - Getting image: 12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR
+2024-08-26 17:54:31,752 - leakMapper - INFO - Getting image: 1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8
+2024-08-26 17:54:31,785 - leakMapper - INFO - Getting image: 10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF
+2024-08-26 17:54:31,830 - leakMapper - INFO - Getting image: 1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD
+2024-08-26 17:54:31,875 - leakMapper - INFO - Getting image: 13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z
+2024-08-26 17:54:31,927 - leakMapper - INFO - Getting image: 1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_
+2024-08-26 17:54:31,971 - leakMapper - INFO - Getting image: 1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_
+2024-08-26 17:54:32,019 - leakMapper - INFO - Getting image: 1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll
+2024-08-26 17:54:32,067 - leakMapper - INFO - Getting image: 1KDNyEAlPwdbgreeDYHSwom1GFb05usrB
+2024-08-26 17:54:32,116 - leakMapper - INFO - Getting image: 1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938
+2024-08-26 17:54:32,155 - leakMapper - INFO - Getting image: 1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW
+2024-08-26 17:54:32,194 - leakMapper - INFO - Getting image: 11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR
+2024-08-26 17:54:32,235 - leakMapper - INFO - Getting image: 1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB
+2024-08-26 17:54:32,293 - leakMapper - INFO - Getting image: 1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt
+2024-08-26 17:54:32,344 - leakMapper - INFO - Getting image: 1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5
+2024-08-26 17:54:32,404 - leakMapper - INFO - Getting image: 1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk
+2024-08-26 17:54:32,457 - leakMapper - INFO - Getting image: 15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt
+2024-08-26 17:54:32,515 - leakMapper - INFO - Getting image: 1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG
+2024-08-26 17:54:32,567 - leakMapper - INFO - Getting image: 1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH
+2024-08-26 17:54:32,622 - leakMapper - INFO - Getting image: 1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7
+2024-08-26 17:54:32,675 - leakMapper - INFO - Getting image: 1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV
+2024-08-26 17:54:32,724 - leakMapper - INFO - Getting image: 1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l
+2024-08-26 17:54:32,768 - leakMapper - INFO - Getting image: 1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI
+2024-08-26 17:54:32,804 - leakMapper - INFO - Getting image: 1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477
+2024-08-26 17:54:32,850 - leakMapper - INFO - Getting image: 1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK
+2024-08-26 17:54:32,890 - leakMapper - INFO - Getting image: 1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3
+2024-08-26 17:54:32,931 - leakMapper - INFO - Getting image: 1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA
+2024-08-26 17:54:32,986 - leakMapper - INFO - Getting image: 1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK
+2024-08-26 17:54:33,031 - leakMapper - INFO - Getting image: 1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr
+2024-08-26 17:54:33,083 - leakMapper - INFO - Getting image: 1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5
+2024-08-26 17:54:33,128 - leakMapper - INFO - Getting image: 1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo
+2024-08-26 17:54:33,187 - leakMapper - INFO - Getting image: 1Qljilc-poLem9BouVy54Vn0pP7zhZe-9
+2024-08-26 17:54:33,245 - leakMapper - INFO - Getting image: 1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z
+2024-08-26 17:54:33,288 - leakMapper - INFO - Getting image: 11b936fzqsXB4lyjIPebCeTLkjGqOcppk
+2024-08-26 17:54:33,346 - leakMapper - INFO - Getting image: 1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF
+2024-08-26 17:54:33,406 - leakMapper - INFO - Getting image: 1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB
+2024-08-26 17:54:33,459 - leakMapper - INFO - Getting image: 1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk
+2024-08-26 17:54:33,512 - leakMapper - INFO - Getting image: 14rWubRMJukC97mOtY0GPxZpqMFwuQaGf
+2024-08-26 17:54:33,569 - leakMapper - INFO - Getting image: 1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR
+2024-08-26 17:54:33,629 - leakMapper - INFO - Getting image: 1_4915zDUhmVFfXnqGZY4m44lQPX6dox1
+2024-08-26 17:54:33,685 - leakMapper - INFO - Getting image: 1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi
+2024-08-26 17:54:33,729 - leakMapper - INFO - Getting image: 1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq
+2024-08-26 17:54:33,772 - leakMapper - INFO - Getting image: 1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw
+2024-08-26 17:54:33,823 - leakMapper - INFO - Getting image: 13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs
+2024-08-26 17:54:33,871 - leakMapper - INFO - Getting image: 1iT1Ko_JNsMWm6xMs1thLAhgHURK5cZv0
+2024-08-26 17:54:33,934 - leakMapper - INFO - Getting image: 1UeOJhzkbwlbcdzwC_0MaPqA9DV1Bkt6E
+2024-08-26 17:54:34,018 - leakMapper - INFO - Getting image: 1c1j_oPxRS9XWl3jGLprBeWOIf2bGvnMn
+2024-08-26 17:54:34,065 - leakMapper - INFO - Getting image: 1-DF9EcrzN2PFDrmVDod5I40cpXSDHNxv
+2024-08-26 17:54:34,115 - leakMapper - INFO - Getting image: 1gFhBrkEArKFxYgQzwRErHbArVpXcGDYF
+2024-08-26 17:54:34,172 - leakMapper - INFO - Getting image: 1jsgLdtZFolWhcmzAcH9c6dWIt2pcCkQg
+2024-08-26 17:54:34,222 - leakMapper - INFO - Getting image: 1Bc5n7xyfmQYsMtlgQDwUjJzLXuBbIf29
+2024-08-26 17:54:34,283 - leakMapper - INFO - Getting image: 1KyWJF4ZNxzGoOgjlrbNaJUPthFxLU8rd
+2024-08-26 17:54:34,339 - leakMapper - INFO - Getting image: 14NoDg-xKHZQL4j84swkbvFCVuVsbUI1R
+2024-08-26 17:54:34,386 - leakMapper - INFO - Getting image: 1ABIcR5FrgHNWGf6rIjMqgE4Xdndu67_c
+2024-08-26 17:54:34,428 - leakMapper - INFO - Getting image: 1MfF4N1dgu4rpkcxrNVxsrANP5bOhiKDC
+2024-08-26 17:54:34,475 - leakMapper - INFO - Getting image: 1OC96E_XROMx412mfoHL4hb2JP_SKjbmP
+2024-08-26 17:54:34,537 - leakMapper - INFO - Getting image: 1jZptFeYgW0TW2wNfTFMrgewiUT2oYzz4
+2024-08-26 17:54:34,605 - leakMapper - INFO - Getting image: 16RzdJeOonI_O_e44jCtGuEGJXp4_EZrH
+2024-08-26 17:54:34,666 - leakMapper - INFO - Getting image: 113UJuPe89i7RZ3b_SZ_EF-VPiha_Nzf9
+2024-08-26 17:54:34,724 - leakMapper - INFO - Getting image: 1hQzxKgT5FzDCkpv340RtjYaO_w5m2fFp
+2024-08-26 17:54:34,781 - leakMapper - INFO - Getting image: 1Wrp3WicDph9ubWWHbL86UvrX4tY7iIOj
+2024-08-26 17:54:34,832 - leakMapper - INFO - Getting image: 1v8tzHVVFQrbVl0TNg60G_vRiAbXJf-0U
+2024-08-26 17:54:34,887 - leakMapper - INFO - Getting image: 1XVkeY0biBB7IWMf2NQcyaVEmYya7qMJy
+2024-08-26 17:54:34,940 - leakMapper - INFO - Getting image: 1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl
+2024-08-26 17:54:34,989 - leakMapper - INFO - Saving map to: /Users/mikey/Library/Mobile Documents/com~apple~CloudDocs/Code/code_projects/sierra_club_project/html/Portland_maine_map.html
+2024-08-26 17:54:35,075 - leakMapper - INFO - Map has been saved as /Users/mikey/Library/Mobile Documents/com~apple~CloudDocs/Code/code_projects/sierra_club_project/html/Portland_maine_map.html
+2024-08-26 17:54:35,259 - leakMapper - INFO - Opening map in browser...
+2024-08-26 17:54:35,554 - leakMapper - INFO -    measurement_id    city  methane_level  leak type_of_infrastructure                           photo_id  latitude  longitude volunteer            timestamp
 0              66  Bangor            0.0     0                Gas Cap  1s9FHE3AEC9gpc5eaqqG5xwGu-VlnpODr  44.80354  -68.77108        HS  2024-08-01 10:16:43
 1              67  Bangor            0.0     0                Gas Cap  1LA2G782A-PycnhhfFqCc7axjCVtnMOI3  44.80341  -68.77137        HS  2024-08-01 10:21:04
 2              68  Bangor            0.0     0                Gas Cap  1ujlWJ7_NDCTEDUNiOaHjHZ9ZW4qLWTjy  44.80280  -68.77022        HS  2024-08-11 15:44:13
@@ -222,7 +101,7 @@ Index: []
 4              70  Bangor            0.0     0                Gas Cap  1MSDLEV7cSCt12QnhD_xJT1DdpcXEPxrw  44.80416  -68.77226        HS  2024-08-11 16:04:27
 5              71  Bangor          200.0     1          Utility Meter  1pwp-aThYzbWG6-AWeQmN_RnkCW4mT0c5  44.80225  -68.77213        HS  2024-08-11 16:10:23
 6              72  Bangor            0.0     0                Gas Cap  1rP2STnhiVy56wPK83ONCA8PnLikm--XV  44.80222  -68.77215        HS  2024-08-11 16:15:12
-2024-08-26 17:00:28,955 - leakMapper - INFO -    measurement_id    city  methane_level  leak type_of_infrastructure                           photo_id  latitude  longitude volunteer            timestamp                    geometry
+2024-08-26 17:54:35,568 - leakMapper - INFO -    measurement_id    city  methane_level  leak type_of_infrastructure                           photo_id  latitude  longitude volunteer            timestamp                    geometry
 0              66  Bangor            0.0     0                Gas Cap  1s9FHE3AEC9gpc5eaqqG5xwGu-VlnpODr  44.80354  -68.77108        HS  2024-08-01 10:16:43  POINT (-68.77108 44.80354)
 1              67  Bangor            0.0     0                Gas Cap  1LA2G782A-PycnhhfFqCc7axjCVtnMOI3  44.80341  -68.77137        HS  2024-08-01 10:21:04  POINT (-68.77137 44.80341)
 2              68  Bangor            0.0     0                Gas Cap  1ujlWJ7_NDCTEDUNiOaHjHZ9ZW4qLWTjy  44.80280  -68.77022        HS  2024-08-11 15:44:13   POINT (-68.77022 44.8028)
@@ -230,17 +109,17 @@ Index: []
 4              70  Bangor            0.0     0                Gas Cap  1MSDLEV7cSCt12QnhD_xJT1DdpcXEPxrw  44.80416  -68.77226        HS  2024-08-11 16:04:27  POINT (-68.77226 44.80416)
 5              71  Bangor          200.0     1          Utility Meter  1pwp-aThYzbWG6-AWeQmN_RnkCW4mT0c5  44.80225  -68.77213        HS  2024-08-11 16:10:23  POINT (-68.77213 44.80225)
 6              72  Bangor            0.0     0                Gas Cap  1rP2STnhiVy56wPK83ONCA8PnLikm--XV  44.80222  -68.77215        HS  2024-08-11 16:15:12  POINT (-68.77215 44.80222)
-2024-08-26 17:00:28,984 - leakMapper - INFO - Getting image: 1s9FHE3AEC9gpc5eaqqG5xwGu-VlnpODr
-2024-08-26 17:00:29,040 - leakMapper - INFO - Getting image: 1LA2G782A-PycnhhfFqCc7axjCVtnMOI3
-2024-08-26 17:00:29,088 - leakMapper - INFO - Getting image: 1ujlWJ7_NDCTEDUNiOaHjHZ9ZW4qLWTjy
-2024-08-26 17:00:29,134 - leakMapper - INFO - Getting image: 18WlCSrZtgTesr_7CfxeB-8ANazGO06lK
-2024-08-26 17:00:29,182 - leakMapper - INFO - Getting image: 1MSDLEV7cSCt12QnhD_xJT1DdpcXEPxrw
-2024-08-26 17:00:29,226 - leakMapper - INFO - Getting image: 1pwp-aThYzbWG6-AWeQmN_RnkCW4mT0c5
-2024-08-26 17:00:29,258 - leakMapper - INFO - Getting image: 1rP2STnhiVy56wPK83ONCA8PnLikm--XV
-2024-08-26 17:00:29,311 - leakMapper - INFO - Saving map to: /Users/mikey/Library/Mobile Documents/com~apple~CloudDocs/Code/code_projects/sierra_club_project/html/Bangor_maine_map.html
-2024-08-26 17:00:29,324 - leakMapper - INFO - Map has been saved as /Users/mikey/Library/Mobile Documents/com~apple~CloudDocs/Code/code_projects/sierra_club_project/html/Bangor_maine_map.html
-2024-08-26 17:00:29,469 - leakMapper - INFO - Opening map in browser...
-2024-08-26 17:15:48,991 - leakMapper - INFO -     measurement_id      city  methane_level  leak type_of_infrastructure                           photo_id   latitude  longitude volunteer            timestamp
+2024-08-26 17:54:35,612 - leakMapper - INFO - Getting image: 1s9FHE3AEC9gpc5eaqqG5xwGu-VlnpODr
+2024-08-26 17:54:35,668 - leakMapper - INFO - Getting image: 1LA2G782A-PycnhhfFqCc7axjCVtnMOI3
+2024-08-26 17:54:35,717 - leakMapper - INFO - Getting image: 1ujlWJ7_NDCTEDUNiOaHjHZ9ZW4qLWTjy
+2024-08-26 17:54:35,763 - leakMapper - INFO - Getting image: 18WlCSrZtgTesr_7CfxeB-8ANazGO06lK
+2024-08-26 17:54:35,810 - leakMapper - INFO - Getting image: 1MSDLEV7cSCt12QnhD_xJT1DdpcXEPxrw
+2024-08-26 17:54:35,855 - leakMapper - INFO - Getting image: 1pwp-aThYzbWG6-AWeQmN_RnkCW4mT0c5
+2024-08-26 17:54:35,887 - leakMapper - INFO - Getting image: 1rP2STnhiVy56wPK83ONCA8PnLikm--XV
+2024-08-26 17:54:35,941 - leakMapper - INFO - Saving map to: /Users/mikey/Library/Mobile Documents/com~apple~CloudDocs/Code/code_projects/sierra_club_project/html/Bangor_maine_map.html
+2024-08-26 17:54:35,953 - leakMapper - INFO - Map has been saved as /Users/mikey/Library/Mobile Documents/com~apple~CloudDocs/Code/code_projects/sierra_club_project/html/Bangor_maine_map.html
+2024-08-26 17:54:36,140 - leakMapper - INFO - Opening map in browser...
+2024-08-26 17:57:59,271 - leakMapper - INFO -     measurement_id      city  methane_level  leak type_of_infrastructure                           photo_id   latitude  longitude volunteer            timestamp
 0                1  Portland            0.0     0                Gas Cap  12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR  43.655346 -70.271033        MM  2024-06-27 13:54:00
 1                2  Portland            0.0     0          Utility Meter  1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8  43.655298 -70.271195        MM  2024-06-27 13:57:53
 2                3  Portland            0.0     0                Gas Cap  10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF  43.655195 -70.272789        MM  2024-06-27 14:01:37
@@ -254,7 +133,7 @@ Index: []
 64              65  Portland            0.0     0                Gas Cap  1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl  43.648541 -70.270598        MM  2024-07-25 09:10:52
 
 [65 rows x 10 columns]
-2024-08-26 17:15:48,999 - leakMapper - INFO -     measurement_id      city  methane_level  leak type_of_infrastructure                           photo_id   latitude  longitude volunteer            timestamp                    geometry
+2024-08-26 17:57:59,281 - leakMapper - INFO -     measurement_id      city  methane_level  leak type_of_infrastructure                           photo_id   latitude  longitude volunteer            timestamp                    geometry
 0                1  Portland            0.0     0                Gas Cap  12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR  43.655346 -70.271033        MM  2024-06-27 13:54:00  POINT (-70.27103 43.65535)
 1                2  Portland            0.0     0          Utility Meter  1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8  43.655298 -70.271195        MM  2024-06-27 13:57:53   POINT (-70.27119 43.6553)
 2                3  Portland            0.0     0                Gas Cap  10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF  43.655195 -70.272789        MM  2024-06-27 14:01:37   POINT (-70.27279 43.6552)
@@ -268,78 +147,74 @@ Index: []
 64              65  Portland            0.0     0                Gas Cap  1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl  43.648541 -70.270598        MM  2024-07-25 09:10:52   POINT (-70.2706 43.64854)
 
 [65 rows x 11 columns]
-2024-08-26 17:15:49,029 - leakMapper - INFO - Getting image: 12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR
-2024-08-26 17:15:49,079 - leakMapper - INFO - Getting image: 1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8
-2024-08-26 17:15:49,111 - leakMapper - INFO - Getting image: 10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF
-2024-08-26 17:15:49,156 - leakMapper - INFO - Getting image: 1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD
-2024-08-26 17:15:49,202 - leakMapper - INFO - Getting image: 13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z
-2024-08-26 17:15:49,253 - leakMapper - INFO - Getting image: 1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_
-2024-08-26 17:15:49,298 - leakMapper - INFO - Getting image: 1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_
-2024-08-26 17:15:49,346 - leakMapper - INFO - Getting image: 1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll
-2024-08-26 17:15:49,394 - leakMapper - INFO - Getting image: 1KDNyEAlPwdbgreeDYHSwom1GFb05usrB
-2024-08-26 17:15:49,440 - leakMapper - INFO - Getting image: 1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938
-2024-08-26 17:15:49,478 - leakMapper - INFO - Getting image: 1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW
-2024-08-26 17:15:49,517 - leakMapper - INFO - Getting image: 11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR
-2024-08-26 17:15:49,557 - leakMapper - INFO - Getting image: 1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB
-2024-08-26 17:15:49,613 - leakMapper - INFO - Getting image: 1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt
-2024-08-26 17:15:49,663 - leakMapper - INFO - Getting image: 1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5
-2024-08-26 17:15:49,722 - leakMapper - INFO - Getting image: 1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk
-2024-08-26 17:15:49,774 - leakMapper - INFO - Getting image: 15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt
-2024-08-26 17:15:49,832 - leakMapper - INFO - Getting image: 1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG
-2024-08-26 17:15:49,883 - leakMapper - INFO - Getting image: 1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH
-2024-08-26 17:15:49,937 - leakMapper - INFO - Getting image: 1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7
-2024-08-26 17:15:49,990 - leakMapper - INFO - Getting image: 1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV
-2024-08-26 17:15:50,039 - leakMapper - INFO - Getting image: 1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l
-2024-08-26 17:15:50,083 - leakMapper - INFO - Getting image: 1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI
-2024-08-26 17:15:50,120 - leakMapper - INFO - Getting image: 1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477
-2024-08-26 17:15:50,166 - leakMapper - INFO - Getting image: 1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK
-2024-08-26 17:15:50,206 - leakMapper - INFO - Getting image: 1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3
-2024-08-26 17:15:50,247 - leakMapper - INFO - Getting image: 1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA
-2024-08-26 17:15:50,303 - leakMapper - INFO - Getting image: 1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK
-2024-08-26 17:15:50,349 - leakMapper - INFO - Getting image: 1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr
-2024-08-26 17:15:50,401 - leakMapper - INFO - Getting image: 1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5
-2024-08-26 17:15:50,447 - leakMapper - INFO - Getting image: 1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo
-2024-08-26 17:15:50,505 - leakMapper - INFO - Getting image: 1Qljilc-poLem9BouVy54Vn0pP7zhZe-9
-2024-08-26 17:15:50,565 - leakMapper - INFO - Getting image: 1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z
-2024-08-26 17:15:50,607 - leakMapper - INFO - Getting image: 11b936fzqsXB4lyjIPebCeTLkjGqOcppk
-2024-08-26 17:15:50,665 - leakMapper - INFO - Getting image: 1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF
-2024-08-26 17:15:50,724 - leakMapper - INFO - Getting image: 1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB
-2024-08-26 17:15:50,777 - leakMapper - INFO - Getting image: 1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk
-2024-08-26 17:15:50,830 - leakMapper - INFO - Getting image: 14rWubRMJukC97mOtY0GPxZpqMFwuQaGf
-2024-08-26 17:15:50,888 - leakMapper - INFO - Getting image: 1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR
-2024-08-26 17:15:50,948 - leakMapper - INFO - Getting image: 1_4915zDUhmVFfXnqGZY4m44lQPX6dox1
-2024-08-26 17:15:51,000 - leakMapper - INFO - Getting image: 1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi
-2024-08-26 17:15:51,043 - leakMapper - INFO - Getting image: 1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq
-2024-08-26 17:15:51,086 - leakMapper - INFO - Getting image: 1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw
-2024-08-26 17:15:51,135 - leakMapper - INFO - Getting image: 13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs
-2024-08-26 17:15:51,180 - leakMapper - INFO - Getting image: 1iT1Ko_JNsMWm6xMs1thLAhgHURK5cZv0
-2024-08-26 17:15:51,241 - leakMapper - INFO - Getting image: 1UeOJhzkbwlbcdzwC_0MaPqA9DV1Bkt6E
-2024-08-26 17:15:51,298 - leakMapper - INFO - Getting image: 1c1j_oPxRS9XWl3jGLprBeWOIf2bGvnMn
-2024-08-26 17:15:51,343 - leakMapper - INFO - Getting image: 1-DF9EcrzN2PFDrmVDod5I40cpXSDHNxv
-2024-08-26 17:15:51,390 - leakMapper - INFO - Getting image: 1gFhBrkEArKFxYgQzwRErHbArVpXcGDYF
-2024-08-26 17:15:51,446 - leakMapper - INFO - Getting image: 1jsgLdtZFolWhcmzAcH9c6dWIt2pcCkQg
-2024-08-26 17:15:51,494 - leakMapper - INFO - Getting image: 1Bc5n7xyfmQYsMtlgQDwUjJzLXuBbIf29
-2024-08-26 17:15:51,495 - leakMapper - ERROR - No matching image found for photo_id == 1Bc5n7xyfmQYsMtlgQDwUjJzLXuBbIf29
-2024-08-26 17:15:51,495 - leakMapper - INFO - Getting image: 1KyWJF4ZNxzGoOgjlrbNaJUPthFxLU8rd
-2024-08-26 17:15:51,495 - leakMapper - ERROR - No matching image found for photo_id == 1KyWJF4ZNxzGoOgjlrbNaJUPthFxLU8rd
-2024-08-26 17:15:51,495 - leakMapper - INFO - Getting image: 14NoDg-xKHZQL4j84swkbvFCVuVsbUI1R
-2024-08-26 17:15:51,542 - leakMapper - INFO - Getting image: 1ABIcR5FrgHNWGf6rIjMqgE4Xdndu67_c
-2024-08-26 17:15:51,583 - leakMapper - INFO - Getting image: 1MfF4N1dgu4rpkcxrNVxsrANP5bOhiKDC
-2024-08-26 17:15:51,629 - leakMapper - INFO - Getting image: 1OC96E_XROMx412mfoHL4hb2JP_SKjbmP
-2024-08-26 17:15:51,689 - leakMapper - INFO - Getting image: 1jZptFeYgW0TW2wNfTFMrgewiUT2oYzz4
-2024-08-26 17:15:51,753 - leakMapper - INFO - Getting image: 16RzdJeOonI_O_e44jCtGuEGJXp4_EZrH
-2024-08-26 17:15:51,810 - leakMapper - INFO - Getting image: 113UJuPe89i7RZ3b_SZ_EF-VPiha_Nzf9
-2024-08-26 17:15:51,867 - leakMapper - INFO - Getting image: 1hQzxKgT5FzDCkpv340RtjYaO_w5m2fFp
-2024-08-26 17:15:51,923 - leakMapper - INFO - Getting image: 1Wrp3WicDph9ubWWHbL86UvrX4tY7iIOj
-2024-08-26 17:15:51,974 - leakMapper - INFO - Getting image: 1v8tzHVVFQrbVl0TNg60G_vRiAbXJf-0U
-2024-08-26 17:15:52,030 - leakMapper - INFO - Getting image: 1XVkeY0biBB7IWMf2NQcyaVEmYya7qMJy
-2024-08-26 17:15:52,030 - leakMapper - ERROR - No matching image found for photo_id == 1XVkeY0biBB7IWMf2NQcyaVEmYya7qMJy
-2024-08-26 17:15:52,030 - leakMapper - INFO - Getting image: 1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl
-2024-08-26 17:15:52,030 - leakMapper - ERROR - No matching image found for photo_id == 1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl
-2024-08-26 17:15:52,030 - leakMapper - INFO - Saving map to: /Users/mikey/Library/Mobile Documents/com~apple~CloudDocs/Code/code_projects/sierra_club_project/html/Portland_maine_map.html
-2024-08-26 17:15:52,114 - leakMapper - INFO - Map has been saved as /Users/mikey/Library/Mobile Documents/com~apple~CloudDocs/Code/code_projects/sierra_club_project/html/Portland_maine_map.html
-2024-08-26 17:15:52,268 - leakMapper - INFO - Opening map in browser...
-2024-08-26 17:15:52,524 - leakMapper - INFO -    measurement_id    city  methane_level  leak type_of_infrastructure                           photo_id  latitude  longitude volunteer            timestamp
+2024-08-26 17:57:59,311 - leakMapper - INFO - Getting image: 12trJkbRV87OTYWr5_Q_JWocq9jMIFvRR
+2024-08-26 17:57:59,362 - leakMapper - INFO - Getting image: 1Vl1KT0abA4Cceptjzjwx8MzmhGMsXCe8
+2024-08-26 17:57:59,415 - leakMapper - INFO - Getting image: 10uZE1I1RnAXk_K5EsuTxidmD5AtUQ6tF
+2024-08-26 17:57:59,463 - leakMapper - INFO - Getting image: 1q00OY1ShmB_nCHMGIFBX988JCZUcdMbD
+2024-08-26 17:57:59,511 - leakMapper - INFO - Getting image: 13fat7AxK0o0y8jh8TSroEb0DNSGa3t1Z
+2024-08-26 17:57:59,563 - leakMapper - INFO - Getting image: 1NSFS8DQEu4LkoXoRHnG-qcyBEAIYj6O_
+2024-08-26 17:57:59,607 - leakMapper - INFO - Getting image: 1WYoH9aWUI2LRoyPCdiw38k-BRcAOZut_
+2024-08-26 17:57:59,654 - leakMapper - INFO - Getting image: 1no45P5RQnirpQJ0nxnhZGWQVGO9m0Nll
+2024-08-26 17:57:59,703 - leakMapper - INFO - Getting image: 1KDNyEAlPwdbgreeDYHSwom1GFb05usrB
+2024-08-26 17:57:59,748 - leakMapper - INFO - Getting image: 1DCkIFNNNRYQ8-_lyRqrBA9ZNFequR938
+2024-08-26 17:57:59,787 - leakMapper - INFO - Getting image: 1hfJbjU9XnFhpYQCUzizUKZWZe6V2icDW
+2024-08-26 17:57:59,825 - leakMapper - INFO - Getting image: 11pXbQHym8VQtH9X1uWfMnPRSaK-CqnuR
+2024-08-26 17:57:59,865 - leakMapper - INFO - Getting image: 1i-3IwEWIBgU5ZkN_VuuWXW94U7SkEddB
+2024-08-26 17:57:59,921 - leakMapper - INFO - Getting image: 1lCenOs2aqPPxwnjfLaHmSDvF7XnVpFMt
+2024-08-26 17:57:59,971 - leakMapper - INFO - Getting image: 1IJUiKZLD9aoZsbuwnM__dY8Ztf8N4u_5
+2024-08-26 17:58:00,030 - leakMapper - INFO - Getting image: 1CDgjt-L-w4wyr474BZJW6BHlCdHJ_3mk
+2024-08-26 17:58:00,082 - leakMapper - INFO - Getting image: 15X0IEEP5HYDLhS_WFuNAZtqe68x-PmMt
+2024-08-26 17:58:00,139 - leakMapper - INFO - Getting image: 1GMaMLBv14QLystlKVQmd5KbDCuVyL8mG
+2024-08-26 17:58:00,190 - leakMapper - INFO - Getting image: 1sOZg4Is7CHYhM43A69E13ajoWJGL6XQH
+2024-08-26 17:58:00,244 - leakMapper - INFO - Getting image: 1vlUUC3JLKtCbBOQs834kudxdnXoWX3e7
+2024-08-26 17:58:00,295 - leakMapper - INFO - Getting image: 1TQEXkd6zYrUGgtteVXZ3_C7FuzJH-SyV
+2024-08-26 17:58:00,344 - leakMapper - INFO - Getting image: 1CoF1uRKZsDEv-_Az38DfSduBPwkK2Z3l
+2024-08-26 17:58:00,389 - leakMapper - INFO - Getting image: 1ghYpuXN3SuAd8n5VGgMRYJA7NfT2IkuI
+2024-08-26 17:58:00,425 - leakMapper - INFO - Getting image: 1CS3w_M05Oj57ADm8WrrRucKgH8XbJ477
+2024-08-26 17:58:00,470 - leakMapper - INFO - Getting image: 1RUQnGqZT_JUX9JyTy-eiL8UbG5L0QgNK
+2024-08-26 17:58:00,510 - leakMapper - INFO - Getting image: 1Ah8tyijiWai9gfcARLsJoF4CZChB0pE3
+2024-08-26 17:58:00,552 - leakMapper - INFO - Getting image: 1mLXWdGBgZE9zxucdmd2V8ltzdvTJ5wFA
+2024-08-26 17:58:00,607 - leakMapper - INFO - Getting image: 1RxVALnc6nN9SQBB5rliFGAh4vlrvpBPK
+2024-08-26 17:58:00,653 - leakMapper - INFO - Getting image: 1up9fXwXUi8IKKPpOe-FvaGStl9puA6nr
+2024-08-26 17:58:00,705 - leakMapper - INFO - Getting image: 1Hzk8QlJhavY30bqqD_av4tKTadOHA8W5
+2024-08-26 17:58:00,750 - leakMapper - INFO - Getting image: 1NpAQb7aFKSAbYYqY1mXzO0r4liwwbGGo
+2024-08-26 17:58:00,808 - leakMapper - INFO - Getting image: 1Qljilc-poLem9BouVy54Vn0pP7zhZe-9
+2024-08-26 17:58:00,867 - leakMapper - INFO - Getting image: 1M62n0yZCpiBoEMCrO5dwsF1R2yS-dQ0z
+2024-08-26 17:58:00,910 - leakMapper - INFO - Getting image: 11b936fzqsXB4lyjIPebCeTLkjGqOcppk
+2024-08-26 17:58:00,968 - leakMapper - INFO - Getting image: 1Y49FuDY3Ug_Ov5gV4jtGb9aaQQfFJWGF
+2024-08-26 17:58:01,026 - leakMapper - INFO - Getting image: 1TlVHHI6lr_Df6RqkzJ3qb-HRX_kD8xmB
+2024-08-26 17:58:01,079 - leakMapper - INFO - Getting image: 1XAuH7PyD0ulxIMnAmRL-guoFa6T2ecHk
+2024-08-26 17:58:01,132 - leakMapper - INFO - Getting image: 14rWubRMJukC97mOtY0GPxZpqMFwuQaGf
+2024-08-26 17:58:01,189 - leakMapper - INFO - Getting image: 1QaGzD29s-VemId4ZVtNv2CxyIuUhckyR
+2024-08-26 17:58:01,249 - leakMapper - INFO - Getting image: 1_4915zDUhmVFfXnqGZY4m44lQPX6dox1
+2024-08-26 17:58:01,301 - leakMapper - INFO - Getting image: 1Sog4PRQqFMu4EzIMY4Eww-l_iPzLQGAi
+2024-08-26 17:58:01,344 - leakMapper - INFO - Getting image: 1HxUED6aV5dzXkHoX17Q8V8MhWSOlzXNq
+2024-08-26 17:58:01,386 - leakMapper - INFO - Getting image: 1mxl1J6HSPFjrdsWieQLXZZSeHAD1I2aw
+2024-08-26 17:58:01,435 - leakMapper - INFO - Getting image: 13dCLoZceaVVeIhKrvFTDXsh4No0j6cUs
+2024-08-26 17:58:01,482 - leakMapper - INFO - Getting image: 1iT1Ko_JNsMWm6xMs1thLAhgHURK5cZv0
+2024-08-26 17:58:01,543 - leakMapper - INFO - Getting image: 1UeOJhzkbwlbcdzwC_0MaPqA9DV1Bkt6E
+2024-08-26 17:58:01,599 - leakMapper - INFO - Getting image: 1c1j_oPxRS9XWl3jGLprBeWOIf2bGvnMn
+2024-08-26 17:58:01,644 - leakMapper - INFO - Getting image: 1-DF9EcrzN2PFDrmVDod5I40cpXSDHNxv
+2024-08-26 17:58:01,693 - leakMapper - INFO - Getting image: 1gFhBrkEArKFxYgQzwRErHbArVpXcGDYF
+2024-08-26 17:58:01,748 - leakMapper - INFO - Getting image: 1jsgLdtZFolWhcmzAcH9c6dWIt2pcCkQg
+2024-08-26 17:58:01,797 - leakMapper - INFO - Getting image: 1Bc5n7xyfmQYsMtlgQDwUjJzLXuBbIf29
+2024-08-26 17:58:01,858 - leakMapper - INFO - Getting image: 1KyWJF4ZNxzGoOgjlrbNaJUPthFxLU8rd
+2024-08-26 17:58:01,913 - leakMapper - INFO - Getting image: 14NoDg-xKHZQL4j84swkbvFCVuVsbUI1R
+2024-08-26 17:58:01,959 - leakMapper - INFO - Getting image: 1ABIcR5FrgHNWGf6rIjMqgE4Xdndu67_c
+2024-08-26 17:58:02,000 - leakMapper - INFO - Getting image: 1MfF4N1dgu4rpkcxrNVxsrANP5bOhiKDC
+2024-08-26 17:58:02,046 - leakMapper - INFO - Getting image: 1OC96E_XROMx412mfoHL4hb2JP_SKjbmP
+2024-08-26 17:58:02,106 - leakMapper - INFO - Getting image: 1jZptFeYgW0TW2wNfTFMrgewiUT2oYzz4
+2024-08-26 17:58:02,169 - leakMapper - INFO - Getting image: 16RzdJeOonI_O_e44jCtGuEGJXp4_EZrH
+2024-08-26 17:58:02,227 - leakMapper - INFO - Getting image: 113UJuPe89i7RZ3b_SZ_EF-VPiha_Nzf9
+2024-08-26 17:58:02,284 - leakMapper - INFO - Getting image: 1hQzxKgT5FzDCkpv340RtjYaO_w5m2fFp
+2024-08-26 17:58:02,340 - leakMapper - INFO - Getting image: 1Wrp3WicDph9ubWWHbL86UvrX4tY7iIOj
+2024-08-26 17:58:02,390 - leakMapper - INFO - Getting image: 1v8tzHVVFQrbVl0TNg60G_vRiAbXJf-0U
+2024-08-26 17:58:02,445 - leakMapper - INFO - Getting image: 1XVkeY0biBB7IWMf2NQcyaVEmYya7qMJy
+2024-08-26 17:58:02,499 - leakMapper - INFO - Getting image: 1MgPZ05UCCPcd3uN2FZDtZOCgMbCSAZXl
+2024-08-26 17:58:02,547 - leakMapper - INFO - Saving map to: /Users/mikey/Library/Mobile Documents/com~apple~CloudDocs/Code/code_projects/sierra_club_project/html/Portland_maine_map.html
+2024-08-26 17:58:02,632 - leakMapper - INFO - Map has been saved as /Users/mikey/Library/Mobile Documents/com~apple~CloudDocs/Code/code_projects/sierra_club_project/html/Portland_maine_map.html
+2024-08-26 17:58:02,792 - leakMapper - INFO - Opening map in browser...
+2024-08-26 17:58:13,125 - leakMapper - INFO -    measurement_id    city  methane_level  leak type_of_infrastructure                           photo_id  latitude  longitude volunteer            timestamp
 0              66  Bangor            0.0     0                Gas Cap  1s9FHE3AEC9gpc5eaqqG5xwGu-VlnpODr  44.80354  -68.77108        HS  2024-08-01 10:16:43
 1              67  Bangor            0.0     0                Gas Cap  1LA2G782A-PycnhhfFqCc7axjCVtnMOI3  44.80341  -68.77137        HS  2024-08-01 10:21:04
 2              68  Bangor            0.0     0                Gas Cap  1ujlWJ7_NDCTEDUNiOaHjHZ9ZW4qLWTjy  44.80280  -68.77022        HS  2024-08-11 15:44:13
@@ -347,7 +222,7 @@ Index: []
 4              70  Bangor            0.0     0                Gas Cap  1MSDLEV7cSCt12QnhD_xJT1DdpcXEPxrw  44.80416  -68.77226        HS  2024-08-11 16:04:27
 5              71  Bangor          200.0     1          Utility Meter  1pwp-aThYzbWG6-AWeQmN_RnkCW4mT0c5  44.80225  -68.77213        HS  2024-08-11 16:10:23
 6              72  Bangor            0.0     0                Gas Cap  1rP2STnhiVy56wPK83ONCA8PnLikm--XV  44.80222  -68.77215        HS  2024-08-11 16:15:12
-2024-08-26 17:15:52,532 - leakMapper - INFO -    measurement_id    city  methane_level  leak type_of_infrastructure                           photo_id  latitude  longitude volunteer            timestamp                    geometry
+2024-08-26 17:58:13,133 - leakMapper - INFO -    measurement_id    city  methane_level  leak type_of_infrastructure                           photo_id  latitude  longitude volunteer            timestamp                    geometry
 0              66  Bangor            0.0     0                Gas Cap  1s9FHE3AEC9gpc5eaqqG5xwGu-VlnpODr  44.80354  -68.77108        HS  2024-08-01 10:16:43  POINT (-68.77108 44.80354)
 1              67  Bangor            0.0     0                Gas Cap  1LA2G782A-PycnhhfFqCc7axjCVtnMOI3  44.80341  -68.77137        HS  2024-08-01 10:21:04  POINT (-68.77137 44.80341)
 2              68  Bangor            0.0     0                Gas Cap  1ujlWJ7_NDCTEDUNiOaHjHZ9ZW4qLWTjy  44.80280  -68.77022        HS  2024-08-11 15:44:13   POINT (-68.77022 44.8028)
@@ -355,13 +230,13 @@ Index: []
 4              70  Bangor            0.0     0                Gas Cap  1MSDLEV7cSCt12QnhD_xJT1DdpcXEPxrw  44.80416  -68.77226        HS  2024-08-11 16:04:27  POINT (-68.77226 44.80416)
 5              71  Bangor          200.0     1          Utility Meter  1pwp-aThYzbWG6-AWeQmN_RnkCW4mT0c5  44.80225  -68.77213        HS  2024-08-11 16:10:23  POINT (-68.77213 44.80225)
 6              72  Bangor            0.0     0                Gas Cap  1rP2STnhiVy56wPK83ONCA8PnLikm--XV  44.80222  -68.77215        HS  2024-08-11 16:15:12  POINT (-68.77215 44.80222)
-2024-08-26 17:15:52,559 - leakMapper - INFO - Getting image: 1s9FHE3AEC9gpc5eaqqG5xwGu-VlnpODr
-2024-08-26 17:15:52,621 - leakMapper - INFO - Getting image: 1LA2G782A-PycnhhfFqCc7axjCVtnMOI3
-2024-08-26 17:15:52,672 - leakMapper - INFO - Getting image: 1ujlWJ7_NDCTEDUNiOaHjHZ9ZW4qLWTjy
-2024-08-26 17:15:52,719 - leakMapper - INFO - Getting image: 18WlCSrZtgTesr_7CfxeB-8ANazGO06lK
-2024-08-26 17:15:52,767 - leakMapper - INFO - Getting image: 1MSDLEV7cSCt12QnhD_xJT1DdpcXEPxrw
-2024-08-26 17:15:52,812 - leakMapper - INFO - Getting image: 1pwp-aThYzbWG6-AWeQmN_RnkCW4mT0c5
-2024-08-26 17:15:52,845 - leakMapper - INFO - Getting image: 1rP2STnhiVy56wPK83ONCA8PnLikm--XV
-2024-08-26 17:15:52,898 - leakMapper - INFO - Saving map to: /Users/mikey/Library/Mobile Documents/com~apple~CloudDocs/Code/code_projects/sierra_club_project/html/Bangor_maine_map.html
-2024-08-26 17:15:52,910 - leakMapper - INFO - Map has been saved as /Users/mikey/Library/Mobile Documents/com~apple~CloudDocs/Code/code_projects/sierra_club_project/html/Bangor_maine_map.html
-2024-08-26 17:15:53,079 - leakMapper - INFO - Opening map in browser...
+2024-08-26 17:58:13,161 - leakMapper - INFO - Getting image: 1s9FHE3AEC9gpc5eaqqG5xwGu-VlnpODr
+2024-08-26 17:58:13,217 - leakMapper - INFO - Getting image: 1LA2G782A-PycnhhfFqCc7axjCVtnMOI3
+2024-08-26 17:58:13,264 - leakMapper - INFO - Getting image: 1ujlWJ7_NDCTEDUNiOaHjHZ9ZW4qLWTjy
+2024-08-26 17:58:13,310 - leakMapper - INFO - Getting image: 18WlCSrZtgTesr_7CfxeB-8ANazGO06lK
+2024-08-26 17:58:13,356 - leakMapper - INFO - Getting image: 1MSDLEV7cSCt12QnhD_xJT1DdpcXEPxrw
+2024-08-26 17:58:13,399 - leakMapper - INFO - Getting image: 1pwp-aThYzbWG6-AWeQmN_RnkCW4mT0c5
+2024-08-26 17:58:13,431 - leakMapper - INFO - Getting image: 1rP2STnhiVy56wPK83ONCA8PnLikm--XV
+2024-08-26 17:58:13,483 - leakMapper - INFO - Saving map to: /Users/mikey/Library/Mobile Documents/com~apple~CloudDocs/Code/code_projects/sierra_club_project/html/Bangor_maine_map.html
+2024-08-26 17:58:13,495 - leakMapper - INFO - Map has been saved as /Users/mikey/Library/Mobile Documents/com~apple~CloudDocs/Code/code_projects/sierra_club_project/html/Bangor_maine_map.html
+2024-08-26 17:58:13,635 - leakMapper - INFO - Opening map in browser...

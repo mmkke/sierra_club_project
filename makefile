@@ -3,9 +3,10 @@ LOG_FILES = $(wildcard logs/*.log)
 API_DATA_DIR = $(wildcard data/api_data/*.csv)
 DB_FILES = $(wildcard data/*.db)
 HTML_FILES = $(wildcard html/*.html)
-ETL = src/dB_classes/etl_run.py
-MAP_ALL = src/viz_classes/leak_mapper.py
-CREATE_MAP = sierra_club_project/src/viz_classes/create_map.py
+ETL = src/etl_driver.py
+MAP_ALL = src/map_driver.py
+CREATE_MAP = src/create_map.py
+QUERY_DB = src/query_db.py
 
 # Default target
 all: help
@@ -15,10 +16,11 @@ help:
 	@echo "Makefile for cleaning directory"
 	@echo ""
 	@echo "Usage:"
-	@echo " make run-etl          - Runs src/dB_classes/etl_run.py, creating database"
-	@echo " make run-map-all       - Runs src/viz_classes/leak_mapper.py, creating HTML maps for all cities and opening in browser"
+	@echo " make run-etl          - Runs src/etl_driver.py to create and populate database"
+	@echo " make run-map-all      - Runs src/viz_classes/map_driver.py to create HTML maps for all cities and opening in browser"
 	@echo " make run-all          - Runs run-etl and run-map-all"
-	@echo " make run-create-map   - Runs sierra_club_project/src/viz_classes/create_map.py to create and open map for specified CITY argument"
+	@echo " make create-map   	  - Runs src/create_map.py to create and open map for specified CITY argument"
+	@echo " make query_db 		  - Queries db for specified QUERY argument"
 	@echo ""
 	@echo "Cleaning:"
 	@echo "  make clean           - Remove .log files, everything in /data/api_data, .db files, and .html files"
@@ -40,7 +42,7 @@ run-map-all:
 	@echo "Map creation completed."
 
 # Run create_map.py with CITY argument
-run-create-map:
+create-map:
 ifeq ($(strip $(CITY)),)
 	$(error CITY argument is required. Usage: make run-create-map CITY=<city_name>)
 endif
@@ -48,8 +50,17 @@ endif
 	python $(CREATE_MAP) $(CITY)
 	@echo "Map created for city: $(CITY)"
 
+
+# Run a SQL query using query_db.py
+query-db:
+ifeq ($(strip $(QUERY)),)
+	$(error QUERY argument is required. Usage: make query-db QUERY="<SQL_query>")
+endif
+	@echo "Running query_db.py for query: $(QUERY)"
+	python src/query_db.py "$(shell echo '$(QUERY)')"
+
 # Run ETL and create maps for all available cities
-run-all: run-etl run-mapper
+run-all: run-etl run-map-all
 	@echo "Running all tasks..."
 
 # Clean .log files

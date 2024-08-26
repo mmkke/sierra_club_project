@@ -32,15 +32,8 @@ print(f"Current working directory: {current_dir}")
 #####################################################################################################################
 
 # Import custom modules
-from leak_mapper import leakMapper
-
-# Add the directory containing the module to sys.path
-module_path = os.path.abspath(os.path.join('src', 'dB_classes'))
-if module_path not in sys.path:
-    sys.path.append(module_path)
-
+from mapper_class import leakMapper
 from log_class import Log
-from db_manager import LeakDB
 
 #####################################################################################################################
 ## PARAMETERS

@@ -33,15 +33,9 @@ from sqlalchemy import create_engine
 current_dir = Path.cwd()
 print(f"Current working directory: {current_dir}")
 
-
 #####################################################################################################################
 ## Modules
 #####################################################################################################################
-
-# Add the directory containing the module to sys.path
-module_path = os.path.abspath(os.path.join('src', 'dB_classes'))
-if module_path not in sys.path:
-    sys.path.append(module_path)
 
 from db_manager import LeakDB
 from log_class import Log
@@ -387,56 +381,9 @@ class leakMapper():
         self.set_base_map()
         self.add_markers()
 
-        
-#####################################################################################################################
-## Main
-#####################################################################################################################
-
-def main():
-# Configure logging
-    DEBUG = False
-    try:
-        log_folder = current_dir / "logs"
-        log_folder.mkdir(exist_ok=True)
-        file_path = log_folder / "vis.log"
-        vis_log = Log(file_path=file_path, stream=True)
-        vis_log.configure()
-        vis_log.debug_mode(enable_debug=DEBUG)
-    except Exception as e:
-        logging.error(f"Failed to configure logging: {e}", exc_info=True)
-        sys.exit(1)
-
-    # Query the database for a list of unique cities
-    try:
-        engine = create_engine(f'sqlite:///{PATH_TO_DB}')
-        query = "SELECT DISTINCT city FROM measurements;"
-        cities_df = pd.read_sql_query(query, engine)
-        cities = cities_df['city'].tolist()
-    except Exception as e:
-        logging.error(f"Failed to query the database: {e}", exc_info=True)
-        sys.exit(1)
-
-    # Generate maps for each city
-    for city in cities:
-        try:
-            # Create map object
-            city_map = leakMapper(PATH_TO_DB, city)
-            city_map.create_map()
-
-            # Save map to HTML folder
-            path_to_map = os.path.join(os.getcwd(), 'html')
-            city_map.save_map(path_to_save_html=path_to_map)
-
-            # Open map in web browser
-            city_map.open_map()
-
-        except Exception as e:
-            logging.error(f"Failed to process city {city}: {e}", exc_info=True)
-            continue  # Continue with the next city even if an error occurs
 
 #####################################################################################################################
 ## END
 #####################################################################################################################
-if __name__ == '__main__':
-    main()
+
 

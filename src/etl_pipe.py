@@ -76,14 +76,3 @@ class ETLPipeline():
 #####################################################################################################################
 ## END
 #####################################################################################################################
-# Example Usage
-if __name__ == "__main__":
-    # Define your database, fetcher, transformer, and loader objects
-    database = ...  # Replace with actual database handler
-    fetcher = ...   # Replace with actual data fetcher
-    transformer = ...  # Replace with actual data transformer
-    loader = ...    # Replace with actual data loader
-
-    # Create and run the ETL pipeline
-    etl_pipeline = ETLPipeline(database, fetcher, transformer, loader)
-    etl_pipeline.pipe_data_to("example_table")
