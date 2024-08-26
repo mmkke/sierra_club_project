@@ -11,8 +11,10 @@ import logging
 
 import pandas as pd
 from sqlalchemy import create_engine, text, Column, Integer, String, Float, Boolean, LargeBinary, ForeignKey, TIMESTAMP, select
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
+from sqlalchemy.exc import IntegrityError
+
 
 #####################################################################################################################
 ## Classes
@@ -184,26 +186,37 @@ class LeakDB:
         finally:
             session.close()
 
-    def insert_data_to_sql(self, df, table_class):
+    def insert_data_to_sql(self, dataframe, table_class):
         """
-        Insert data from a DataFrame into a specified table.
-
-        Parameters:
-            df (pandas.DataFrame): DataFrame containing the data to insert.
-            table_class (Base): The table class corresponding to the table.
-        """
-        session = self.Session()
-        try:
-            first_column_name = table_class.__table__.columns.keys()[0]
-            existing_records = session.query(getattr(table_class, first_column_name)).all()
-
-            df.to_sql(table_class.__tablename__, con=self.engine, if_exists='append', index=False)
-            self.logger.info("Data inserted successfully.")
-        except Exception as e:
-            self.logger.error(f"Failed to insert data into the SQL table: {e}")
-            raise
-        finally:
-            session.close()
+    Inserts data from a DataFrame into a specified SQL table, skipping duplicates.
+    
+    :param dataframe: DataFrame containing the data to be inserted.
+    :param model_class: The SQLAlchemy model class corresponding to the table.
+    """
+        Session = sessionmaker(bind=self.engine)
+        session = Session()
+    
+        for index, row in dataframe.iterrows():
+            data = row.to_dict()
+            
+            # Check if the record already exists
+            existing_record = session.query(table_class).filter_by(**data).first()
+            if existing_record:
+                self.logger.info(f"Skipping duplicate record: {data}")
+                continue
+            
+            # If the record doesn't exist, insert it
+            try:
+                session.add(table_class(**data))
+                session.commit()
+            except IntegrityError as e:
+                session.rollback()
+                self.logger.error(f"IntegrityError: {e}")
+            except Exception as e:
+                session.rollback()
+                self.logger.error(f"An error occurred: {e}")
+        
+        session.close()
 
     def print_all_tables_and_values(self):
         """

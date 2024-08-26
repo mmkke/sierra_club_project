@@ -1,8 +1,9 @@
 '''
 Helper class for TransformData class. Downloads images from Googe Drive and inserts to Image table in DB.  
 
-Started: 7/23/2023
+Started: 7/23/2024
 Last Updated: 7/23/2024
+Retired: 8/26/2024
 '''
 
 #####################################################################################################################
@@ -72,14 +73,15 @@ class ImageWrangler:
                 self.logger.info(f"Image {image_id} already exists in table.")
                 return image_id, None
             
-            # Download image data
-            response = requests.get(download_url, stream=True)
-            if response.status_code == 200:
-                self.logger.info(f'Image {image_id} downloaded successfully.')
-                return image_id, response.content
-            else:
-                self.logger.error(f"Failed to download image. HTTP Status Code: {response.status_code}")
-                return image_id, None
+            # Download image data 
+            with requests.Session() as session: # Use a session for connection pooling
+                response = session.get(download_url, stream=True)
+                if response.status_code == 200:
+                    self.logger.info(f'Image {image_id} downloaded successfully.')
+                    return image_id, response.content
+                else:
+                    self.logger.error(f"Failed to download image. HTTP Status Code: {response.status_code}")
+                    return image_id, None
             
         except requests.RequestException as e:
             self.logger.error(f"Failed to download image. Network error: {e}")
@@ -88,28 +90,30 @@ class ImageWrangler:
             self.logger.error(f"An unexpected error occurred: {e}")
             return image_id, None
 
-    def insert_image(self, image_id, image_data):
+    def insert_image(self, image_id, image_data, check_id=False):
         """
         Insert the downloaded image into the database.
 
         Parameters:
             image_id (str): Unique identifier for the image.
             image_data (bytes): Binary data of the image.
+            check_id (bool): If True checks if image_id exists in database table. Default is False.
         """
         session = self.Session()
         try:
             # Check if image already exists in db
-            existing_image = session.query(Photo).filter_by(photo_id=image_id).first()
-            if existing_image:
-                self.logger.info(f"Image {image_id} already exists in the database.")
-                return
+            if check_id == True:
+                existing_image = session.query(Photo).filter_by(photo_id=image_id).first()
+                if existing_image:
+                    self.logger.info(f"Image {image_id} already exists in the database.")
+                    return
             
             # Insert the image as a BLOB with the unique ID
             photo = Photo(photo_id=image_id, photo=image_data)
             session.add(photo)
             session.commit()
             self.logger.info(f"Image {image_id} inserted successfully.")
-            
+
         except Exception as e:
             session.rollback()
             self.logger.error(f"An error occurred while inserting the image: {e}")
@@ -128,9 +132,11 @@ class ImageWrangler:
         """
         image_id, image_data = self.download_image(image_link)
         self.logger.info(f"Download image returned: \n  photo_id: {bool(image_id)} \n  photo: {bool(image_data)}")
+        
         if image_id and image_data:
             self.insert_image(image_id, image_data)
             return image_id
+        
         return image_id
         
 #####################################################################################################################

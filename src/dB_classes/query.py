@@ -51,7 +51,12 @@ def execute_query(engine, query):
     try:
         with engine.connect() as connection:
             result = connection.execute(text(query))
-            return pd.DataFrame(result.fetchall(), columns=result.keys())
+            # Check if the query is a SELECT, which would return rows
+            if result.returns_rows:
+                return pd.DataFrame(result.fetchall(), columns=result.keys())
+            else:
+                # For non-SELECT queries, return a confirmation message or None
+                return None
     except SQLAlchemyError as e:
         print(f"Error executing query: {e}")
         raise
@@ -61,24 +66,32 @@ def execute_query(engine, query):
 #####################################################################################################################
 
 def main():
+    try:
+        # Set up argparser
+        parser = argparse.ArgumentParser(description="Query a database using SQLAlchemy.")
 
-    # Set up argparser
-    parser = argparse.ArgumentParser(description="Query a database using SQLAlchemy.")
+        # Take command-line argument as SQL query
+        parser.add_argument('query', type=str, help='SQL query to execute')
+        parser.add_argument('--db_url', type=str, default=None, help='Database connection string') # optional, defaults to hardcoded param if second arg not given
+        args = parser.parse_args()
 
-    # Take command-line argument as SQL query
-    parser.add_argument('query', type=str, help='SQL query to execute')
-    parser.add_argument('--db_url', type=str, default=None, help='Database connection string') # optional, defaults to hardcoded param if second arg not given
-    args = parser.parse_args()
+        # Connect to db via SQLAlchemy
+        if args.db_url is not None:
+            engine = create_engine(args.db_url)
+        else:
+            engine = create_engine(PATH_TO_DB)
 
-    # Connect to db via SQLAlchemy
-    if args.db_url is not None:
-        engine = create_engine(args.db_url)
-    else:
-        engine = create_engine(PATH_TO_DB)
+        # Query db and return reults to a dataframe
+        result_df = execute_query(engine, args.query)
 
-    # Query db and return reults to a dataframe
-    result_df = execute_query(engine, args.query)
-    print(result_df)
+        # Check if the query is a SELECT, which would return rows
+        if result_df is not None:
+                print(result_df)
+        else:
+            print("Query executed successfully, but no rows were returned.")
+    except Exception as e:
+        print(f"Error executing query: {e}")
+
 
 #####################################################################################################################
 ## END

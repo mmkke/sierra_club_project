@@ -45,6 +45,7 @@ CREDENTIALS_PATH = 'credentials.json'
 GOOGLE_SHEET_ID = '1oJ2wAGYLkEd8VeKinrbiAmOwjlZpYqONL09P4LZ01po'
 RANGE_NAME = 'Form Responses 1!A1:G'
 TABLE_NAME = "measurements"
+DEBUG = False
 
 #####################################################################################################################
 ## Main
@@ -61,6 +62,7 @@ def main():
     file_path = current_dir / "logs/etl.log"
     etl_log = Log(file_path=file_path, stream=True)
     etl_log.configure()
+    etl_log.debug_mode(enable_debug=DEBUG)
 
     # Init databaseand etl objects
     database = LeakDB(PATH_TO_DB)

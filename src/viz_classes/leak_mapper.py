@@ -1,8 +1,8 @@
 '''
-Maps methane leaks and creates an HTML file.
+Maps methane leaks and creates an HTML file for each city in the database.
 
 Started: 7/12/2024
-Last Updated: 7/25/2024
+Last Updated: 8/26/2024
 '''
 
 #####################################################################################################################
@@ -393,25 +393,46 @@ class leakMapper():
 #####################################################################################################################
 
 def main():
+# Configure logging
+    DEBUG = False
+    try:
+        log_folder = current_dir / "logs"
+        log_folder.mkdir(exist_ok=True)
+        file_path = log_folder / "vis.log"
+        vis_log = Log(file_path=file_path, stream=True)
+        vis_log.configure()
+        vis_log.debug_mode(enable_debug=DEBUG)
+    except Exception as e:
+        logging.error(f"Failed to configure logging: {e}", exc_info=True)
+        sys.exit(1)
 
-    # set city to map
-    CITY = 'Portland'
+    # Query the database for a list of unique cities
+    try:
+        engine = create_engine(f'sqlite:///{PATH_TO_DB}')
+        query = "SELECT DISTINCT city FROM measurements;"
+        cities_df = pd.read_sql_query(query, engine)
+        cities = cities_df['city'].tolist()
+    except Exception as e:
+        logging.error(f"Failed to query the database: {e}", exc_info=True)
+        sys.exit(1)
 
-    # configure log
-    file_path = current_dir / "logs/vis.log"
-    etl_log = Log(file_path=file_path, stream=True)
-    etl_log.configure()
+    # Generate maps for each city
+    for city in cities:
+        try:
+            # Create map object
+            city_map = leakMapper(PATH_TO_DB, city)
+            city_map.create_map()
 
-    # create map object
-    portland_map = leakMapper(PATH_TO_DB, CITY)
-    portland_map.create_map()
+            # Save map to HTML folder
+            path_to_map = os.path.join(os.getcwd(), 'html')
+            city_map.save_map(path_to_save_html=path_to_map)
 
-    # save map to html folder
-    path_to_map = os.path.join(os.getcwd(), 'html')
-    portland_map.save_map(path_to_save_html=path_to_map)
+            # Open map in web browser
+            city_map.open_map()
 
-    # open map in web browser
-    portland_map.open_map()
+        except Exception as e:
+            logging.error(f"Failed to process city {city}: {e}", exc_info=True)
+            continue  # Continue with the next city even if an error occurs
 
 #####################################################################################################################
 ## END

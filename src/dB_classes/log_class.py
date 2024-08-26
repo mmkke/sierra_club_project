@@ -17,22 +17,26 @@ from logging import Handler
 ## CLASS
 #####################################################################################################################
     
+"""
+Configures logging.
+
+Created: 7/25/24
+Updated:
+"""
+
+#####################################################################################################################
+## LIBRARIES
+#####################################################################################################################
+
+import os
+import logging
+from logging import Handler
+
+#####################################################################################################################
+## CLASS
+#####################################################################################################################
+
 class Log:
-    """
-    A class to configure logging with optional stream output.
-
-    Attributes:
-    ----------
-    file_path : str
-        The file path to the log file.
-    level : object
-        The logging level (default is logging.INFO).
-    format : str
-        The format for log messages.
-    handlers : list
-        A list of logging handlers.
-    """
-
     def __init__(self, file_path: str = None, stream: bool = True, level: object = logging.INFO, log_format: str = None):
         """
         Initializes the Log class with the given parameters.
@@ -44,7 +48,7 @@ class Log:
         stream : bool, optional
             Whether to include a stream handler (default is True).
         level : object, optional
-            The logging level (default is logging.INFO).
+            The logging level (default is logging.DEBUG).
         log_format : str, optional
             The format for log messages (default is '%(asctime)s - %(name)s - %(levelname)s - %(message)s').
         """
@@ -52,10 +56,8 @@ class Log:
             file_path = os.path.join(os.getcwd(), "log.log")
         self.file_path = file_path
         self.level = level
-        self.format = log_format if log_format else '%(asctime)s - %(name)s - %(levelname)s - %(message)s'        
-        # Initialize handlers with a file handler
+        self.format = log_format if log_format else '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
         self.handlers = [logging.FileHandler(file_path)]
-        # Add stream handler if requested
         if stream:
             self.handlers.append(logging.StreamHandler())
 
@@ -83,7 +85,7 @@ class Log:
         """
         self.handlers = [handler for handler in self.handlers if not isinstance(handler, logging.StreamHandler)]
         return self
-    
+
     def add_handler(self, handler):
         """
         Adds a custom handler to the handlers list.
@@ -101,6 +103,31 @@ class Log:
         if not isinstance(handler, Handler):
             raise TypeError("Handler must be an instance of logging.Handler")
         self.handlers.append(handler)
+        return self
+
+    def debug_mode(self, enable_debug=True):
+        """
+        Toggles debug mode on or off.
+
+        Parameters:
+        ----------
+        enable_debug : bool
+            If True, sets logging level to DEBUG; otherwise, sets it to INFO.
+
+        Returns:
+        -------
+        self : Log
+            The instance of the Log class.
+        """
+        if enable_debug:
+            self.level = logging.DEBUG
+        else:
+            self.level = logging.INFO
+
+        for handler in self.handlers:
+            handler.setLevel(self.level)
+        
+        logging.getLogger().setLevel(self.level)  # Set root logger level as well
         return self
 
     def configure(self):
